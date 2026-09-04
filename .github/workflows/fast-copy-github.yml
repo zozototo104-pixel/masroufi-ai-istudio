@@ -1,1 +1,34 @@
-bmFtZTogRmFzdCBidWxrIGNvcHkgLmdpdGh1YgoKb246CiAgd29ya2Zsb3dfZGlzcGF0Y2g6CiAgcHVzaDoKICAgIGJyYW5jaGVzOiBbbWFpbl0KICAgIHBhdGhzOgogICAgICAtICIuZ2l0aHViL3dvcmtmbG93cy9mYXN0LWNvcHktZ2l0aHViLnltbCIKCnBlcm1pc3Npb25zOgogIGNvbnRlbnRzOiB3cml0ZQoKam9iczoKICBjb3B5OgogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2tvdXQgdGFyZ2V0CiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2NAoKICAgICAgLSBuYW1lOiBDbG9uZSBzb3VyY2UKICAgICAgICBydW46IGdpdCBjbG9uZSAtLWRlcHRoIDEgaHR0cHM6Ly9naXRodWIuY29tL3pvem90b3RvMTA0LXBpeGVsL21hc3JvdWZpLWFpLmdpdCAvdG1wL21hc3JvdWZpLXNvdXJjZQoKICAgICAgLSBuYW1lOiBDb3B5IC5naXRodWIgY29udGVudAogICAgICAgIHJ1bjogfAogICAgICAgICAgbWtkaXIgLXAgLmdpdGh1YgogICAgICAgICAgY3AgLWEgL3RtcC9tYXNyb3VmaS1zb3VyY2UvLmdpdGh1Yi8uIC5naXRodWIvCgogICAgICAtIG5hbWU6IENvbW1pdCBhbmQgcHVzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLm5hbWUgImdpdGh1Yi1hY3Rpb25zW2JvdF0iCiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIuZW1haWwgIjQxODk4MjgyK2dpdGh1Yi1hY3Rpb25zW2JvdF1AdXNlcnMubm9yZXBseS5naXRodWIuY29tIgogICAgICAgICAgZ2l0IGFkZCAuZ2l0aHViCiAgICAgICAgICBnaXQgZGlmZiAtLWNhY2hlZCAtLXF1aWV0ICYmIGV4aXQgMCB8fCBnaXQgY29tbWl0IC1tICJCdWxrIGNvcHkgLmdpdGh1YiBmcm9tIG1hc3JvdWZpLWFpIgogICAgICAgICAgZ2l0IHB1c2gK
+name: Fast bulk copy .github
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/fast-copy-github.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target
+        uses: actions/checkout@v4
+
+      - name: Clone source
+        run: git clone --depth 1 https://github.com/zozototo104-pixel/masroufi-ai.git /tmp/masroufi-source
+
+      - name: Copy .github content
+        run: |
+          mkdir -p .github
+          cp -a /tmp/masroufi-source/.github/. .github/
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github
+          git diff --cached --quiet && exit 0 || git commit -m "Bulk copy .github from masroufi-ai"
+          git push
