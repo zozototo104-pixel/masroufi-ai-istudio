@@ -1,1 +1,18 @@
-dmVyc2lvbjogMgp1cGRhdGVzOgogIC0gcGFja2FnZS1lY29zeXN0ZW06ICJucG0iCiAgICBkaXJlY3Rvcnk6ICIvIgogICAgc2NoZWR1bGU6CiAgICAgIGludGVydmFsOiAid2Vla2x5IgogICAgb3Blbi1wdWxsLXJlcXVlc3RzLWxpbWl0OiA1CiAgICBncm91cHM6CiAgICAgIG5wbS1taW5vci1hbmQtcGF0Y2g6CiAgICAgICAgdXBkYXRlLXR5cGVzOgogICAgICAgICAgLSAibWlub3IiCiAgICAgICAgICAtICJwYXRjaCIKCiAgLSBwYWNrYWdlLWVjb3N5c3RlbTogImdpdGh1Yi1hY3Rpb25zIgogICAgZGlyZWN0b3J5OiAiLyIKICAgIHNjaGVkdWxlOgogICAgICBpbnRlcnZhbDogIndlZWtseSIKICAgIG9wZW4tcHVsbC1yZXF1ZXN0cy1saW1pdDogNQo=
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      npm-minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
