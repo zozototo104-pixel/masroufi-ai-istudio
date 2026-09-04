@@ -1,1 +1,29 @@
-QGltcG9ydCAidGFpbHdpbmRjc3MiOwoKQG1lZGlhIHByaW50IHsKICBib2R5ICogewogICAgdmlzaWJpbGl0eTogaGlkZGVuOwogIH0KICAjcmVwb3J0LWNvbnRlbnQsICNyZXBvcnQtY29udGVudCAqIHsKICAgIHZpc2liaWxpdHk6IHZpc2libGU7CiAgfQogICNyZXBvcnQtY29udGVudCB7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICBsZWZ0OiAwOwogICAgdG9wOiAwOwogICAgd2lkdGg6IDEwMCU7CiAgICBtYXJnaW46IDA7CiAgICBwYWRkaW5nOiAyMHB4OwogICAgYm94LXNoYWRvdzogbm9uZSAhaW1wb3J0YW50OwogICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGUgIWltcG9ydGFudDsKICAgIGNvbG9yOiAjMGYxNzJhICFpbXBvcnRhbnQ7CiAgfQogIC5uby1wcmludCB7CiAgICBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7CiAgfQogIC5wYWdlLWJyZWFrLWF2b2lkIHsKICAgIGJyZWFrLWluc2lkZTogYXZvaWQ7CiAgICBwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7CiAgfQp9Cgo=
+@import "tailwindcss";
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #report-content, #report-content * {
+    visibility: visible;
+  }
+  #report-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-shadow: none !important;
+    background-color: white !important;
+    color: #0f172a !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .page-break-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
