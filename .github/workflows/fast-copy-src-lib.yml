@@ -1,1 +1,35 @@
-bmFtZTogRmFzdCBidWxrIGNvcHkgc3JjL2xpYgoKb246CiAgd29ya2Zsb3dfZGlzcGF0Y2g6CiAgcHVzaDoKICAgIGJyYW5jaGVzOiBbbWFpbl0KICAgIHBhdGhzOgogICAgICAtICIuZ2l0aHViL3dvcmtmbG93cy9mYXN0LWNvcHktc3JjLWxpYi55bWwiCgpwZXJtaXNzaW9uczoKICBjb250ZW50czogd3JpdGUKCmpvYnM6CiAgY29weToKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0IHRhcmdldAogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXQ0djQKCiAgICAgIC0gbmFtZTogQ2xvbmUgc291cmNlCiAgICAgICAgcnVuOiBnaXQgY2xvbmUgLS1kZXB0aCAxIGh0dHBzOi8vZ2l0aHViLmNvbS96b3pvdG8xMDQtcGl4ZWwvbWFzcm91ZmktYWkuZ2l0IC90bXAvbWFzcm91Zmktc291cmNlCgogICAgICAtIG5hbWU6IENvcHkgYWxsIGZpbGVzIGluc2lkZSBzcmMvbGliCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBybSAtcmYgc3JjL2xpYgogICAgICAgICAgbWtkaXIgLXAgc3JjL2xpYgogICAgICAgICAgY3AgLWEgL3RtcC9tYXNyb3VmaS1zb3VyY2Uvc3JjL2xpYi8uIHNyYy9saWIvCgogICAgICAtIG5hbWU6IENvbW1pdCBhbmQgcHVzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLm5hbWUgImdpdGh1Yi1hY3Rpb25zW2JvdF0iCiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIuZW1haWwgIjQxODk4MjgyK2dpdGh1Yi1hY3Rpb25zW2JvdF1AdXNlcnMubm9yZXBseS5naXRodWIuY29tIgogICAgICAgICAgZ2l0IGFkZCBzcmMvbGliCiAgICAgICAgICBnaXQgZGlmZiAtLWNhY2hlZCAtLXF1aWV0ICYmIGV4aXQgMCB8fCBnaXQgY29tbWl0IC1tICJCdWxrIGNvcHkgYWxsIHNyYy9saWIgZmlsZXMgZnJvbSBtYXNyb3VmaS1haSIKICAgICAgICAgIGdpdCBwdXNoCg==
+name: Fast bulk copy src/lib
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/fast-copy-src-lib.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target
+        uses: actions/checkout@v4
+
+      - name: Clone source
+        run: git clone --depth 1 https://github.com/zozototo104-pixel/masroufi-ai.git /tmp/masroufi-source
+
+      - name: Copy all files inside src/lib
+        run: |
+          rm -rf src/lib
+          mkdir -p src/lib
+          cp -a /tmp/masroufi-source/src/lib/. src/lib/
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/lib
+          git diff --cached --quiet && exit 0 || git commit -m "Bulk copy all src/lib files from masroufi-ai"
+          git push
