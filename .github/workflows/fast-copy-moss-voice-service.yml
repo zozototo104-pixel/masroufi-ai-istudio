@@ -1,1 +1,36 @@
-bmFtZTogRmFzdCBidWxrIGNvcHkgbW9zcy12b2ljZS1zZXJ2aWNlCgpvbjoKICB3b3JrZmxvd19kaXNwYXRjaDoKICBwdXNoOgogICAgYnJhbmNoZXM6IFttYWluXQogICAgcGF0aHM6CiAgICAgIC0gIi5naXRodWIvd29ya2Zsb3dzL2Zhc3QtY29weS1tb3NzLXZvaWNlLXNlcnZpY2UueW1sIgoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHdyaXRlCgpqb2JzOgogIGNvcHk6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSBuYW1lOiBDaGVja291dCB0YXJnZXQKICAgICAgICB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CgogICAgICAtIG5hbWU6IENsb25lIHNvdXJjZQogICAgICAgIHJ1bjogZ2l0IGNsb25lIC0tZGVwdGggMSBodHRwczovL2dpdGh1Yi5jb20vem96b3RvdG8xMDQtcGl4ZWwvbWFzcm91ZmktYWkuZ2l0IC90bXAvbWFzcm91Zmktc291cmNlCgogICAgICAtIG5hbWU6IENvcHkgbW9zcy12b2ljZS1zZXJ2aWNlCiAgICAgICAgcnVuOiB8CiAgICAgICAgICB0ZXN0IC1kIC90bXAvbWFzcm91Zmktc291cmNlL21vc3Mtdm9pY2Utc2VydmljZQogICAgICAgICAgcm0gLXJmIG1vc3Mtdm9pY2Utc2VydmljZQogICAgICAgICAgbWtkaXIgLXAgbW9zcy12b2ljZS1zZXJ2aWNlCiAgICAgICAgICBjcCAtYSAvdG1wL21hc3JvdWZpLXNvdXJjZS9tb3NzLXZvaWNlLXNlcnZpY2UvLiBtb3NzLXZvaWNlLXNlcnZpY2UvCgogICAgICAtIG5hbWU6IENvbW1pdCBhbmQgcHVzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLm5hbWUgImdpdGh1Yi1hY3Rpb25zW2JvdF0iCiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIuZW1haWwgIjQxODk4MjgyK2dpdGh1Yi1hY3Rpb25zW2JvdF1AdXNlcnMubm9yZXBseS5naXRodWIuY29tIgogICAgICAgICAgZ2l0IGFkZCBtb3NzLXZvaWNlLXNlcnZpY2UKICAgICAgICAgIGdpdCBkaWZmIC0tY2FjaGVkIC0tcXVpZXQgJiYgZXhpdCAwIHx8IGdpdCBjb21taXQgLW0gIkJ1bGsgY29weSBtb3NzLXZvaWNlLXNlcnZpY2UgZnJvbSBtYXNyb3VmaS1haSIKICAgICAgICAgIGdpdCBwdXNoCg==
+name: Fast bulk copy moss-voice-service
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/fast-copy-moss-voice-service.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target
+        uses: actions/checkout@v4
+
+      - name: Clone source
+        run: git clone --depth 1 https://github.com/zozototo104-pixel/masroufi-ai.git /tmp/masroufi-source
+
+      - name: Copy moss-voice-service
+        run: |
+          test -d /tmp/masroufi-source/moss-voice-service
+          rm -rf moss-voice-service
+          mkdir -p moss-voice-service
+          cp -a /tmp/masroufi-source/moss-voice-service/. moss-voice-service/
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add moss-voice-service
+          git diff --cached --quiet && exit 0 || git commit -m "Bulk copy moss-voice-service from masroufi-ai"
+          git push
