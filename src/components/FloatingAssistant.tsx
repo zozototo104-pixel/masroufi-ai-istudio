@@ -1,1 +1,101 @@
-LyoqCiAqIFY2LjEgRmxvYXRpbmdBc3Npc3RhbnQg4oCUIGlQaG9uZS9tb2JpbGUtc2FmZSBkcmFnZ2FibGUgY2hhdCBidXR0b24uCiAqCiAqIEZpeGVzIE1PQi0wMS4uTU9CLTA2OgogKiAgIE1PQi0wMTogdmlzaWJsZSBwb3J0cmFpdAogKiAgIE1PQi0wMjogdmlzaWJsZSBsYW5kc2NhcGUKICogICBNT0ItMDM6IG9yaWVudGF0aW9uIGNoYW5nZSBjbGFtcHMgcG9zaXRpb24KICogICBNT0ItMDQ6IHJlc2l6ZSBjbGFtcHMgcG9zaXRpb24KICogICBNT0ItMDU6IG5vIGhvcml6b250YWwgb3ZlcmZsb3cKICogICBNT0ItMDY6IGZpbmFuY2lhbCBkaWFsb2dzIHVzYWJsZSBvbiBpUGhvbmUgdmlld3BvcnQgKGJ1dHRvbiBzdGF5cyB3aXRoaW4gc2FmZSBhcmVhKQogKgogKiBBcHByb2FjaDogdXNlIHN0YXRlIGZvciBwb3NpdGlvbiwgcmVjb21wdXRlIGNsYW1wIG9uIHJlc2l6ZS9vcmllbnRhdGlvbi4KICogRnJhbWVyLW1vdGlvbiBkcmFnQ29uc3RyYWludHMgYXJlIGV2YWx1YXRlZCBvbmNlIGF0IHJlbmRlciDigJQgd2UgdXNlIGEgc3RhdGUKICogdXBkYXRlciB0byBmb3JjZSByZS1yZW5kZXIgb24gdmlld3BvcnQgY2hhbmdlcy4KICovCmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlU3RhdGUsIHVzZVJlZiwgdXNlQ2FsbGJhY2sgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IG1vdGlvbiB9IGZyb20gJ21vdGlvbi9yZWFjdCc7CmltcG9ydCB7IE1lc3NhZ2VTcXVhcmUgfSBmcm9tICdsdWNpZGUtcmVhY3QnOwoKaW50ZXJmYWNlIFByb3BzIHsKICBvblRvZ2dsZTogKCkgPT4gdm9pZDsKICBzaG93Q2hhdDogYm9vbGVhbjsKICBoYXNNZXNzYWdlczogYm9vbGVhbjsKfQoKaW50ZXJmYWNlIFZpZXdwb3J0RGltcyB7CiAgdzogbnVtYmVyOwogIGg6IG51bWJlcjsKfQoKY29uc3QgQlVUVE9OX1NJWkUgPSA1NjsgIC8vIHctMTQgaC0xNCA9IDU2cHgKY29uc3QgU0FGRV9NQVJHSU4gPSAxNjsgIC8vIDE2cHggZnJvbSBlYWNoIGVkZ2UKCmZ1bmN0aW9uIGdldFZpZXdwb3J0KCk6IFZpZXdwb3J0RGltcyB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICd1bmRlZmluZWQnKSByZXR1cm4geyB3OiAzNjAsIGg6IDY0MCB9OwogIC8vIFVzZSB2aXN1YWxWaWV3cG9ydCB3aGVuIGF2YWlsYWJsZSAoaGFuZGxlcyBtb2JpbGUgYnJvd3NlciB0b29sYmFyIGNoYW5nZXMpLgogIGNvbnN0IHYgPSAod2luZG93IGFzIGFueSkudmlzdWFsVmlld3BvcnQ7CiAgaWYgKHYgJiYgdi53aWR0aCA+IDAgJiYgdi5oZWlnaHQgPiAwKSB7CiAgICByZXR1cm4geyB3OiB2LndpZHRoLCBoOiB2LmhlaWdodCB9OwogIH0KICByZXR1cm4geyB3OiB3aW5kb3cuaW5uZXJXaWR0aCwgaDogd2luZG93LmlubmVySGVpZ2h0IH07Cn0KCmV4cG9ydCBmdW5jdGlvbiBGbG9hdGluZ0Fzc2lzdGFudCh7IG9uVG9nZ2xlLCBzaG93Q2hhdCwgaGFzTWVzc2FnZXMgfTogUHJvcHMpIHsKICBjb25zdCBbdnAsIHNldFZwXSA9IHVzZVN0YXRlPFZpZXdwb3J0RGltcz4oKCkgPT4gZ2V0Vmlld3BvcnQoKSk7CgogIC8vIFY2LjEgKE1PQi0wMywgTU9CLTA0KTogcmVjb21wdXRlIHZpZXdwb3J0IG9uIHJlc2l6ZSBhbmQgb3JpZW50YXRpb24gY2hhbmdlLgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCB1cGRhdGUgPSAoKSA9PiBzZXRWcChnZXRWaWV3cG9ydCgpKTsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdyZXNpemUnLCB1cGRhdGUpOwogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ29yaWVudGF0aW9uY2hhbmdlJywgdXBkYXRlKTsKICAgIGNvbnN0IHYgPSAod2luZG93IGFzIGFueSkudmlzdWFsVmlld3BvcnQ7CiAgICBpZiAodikgewogICAgICB2LmFkZEV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIHVwZGF0ZSk7CiAgICAgIHYuYWRkRXZlbnRMaXN0ZW5lcignc2Nyb2xsJywgdXBkYXRlKTsKICAgIH0KICAgIHJldHVybiAoKSA9PiB7CiAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCdyZXNpemUnLCB1cGRhdGUpOwogICAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcignb3JpZW50YXRpb25jaGFuZ2UnLCB1cGRhdGUpOwogICAgICBpZiAodikgewogICAgICAgIHYucmVtb3ZlRXZlbnRMaXN0ZW5lcigncmVzaXplJywgdXBkYXRlKTsKICAgICAgICB2LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ3Njcm9sbCcsIHVwZGF0ZSk7CiAgICAgIH0KICAgIH07CiAgfSwgW10pOwoKICAvLyBDbGFtcCBjb25zdHJhaW50cyByZWNvbXB1dGVkIGZyb20gY3VycmVudCB2aWV3cG9ydC4KICAvLyBCdXR0b24gc3RhcnRzIGF0IHJpZ2h0OjIwLCBib3R0b206MTQwIGluIENTUyBjb29yZHMgKHJpZ2h0IGVkZ2UgYW5jaG9yZWQpLgogIC8vIEFmdGVyIGRyYWcsIHBvc2l0aW9uIGlzIGxlZnQvdG9wIGluIGZyYW1lci1tb3Rpb24ncyBkcmFnIHN5c3RlbS4KICAvLyBXZSBjbGFtcCBzbyB0aGUgYnV0dG9uIHN0YXlzIGZ1bGx5IHZpc2libGUgKG5vIG92ZXJmbG93KS4KICBjb25zdCBjb25zdHJhaW50cyA9IHsKICAgIGxlZnQ6IC0odnAudyAtIEJVVFRPTl9TSVpFIC0gU0FGRV9NQVJHSU4pLAogICAgcmlnaHQ6IDAsCiAgICB0b3A6IC0odnAuaCAtIEJVVFRPTl9TSVpFIC0gU0FGRV9NQVJHSU4pLAogICAgYm90dG9tOiBTQUZFX01BUkdJTiwKICB9OwoKICByZXR1cm4gKAogICAgPG1vdGlvbi5kaXYKICAgICAgZHJhZwogICAgICBkcmFnQ29uc3RyYWludHM9e2NvbnN0cmFpbnRzfQogICAgICBkcmFnRWxhc3RpYz17MC4xfQogICAgICBkcmFnTW9tZW50dW09e2ZhbHNlfQogICAgICBjbGFzc05hbWU9ImZpeGVkIHotWzYwXSB0b3VjaC1ub25lIgogICAgICBzdHlsZT17eyByaWdodDogU0FGRV9NQVJHSU4sIGJvdHRvbTogMTQwIH19CiAgICA+CiAgICAgIDxidXR0b24KICAgICAgICBvblBvaW50ZXJEb3duPXsoZSkgPT4gZS5zdG9wUHJvcGFnYXRpb24oKX0KICAgICAgICBvbkNsaWNrPXtvblRvZ2dsZX0KICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHctMTQgaC0xNCByb3VuZGVkLWZ1bGwgYmctZW1lcmFsZC02MDAgdGV4dC13aGl0ZSBob3ZlcjpiZy1lbWVyYWxkLTUwMCBzaGFkb3ctWzBfMF8yMHB4X3JnYmEoNSwxNTAsMTA1LDAuNCldIHRyYW5zaXRpb24tY29sb3JzIHJlbGF0aXZlIHNlbGVjdC1ub25lIgogICAgICAgIHRpdGxlPSLYp9mE2K/Ysdiv2LTYqSDYp9mE2YPYqtin2KjZitipIgogICAgICAgIGFyaWEtbGFiZWw9ItmB2KrYrSDYp9mE2K/Ysdiv2LTYqSIKICAgICAgPgogICAgICAgIDxNZXNzYWdlU3F1YXJlIGNsYXNzTmFtZT0idy02IGgtNiBwb2ludGVyLWV2ZW50cy1ub25lIiAvPgogICAgICAgIHtoYXNNZXNzYWdlcyAmJiAhc2hvd0NoYXQgJiYgKAogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdG9wLTEgLXJpZ2h0LTEgdy0zIGgtMyBiZy1yb3NlLTUwMCByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLXNsYXRlLTkwMCBhbmltYXRlLXB1bHNlIHBvaW50ZXItZXZlbnRzLW5vbmUiPjwvc3Bhbj4KICAgICAgICApfQogICAgICA8L2J1dHRvbj4KICAgIDwvbW90aW9uLmRpdj4KICApOwp9Cg==
+/**
+ * V6.1 FloatingAssistant — iPhone/mobile-safe draggable chat button.
+ *
+ * Fixes MOB-01..MOB-06:
+ *   MOB-01: visible portrait
+ *   MOB-02: visible landscape
+ *   MOB-03: orientation change clamps position
+ *   MOB-04: resize clamps position
+ *   MOB-05: no horizontal overflow
+ *   MOB-06: financial dialogs usable on iPhone viewport (button stays within safe area)
+ *
+ * Approach: use state for position, recompute clamp on resize/orientation.
+ * Framer-motion dragConstraints are evaluated once at render — we use a state
+ * updater to force re-render on viewport changes.
+ */
+import { useEffect, useState, useRef, useCallback } from 'react';
+import { motion } from 'motion/react';
+import { MessageSquare } from 'lucide-react';
+
+interface Props {
+  onToggle: () => void;
+  showChat: boolean;
+  hasMessages: boolean;
+}
+
+interface ViewportDims {
+  w: number;
+  h: number;
+}
+
+const BUTTON_SIZE = 56;  // w-14 h-14 = 56px
+const SAFE_MARGIN = 16;  // 16px from each edge
+
+function getViewport(): ViewportDims {
+  if (typeof window === 'undefined') return { w: 360, h: 640 };
+  // Use visualViewport when available (handles mobile browser toolbar changes).
+  const v = (window as any).visualViewport;
+  if (v && v.width > 0 && v.height > 0) {
+    return { w: v.width, h: v.height };
+  }
+  return { w: window.innerWidth, h: window.innerHeight };
+}
+
+export function FloatingAssistant({ onToggle, showChat, hasMessages }: Props) {
+  const [vp, setVp] = useState<ViewportDims>(() => getViewport());
+
+  // V6.1 (MOB-03, MOB-04): recompute viewport on resize and orientation change.
+  useEffect(() => {
+    const update = () => setVp(getViewport());
+    window.addEventListener('resize', update);
+    window.addEventListener('orientationchange', update);
+    const v = (window as any).visualViewport;
+    if (v) {
+      v.addEventListener('resize', update);
+      v.addEventListener('scroll', update);
+    }
+    return () => {
+      window.removeEventListener('resize', update);
+      window.removeEventListener('orientationchange', update);
+      if (v) {
+        v.removeEventListener('resize', update);
+        v.removeEventListener('scroll', update);
+      }
+    };
+  }, []);
+
+  // Clamp constraints recomputed from current viewport.
+  // Button starts at right:20, bottom:140 in CSS coords (right edge anchored).
+  // After drag, position is left/top in framer-motion's drag system.
+  // We clamp so the button stays fully visible (no overflow).
+  const constraints = {
+    left: -(vp.w - BUTTON_SIZE - SAFE_MARGIN),
+    right: 0,
+    top: -(vp.h - BUTTON_SIZE - SAFE_MARGIN),
+    bottom: SAFE_MARGIN,
+  };
+
+  return (
+    <motion.div
+      drag
+      dragConstraints={constraints}
+      dragElastic={0.1}
+      dragMomentum={false}
+      className="fixed z-[60] touch-none"
+      style={{ right: SAFE_MARGIN, bottom: 140 }}
+    >
+      <button
+        onPointerDown={(e) => e.stopPropagation()}
+        onClick={onToggle}
+        className="flex items-center justify-center w-14 h-14 rounded-full bg-emerald-600 text-white hover:bg-emerald-500 shadow-[0_0_20px_rgba(5,150,105,0.4)] transition-colors relative select-none"
+        title="الدردشة الكتابية"
+        aria-label="فتح الدردشة"
+      >
+        <MessageSquare className="w-6 h-6 pointer-events-none" />
+        {hasMessages && !showChat && (
+          <span className="absolute -top-1 -right-1 w-3 h-3 bg-rose-500 rounded-full border-2 border-slate-900 animate-pulse pointer-events-none"></span>
+        )}
+      </button>
+    </motion.div>
+  );
+}

@@ -1,1 +1,165 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZUVmZmVjdCwgdXNlUmVmIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgKiBhcyBkMyBmcm9tICdkMyc7CgppbnRlcmZhY2UgTWluZE1hcENoYXJ0UHJvcHMgewogIHRyYW5zYWN0aW9uczogYW55W107Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE1pbmRNYXBDaGFydCh7IHRyYW5zYWN0aW9ucyB9OiBNaW5kTWFwQ2hhcnRQcm9wcykgewogIGNvbnN0IGNvbnRhaW5lclJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIWNvbnRhaW5lclJlZi5jdXJyZW50KSByZXR1cm47CgogICAgLy8gQ2xlYXIgcHJldmlvdXMgU1ZHCiAgICBkMy5zZWxlY3QoY29udGFpbmVyUmVmLmN1cnJlbnQpLnNlbGVjdEFsbCgnKicpLnJlbW92ZSgpOwoKICAgIGNvbnN0IGV4cGVuc2VzID0gdHJhbnNhY3Rpb25zLmZpbHRlcih0ID0+IHQudHlwZSA9PT0gJ2V4cGVuc2UnKTsKCiAgICAvLyBJZiBubyBleHBlbnNlcywgc2hvdyBhIHBsYWNlaG9sZGVyCiAgICBpZiAoZXhwZW5zZXMubGVuZ3RoID09PSAwKSB7CiAgICAgIGNvbnN0IHAgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTsKICAgICAgcC5jbGFzc05hbWUgPSAiZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgaC1mdWxsIHRleHQtc2xhdGUtNTAwIHRleHQtc20iOwogICAgICBwLmlubmVyVGV4dCA9ICLZhNinINiq2YjYrNivINmF2LXYsdmI2YHYp9iqINmE2LHYs9mFINiu2LHZiti32Kkg2KfZhNi52YLZhC4iOwogICAgICBjb250YWluZXJSZWYuY3VycmVudC5hcHBlbmRDaGlsZChwKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IHdpZHRoID0gY29udGFpbmVyUmVmLmN1cnJlbnQuY2xpZW50V2lkdGg7CiAgICBjb25zdCBoZWlnaHQgPSBjb250YWluZXJSZWYuY3VycmVudC5jbGllbnRIZWlnaHQgfHwgNDAwOwoKICAgIC8vIEJ1aWxkIGhpZXJhcmNoeSBkYXRhCiAgICAvLyBSb290IC0+IENhdGVnb3J5IC0+IFN1YmNhdGVnb3J5L01lcmNoYW50CiAgICBjb25zdCBncm91cGVkID0gZDMuZ3JvdXAoZXhwZW5zZXMsIGQgPT4gZC5jYXRlZ29yeSB8fCAn2KPYrtix2YknLCBkID0+IGQuc3ViY2F0ZWdvcnkgfHwgZC5tZXJjaGFudCB8fCAn2KrZgdin2LXZitmEJyk7CgogICAgY29uc3Qgcm9vdERhdGEgPSB7CiAgICAgIGlkOiAicm9vdCIsCiAgICAgIG5hbWU6ICLYpdis2YXYp9mE2Yog2KfZhNmF2LXYsdmI2YHYp9iqIiwKICAgICAgYW1vdW50OiBkMy5zdW0oZXhwZW5zZXMsIGQgPT4gZC5hbW91bnQpLAogICAgICBjaGlsZHJlbjogQXJyYXkuZnJvbShncm91cGVkLCAoW2NhdGVnb3J5LCBzdWJHcm91cF0pID0+ICh7CiAgICAgICAgaWQ6IGBjYXQtJHtjYXRlZ29yeX1gLAogICAgICAgIG5hbWU6IGNhdGVnb3J5LAogICAgICAgIGFtb3VudDogZDMuc3VtKEFycmF5LmZyb20oc3ViR3JvdXAudmFsdWVzKCkpLmZsYXQoKSwgZCA9PiBkLmFtb3VudCksCiAgICAgICAgY2hpbGRyZW46IEFycmF5LmZyb20oc3ViR3JvdXAsIChbc3ViLCBpdGVtc10pID0+ICh7CiAgICAgICAgICBpZDogYHN1Yi0ke2NhdGVnb3J5fS0ke3N1Yn1gLAogICAgICAgICAgbmFtZTogc3ViLAogICAgICAgICAgYW1vdW50OiBkMy5zdW0oaXRlbXMsIGQgPT4gZC5hbW91bnQpCiAgICAgICAgfSkpCiAgICAgIH0pKQogICAgfTsKCiAgICAvLyBGbGF0dGVuIHRvIG5vZGVzIGFuZCBsaW5rcwogICAgY29uc3Qgbm9kZXM6IGFueVtdID0gW107CiAgICBjb25zdCBsaW5rczogYW55W10gPSBbXTsKCiAgICBjb25zdCByb290Tm9kZSA9IHsgaWQ6IHJvb3REYXRhLmlkLCBuYW1lOiByb290RGF0YS5uYW1lLCBncm91cDogMCwgdmFsOiBNYXRoLnNxcnQocm9vdERhdGEuYW1vdW50KSAqIDIgfHwgMjAgfTsKICAgIG5vZGVzLnB1c2gocm9vdE5vZGUpOwoKICAgIHJvb3REYXRhLmNoaWxkcmVuLmZvckVhY2goY2F0ID0+IHsKICAgICAgY29uc3QgY2F0Tm9kZSA9IHsgaWQ6IGNhdC5pZCwgbmFtZTogY2F0Lm5hbWUsIGdyb3VwOiAxLCB2YWw6IE1hdGguc3FydChjYXQuYW1vdW50KSAqIDIgfHwgMTUgfTsKICAgICAgbm9kZXMucHVzaChjYXROb2RlKTsKICAgICAgbGlua3MucHVzaCh7IHNvdXJjZTogcm9vdE5vZGUuaWQsIHRhcmdldDogY2F0Tm9kZS5pZCB9KTsKCiAgICAgIGNhdC5jaGlsZHJlbi5mb3JFYWNoKHN1YiA9PiB7CiAgICAgICAgY29uc3Qgc3ViTm9kZSA9IHsgaWQ6IHN1Yi5pZCwgbmFtZTogc3ViLm5hbWUsIGdyb3VwOiAyLCB2YWw6IE1hdGguc3FydChzdWIuYW1vdW50KSAqIDIgfHwgMTAgfTsKICAgICAgICBub2Rlcy5wdXNoKHN1Yk5vZGUpOwogICAgICAgIGxpbmtzLnB1c2goeyBzb3VyY2U6IGNhdE5vZGUuaWQsIHRhcmdldDogc3ViTm9kZS5pZCB9KTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBjb25zdCBzdmcgPSBkMy5zZWxlY3QoY29udGFpbmVyUmVmLmN1cnJlbnQpCiAgICAgIC5hcHBlbmQoJ3N2ZycpCiAgICAgIC5hdHRyKCd3aWR0aCcsIHdpZHRoKQogICAgICAuYXR0cignaGVpZ2h0JywgaGVpZ2h0KQogICAgICAuYXR0cigndmlld0JveCcsIFstd2lkdGggLyAyLCAtaGVpZ2h0IC8gMiwgd2lkdGgsIGhlaWdodF0pOwoKICAgIC8vIEFkZCBzdWJ0bGUgZ2xvdyBmaWx0ZXIKICAgIGNvbnN0IGRlZnMgPSBzdmcuYXBwZW5kKCJkZWZzIik7CiAgICBjb25zdCBmaWx0ZXIgPSBkZWZzLmFwcGVuZCgiZmlsdGVyIikuYXR0cigiaWQiLCAiZ2xvdyIpOwogICAgZmlsdGVyLmFwcGVuZCgiZmVHYXVzc2lhbkJsdXIiKS5hdHRyKCJzdGREZXZpYXRpb24iLCAiMyIpLmF0dHIoInJlc3VsdCIsICJjb2xvcmVkQmx1ciIpOwogICAgY29uc3QgZmVNZXJnZSA9IGZpbHRlci5hcHBlbmQoImZlTWVyZ2UiKTsKICAgIGZlTWVyZ2UuYXBwZW5kKCJmZU1lcmdlTm9kZSIpLmF0dHIoImluIiwgImNvbG9yZWRCbHVyIik7CiAgICBmZU1lcmdlLmFwcGVuZCgiZmVNZXJnZU5vZGUiKS5hdHRyKCJpbiIsICJTb3VyY2VHcmFwaGljIik7CgogICAgY29uc3QgbGluayA9IHN2Zy5hcHBlbmQoJ2cnKQogICAgICAuYXR0cignc3Ryb2tlJywgJyMzMzQxNTUnKQogICAgICAuYXR0cignc3Ryb2tlLW9wYWNpdHknLCAwLjYpCiAgICAgIC5zZWxlY3RBbGwoJ2xpbmUnKQogICAgICAuZGF0YShsaW5rcykKICAgICAgLmpvaW4oJ2xpbmUnKQogICAgICAuYXR0cignc3Ryb2tlLXdpZHRoJywgMik7CgogICAgY29uc3QgY29sb3IgPSBkMy5zY2FsZU9yZGluYWwoKQogICAgICAuZG9tYWluKFsnMCcsICcxJywgJzInXSkKICAgICAgLnJhbmdlKFsnIzEwYjk4MScsICcjM2I4MmY2JywgJyNmNDNmNWUnXSk7CgogICAgY29uc3QgZHJhZyA9IChzaW11bGF0aW9uOiBhbnkpID0+IHsKICAgICAgZnVuY3Rpb24gZHJhZ3N0YXJ0ZWQoZXZlbnQ6IGFueSwgZDogYW55KSB7CiAgICAgICAgaWYgKCFldmVudC5hY3RpdmUpIHNpbXVsYXRpb24uYWxwaGFUYXJnZXQoMC4zKS5yZXN0YXJ0KCk7CiAgICAgICAgZC5meCA9IGQueDsKICAgICAgICBkLmZ5ID0gZC55OwogICAgICB9CiAgICAgIGZ1bmN0aW9uIGRyYWdnZWQoZXZlbnQ6IGFueSwgZDogYW55KSB7CiAgICAgICAgZC5meCA9IGV2ZW50Lng7CiAgICAgICAgZC5meSA9IGV2ZW50Lnk7CiAgICAgIH0KICAgICAgZnVuY3Rpb24gZHJhZ2VuZGVkKGV2ZW50OiBhbnksIGQ6IGFueSkgewogICAgICAgIGlmICghZXZlbnQuYWN0aXZlKSBzaW11bGF0aW9uLmFscGhhVGFyZ2V0KDApOwogICAgICAgIGQuZnggPSBudWxsOwogICAgICAgIGQuZnkgPSBudWxsOwogICAgICB9CiAgICAgIHJldHVybiBkMy5kcmFnKCkKICAgICAgICAub24oJ3N0YXJ0JywgZHJhZ3N0YXJ0ZWQpCiAgICAgICAgLm9uKCdkcmFnJywgZHJhZ2dlZCkKICAgICAgICAub24oJ2VuZCcsIGRyYWdlbmRlZCk7CiAgICB9OwoKICAgIGNvbnN0IG5vZGUgPSBzdmcuYXBwZW5kKCdnJykKICAgICAgLmF0dHIoJ3N0cm9rZScsICcjMGYxNzJhJykKICAgICAgLmF0dHIoJ3N0cm9rZS13aWR0aCcsIDIpCiAgICAgIC5zZWxlY3RBbGwoJ2cnKQogICAgICAuZGF0YShub2RlcykKICAgICAgLmpvaW4oJ2cnKQogICAgICAuY2FsbChkcmFnKGQzLmZvcmNlU2ltdWxhdGlvbigpKSBhcyBhbnkpOwoKICAgIG5vZGUuYXBwZW5kKCdjaXJjbGUnKQogICAgICAuYXR0cigncicsIGQgPT4gTWF0aC5tYXgoZC52YWwsIDgpKQogICAgICAuYXR0cignZmlsbCcsIGQgPT4gY29sb3IoU3RyaW5nKGQuZ3JvdXApKSBhcyBzdHJpbmcpCiAgICAgIC5zdHlsZSgnZmlsdGVyJywgJ3VybCgjZ2xvdyknKTsKCiAgICBub2RlLmFwcGVuZCgndGV4dCcpCiAgICAgIC50ZXh0KGQgPT4gZC5uYW1lKQogICAgICAuYXR0cigneCcsIDApCiAgICAgIC5hdHRyKCd5JywgZCA9PiBNYXRoLm1heChkLnZhbCwgOCkgKyAxNCkKICAgICAgLmF0dHIoJ3RleHQtYW5jaG9yJywgJ21pZGRsZScpCiAgICAgIC5hdHRyKCdmaWxsJywgJyNmOGZhZmMnKQogICAgICAuYXR0cignZm9udC1zaXplJywgZCA9PiBkLmdyb3VwID09PSAwID8gJzEycHgnIDogJzEwcHgnKQogICAgICAuYXR0cignZm9udC13ZWlnaHQnLCBkID0+IGQuZ3JvdXAgPT09IDAgPyAnYm9sZCcgOiAnbm9ybWFsJykKICAgICAgLmF0dHIoJ3N0cm9rZScsICdub25lJyk7CgogICAgY29uc3Qgc2ltdWxhdGlvbiA9IGQzLmZvcmNlU2ltdWxhdGlvbihub2RlcykKICAgICAgLmZvcmNlKCdsaW5rJywgZDMuZm9yY2VMaW5rKGxpbmtzKS5pZCgoZDogYW55KSA9PiBkLmlkKS5kaXN0YW5jZSg2MCkpCiAgICAgIC5mb3JjZSgnY2hhcmdlJywgZDMuZm9yY2VNYW55Qm9keSgpLnN0cmVuZ3RoKC0yMDApKQogICAgICAuZm9yY2UoJ2NlbnRlcicsIGQzLmZvcmNlQ2VudGVyKDAsIDApKQogICAgICAuZm9yY2UoJ2NvbGxpZGUnLCBkMy5mb3JjZUNvbGxpZGUoKS5yYWRpdXMoKGQ6IGFueSkgPT4gTWF0aC5tYXgoZC52YWwsIDgpICsgMjApLml0ZXJhdGlvbnMoMikpOwoKICAgIHNpbXVsYXRpb24ub24oJ3RpY2snLCAoKSA9PiB7CiAgICAgIGxpbmsKICAgICAgICAuYXR0cigneDEnLCBkID0+IChkLnNvdXJjZSBhcyBhbnkpLngpCiAgICAgICAgLmF0dHIoJ3kxJywgZCA9PiAoZC5zb3VyY2UgYXMgYW55KS55KQogICAgICAgIC5hdHRyKCd4MicsIGQgPT4gKGQudGFyZ2V0IGFzIGFueSkueCkKICAgICAgICAuYXR0cigneTInLCBkID0+IChkLnRhcmdldCBhcyBhbnkpLnkpOwoKICAgICAgbm9kZS5hdHRyKCd0cmFuc2Zvcm0nLCBkID0+IGB0cmFuc2xhdGUoJHtkLnh9LCR7ZC55fSlgKTsKICAgIH0pOwoKICAgIC8vIEFwcGx5IGluaXRpYWwgZHJhZyBjb25maWcKICAgIG5vZGUuY2FsbChkcmFnKHNpbXVsYXRpb24pIGFzIGFueSk7CgogICAgcmV0dXJuICgpID0+IHsKICAgICAgc2ltdWxhdGlvbi5zdG9wKCk7CiAgICB9OwogIH0sIFt0cmFuc2FjdGlvbnNdKTsKCiAgcmV0dXJuIDxkaXYgcmVmPXtjb250YWluZXJSZWZ9IGNsYXNzTmFtZT0idy1mdWxsIGgtWzQwMHB4XSIgLz47Cn0K
+import React, { useEffect, useRef } from 'react';
+import * as d3 from 'd3';
+
+interface MindMapChartProps {
+  transactions: any[];
+}
+
+export default function MindMapChart({ transactions }: MindMapChartProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+    
+    // Clear previous SVG
+    d3.select(containerRef.current).selectAll('*').remove();
+
+    const expenses = transactions.filter(t => t.type === 'expense');
+    
+    // If no expenses, show a placeholder
+    if (expenses.length === 0) {
+      const p = document.createElement('div');
+      p.className = "flex items-center justify-center h-full text-slate-500 text-sm";
+      p.innerText = "لا توجد مصروفات لرسم خريطة العقل.";
+      containerRef.current.appendChild(p);
+      return;
+    }
+
+    const width = containerRef.current.clientWidth;
+    const height = containerRef.current.clientHeight || 400;
+
+    // Build hierarchy data
+    // Root -> Category -> Subcategory/Merchant
+    const grouped = d3.group(expenses, d => d.category || 'أخرى', d => d.subcategory || d.merchant || 'تفاصيل');
+    
+    const rootData = {
+      id: "root",
+      name: "إجمالي المصروفات",
+      amount: d3.sum(expenses, d => d.amount),
+      children: Array.from(grouped, ([category, subGroup]) => ({
+        id: `cat-${category}`,
+        name: category,
+        amount: d3.sum(Array.from(subGroup.values()).flat(), d => d.amount),
+        children: Array.from(subGroup, ([sub, items]) => ({
+          id: `sub-${category}-${sub}`,
+          name: sub,
+          amount: d3.sum(items, d => d.amount)
+        }))
+      }))
+    };
+
+    // Flatten to nodes and links
+    const nodes: any[] = [];
+    const links: any[] = [];
+
+    const rootNode = { id: rootData.id, name: rootData.name, group: 0, val: Math.sqrt(rootData.amount) * 2 || 20 };
+    nodes.push(rootNode);
+
+    rootData.children.forEach(cat => {
+      const catNode = { id: cat.id, name: cat.name, group: 1, val: Math.sqrt(cat.amount) * 2 || 15 };
+      nodes.push(catNode);
+      links.push({ source: rootNode.id, target: catNode.id });
+
+      cat.children.forEach(sub => {
+        const subNode = { id: sub.id, name: sub.name, group: 2, val: Math.sqrt(sub.amount) * 2 || 10 };
+        nodes.push(subNode);
+        links.push({ source: catNode.id, target: subNode.id });
+      });
+    });
+
+    const svg = d3.select(containerRef.current)
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('viewBox', [-width / 2, -height / 2, width, height]);
+
+    // Add subtle glow filter
+    const defs = svg.append("defs");
+    const filter = defs.append("filter").attr("id", "glow");
+    filter.append("feGaussianBlur").attr("stdDeviation", "3").attr("result", "coloredBlur");
+    const feMerge = filter.append("feMerge");
+    feMerge.append("feMergeNode").attr("in", "coloredBlur");
+    feMerge.append("feMergeNode").attr("in", "SourceGraphic");
+
+    const link = svg.append('g')
+      .attr('stroke', '#334155')
+      .attr('stroke-opacity', 0.6)
+      .selectAll('line')
+      .data(links)
+      .join('line')
+      .attr('stroke-width', 2);
+
+    const color = d3.scaleOrdinal()
+      .domain(['0', '1', '2'])
+      .range(['#10b981', '#3b82f6', '#f43f5e']);
+
+    const drag = (simulation: any) => {
+      function dragstarted(event: any, d: any) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      }
+      function dragged(event: any, d: any) {
+        d.fx = event.x;
+        d.fy = event.y;
+      }
+      function dragended(event: any, d: any) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      }
+      return d3.drag()
+        .on('start', dragstarted)
+        .on('drag', dragged)
+        .on('end', dragended);
+    };
+
+    const node = svg.append('g')
+      .attr('stroke', '#0f172a')
+      .attr('stroke-width', 2)
+      .selectAll('g')
+      .data(nodes)
+      .join('g')
+      .call(drag(d3.forceSimulation()) as any);
+
+    node.append('circle')
+      .attr('r', d => Math.max(d.val, 8))
+      .attr('fill', d => color(String(d.group)) as string)
+      .style('filter', 'url(#glow)');
+
+    node.append('text')
+      .text(d => d.name)
+      .attr('x', 0)
+      .attr('y', d => Math.max(d.val, 8) + 14)
+      .attr('text-anchor', 'middle')
+      .attr('fill', '#f8fafc')
+      .attr('font-size', d => d.group === 0 ? '12px' : '10px')
+      .attr('font-weight', d => d.group === 0 ? 'bold' : 'normal')
+      .attr('stroke', 'none');
+
+    const simulation = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id((d: any) => d.id).distance(60))
+      .force('charge', d3.forceManyBody().strength(-200))
+      .force('center', d3.forceCenter(0, 0))
+      .force('collide', d3.forceCollide().radius((d: any) => Math.max(d.val, 8) + 20).iterations(2));
+
+    simulation.on('tick', () => {
+      link
+        .attr('x1', d => (d.source as any).x)
+        .attr('y1', d => (d.source as any).y)
+        .attr('x2', d => (d.target as any).x)
+        .attr('y2', d => (d.target as any).y);
+
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+    
+    // Apply initial drag config
+    node.call(drag(simulation) as any);
+
+    return () => {
+      simulation.stop();
+    };
+  }, [transactions]);
+
+  return <div ref={containerRef} className="w-full h-[400px]" />;
+}
