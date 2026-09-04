@@ -1,1 +1,35 @@
-bmFtZTogRmluYWwgY29weSBvcmlnaW5hbCBjb21wb25lbnRzCgpvbjoKICB3b3JrZmxvd19kaXNwYXRjaDoKICBwdXNoOgogICAgYnJhbmNoZXM6IFttYWluXQogICAgcGF0aHM6CiAgICAgIC0gIi5naXRodWIvd29ya2Zsb3dzL2NvcHktY29tcG9uZW50cy1maW5hbC55bWwiCgpwZXJtaXNzaW9uczoKICBjb250ZW50czogd3JpdGUKCmpvYnM6CiAgY29weToKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0IHRhcmdldAogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKCiAgICAgIC0gbmFtZTogQ2xvbmUgb3JpZ2luYWwKICAgICAgICBydW46IGdpdCBjbG9uZSAtLWRlcHRoIDEgaHR0cHM6Ly9naXRodWIuY29tL3pvem90b3RvMTA0LXBpeGVsL21hc3JvdWZpLWFpLmdpdCAvdG1wL29yaWdpbmFsCgogICAgICAtIG5hbWU6IENvcHkgb3JpZ2luYWwgY29tcG9uZW50cwogICAgICAgIHJ1bjogfAogICAgICAgICAgcm0gLXJmIHNyYy9jb21wb25lbnRzCiAgICAgICAgICBta2RpciAtcCBzcmMvY29tcG9uZW50cwogICAgICAgICAgY3AgLWEgL3RtcC9vcmlnaW5hbC9zcmMvY29tcG9uZW50cy8uIHNyYy9jb21wb25lbnRzLwoKICAgICAgLSBuYW1lOiBDb21taXQgYW5kIHB1c2gKICAgICAgICBydW46IHwKICAgICAgICAgIGdpdCBjb25maWcgdXNlci5uYW1lICJnaXRodWItYWN0aW9uc1tib3RdIgogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLmVtYWlsICI0MTg5ODI4MitnaXRodWItYWN0aW9uc1tib3RdQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbSIKICAgICAgICAgIGdpdCBhZGQgc3JjL2NvbXBvbmVudHMKICAgICAgICAgIGdpdCBkaWZmIC0tY2FjaGVkIC0tcXVpZXQgJiYgZXhpdCAwIHx8IGdpdCBjb21taXQgLW0gIkNvcHkgb3JpZ2luYWwgc3JjL2NvbXBvbmVudHMgZXhhY3RseSIKICAgICAgICAgIGdpdCBwdXNoCg==
+name: Final copy original components
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/copy-components-final.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target
+        uses: actions/checkout@v4
+
+      - name: Clone original
+        run: git clone --depth 1 https://github.com/zozototo104-pixel/masroufi-ai.git /tmp/original
+
+      - name: Copy original components
+        run: |
+          rm -rf src/components
+          mkdir -p src/components
+          cp -a /tmp/original/src/components/. src/components/
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/components
+          git diff --cached --quiet && exit 0 || git commit -m "Copy original src/components exactly"
+          git push
