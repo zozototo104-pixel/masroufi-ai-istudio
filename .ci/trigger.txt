@@ -1,0 +1,1 @@
+Final CI verification after PIPE-01 executable-write guard fix.
