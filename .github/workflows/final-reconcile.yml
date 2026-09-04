@@ -1,1 +1,39 @@
-bmFtZTogRmluYWwgcmVwb3NpdG9yeSByZWNvbmNpbGlhdGlvbgoKb246CiAgd29ya2Zsb3dfZGlzcGF0Y2g6CiAgcHVzaDoKICAgIGJyYW5jaGVzOiBbbWFpbl0KICAgIHBhdGhzOgogICAgICAtICIuZ2l0aHViL3dvcmtmbG93cy9maW5hbC1yZWNvbmNpbGUueW1sIgoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHdyaXRlCgpqb2JzOgogIHJlY29uY2lsZToKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0IHRhcmdldAogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXQ0djQKCiAgICAgIC0gbmFtZTogQ2xvbmUgc291cmNlCiAgICAgICAgcnVuOiBnaXQgY2xvbmUgLS1kZXB0aCAxIGh0dHBzOi8vZ2l0aHViLmNvbS96b3pvdG90bzEwNC1waXhlbC9tYXNyb3VmaS1haS5naXQgL3RtcC9tYXNyb3VmaS1zb3VyY2UKCiAgICAgIC0gbmFtZTogUmVjb25jaWxlIG1pc3NpbmcgYW5kIGNoYW5nZWQgZmlsZXMKICAgICAgICBydW46IHwKICAgICAgICAgIG1rZGlyIC1wIC5naXRodWIvd29ya2Zsb3dzIHNyYy9jb21wb25lbnRzCiAgICAgICAgICBjcCAtYSAvdG1wL21hc3JvdWZpLXNvdXJjZS8uZ2l0aHViL2RlcGVuZGFib3QueW1sIC5naXRodWIvZGVwZW5kYWJvdC55bWwKICAgICAgICAgIGNwIC1hIC90bXAvbWFzcm91Zmktc291cmNlLy5naXRodWIvd29ya2Zsb3dzL2NpLnltbCAuZ2l0aHViL3dvcmtmbG93cy9jaS55bWwKICAgICAgICAgIGNwIC1hIC90bXAvbWFzcm91Zmktc291cmNlLy5naXRodWIvd29ya2Zsb3dzL3VuemlwLXJlbmRlci1yZWFkeS55bWwgLmdpdGh1Yi93b3JrZmxvd3MvdW56aXAtcmVuZGVyLXJlYWR5LnltbAogICAgICAgICAgY3AgLWEgL3RtcC9tYXNyb3VmaS1zb3VyY2Uvc3JjL2NvbXBvbmVudHMvRGF0YUJhY2t1cE1vZGFsLnRzeCBzcmMvY29tcG9uZW50cy9EYXRhQmFja3VwTW9kYWwudHN4CiAgICAgICAgICBjcCAtYSAvdG1wL21hc3JvdWZpLXNvdXJjZS9zcmMvY29tcG9uZW50cy9GbG9hdGluZ0Fzc2lzdGFudC50c3ggc3JjL2NvbXBvbmVudHMvRmxvYXRpbmdBc3Npc3RhbnQudHN4CiAgICAgICAgICBjcCAtYSAvdG1wL21hc3JvdWZpLXNvdXJjZS9zcmMvY29tcG9uZW50cy9NaW5kTWFwQ2hhcnQudHN4IHNyYy9jb21wb25lbnRzL01pbmRNYXBDaGFydC50c3gKCiAgICAgIC0gbmFtZTogQ29tbWl0IGFuZCBwdXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIubmFtZSAiZ2l0aHViLWFjdGlvbnNbYm90XSIKICAgICAgICAgIGdpdCBjb25maWcgdXNlci5lbWFpbCAiNDE4OTgyODIrZ2l0aHViLWFjdGlvbnNbYm90XUB1c2Vycy5ub3JlcGx5LmdpdGh1Yi5jb20iCiAgICAgICAgICBnaXQgYWRkIC5naXRodWIvZGVwZW5kYWJvdC55bWwgLmdpdGh1Yi93b3JrZmxvd3MvY2kueW1sIC5naXRodWIvd29ya2Zsb3dzL3VuemlwLXJlbmRlci1yZWFkeS55bWwgc3JjL2NvbXBvbmVudHMvRGF0YUJhY2t1cE1vZGFsLnRzeCBzcmMvY29tcG9uZW50cy9GbG9hdGluZ0Fzc2lzdGFudC50c3ggc3JjL2NvbXBvbmVudHMvTWluZE1hcENoYXJ0LnRzeAogICAgICAgICAgZ2l0IGRpZmYgLS1jYWNoZWQgLS1xdWlldCAmJiBleGl0IDAgfHwgZ2l0IGNvbW1pdCAtbSAiUmVjb25jaWxlIGNvcHkgd2l0aCBzb3VyY2UiCiAgICAgICAgICBnaXQgcHVzaAo=
+name: Final repository reconciliation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/final-reconcile.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target
+        uses: actions/checkout@v4
+
+      - name: Clone source
+        run: git clone --depth 1 https://github.com/zozototo104-pixel/masroufi-ai.git /tmp/masroufi-source
+
+      - name: Reconcile missing and changed files
+        run: |
+          mkdir -p .github/workflows src/components
+          cp -a /tmp/masroufi-source/.github/dependabot.yml .github/dependabot.yml
+          cp -a /tmp/masroufi-source/.github/workflows/ci.yml .github/workflows/ci.yml
+          cp -a /tmp/masroufi-source/.github/workflows/unzip-render-ready.yml .github/workflows/unzip-render-ready.yml
+          cp -a /tmp/masroufi-source/src/components/DataBackupModal.tsx src/components/DataBackupModal.tsx
+          cp -a /tmp/masroufi-source/src/components/FloatingAssistant.tsx src/components/FloatingAssistant.tsx
+          cp -a /tmp/masroufi-source/src/components/MindMapChart.tsx src/components/MindMapChart.tsx
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/dependabot.yml .github/workflows/ci.yml .github/workflows/unzip-render-ready.yml src/components/DataBackupModal.tsx src/components/FloatingAssistant.tsx src/components/MindMapChart.tsx
+          git diff --cached --quiet && exit 0 || git commit -m "Reconcile copy with source"
+          git push
