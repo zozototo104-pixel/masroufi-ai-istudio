@@ -1,5 +1,4 @@
-# Trigger reconciliation rerun
-name: Final repository reconciliation
+name: Final exact mirror cleanup
 
 on:
   workflow_dispatch:
@@ -12,29 +11,23 @@ permissions:
   contents: write
 
 jobs:
-  reconcile:
+  mirror:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout target
         uses: actions/checkout@v4
 
-      - name: Clone source
-        run: git clone --depth 1 https://github.com/zozototo104-pixel/masroufi-ai.git /tmp/masroufi-source
+      - name: Clone original
+        run: git clone --depth 1 https://github.com/zozototo104-pixel/masroufi-ai.git /tmp/original
 
-      - name: Reconcile missing and changed files
+      - name: Make target working tree exactly match original
         run: |
-          mkdir -p .github/workflows src/components
-          cp -a /tmp/masroufi-source/.github/dependabot.yml .github/dependabot.yml
-          cp -a /tmp/masroufi-source/.github/workflows/ci.yml .github/workflows/ci.yml
-          cp -a /tmp/masroufi-source/.github/workflows/unzip-render-ready.yml .github/workflows/unzip-render-ready.yml
-          cp -a /tmp/masroufi-source/src/components/DataBackupModal.tsx src/components/DataBackupModal.tsx
-          cp -a /tmp/masroufi-source/src/components/FloatingAssistant.tsx src/components/FloatingAssistant.tsx
-          cp -a /tmp/masroufi-source/src/components/MindMapChart.tsx src/components/MindMapChart.tsx
+          rsync -a --delete --exclude='.git/' /tmp/original/ ./
 
-      - name: Commit and push
+      - name: Commit exact mirror
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/dependabot.yml .github/workflows/ci.yml .github/workflows/unzip-render-ready.yml src/components/DataBackupModal.tsx src/components/FloatingAssistant.tsx src/components/MindMapChart.tsx
-          git diff --cached --quiet && exit 0 || git commit -m "Reconcile copy with source"
+          git add -A
+          git diff --cached --quiet && exit 0 || git commit -m "Exact mirror from masroufi-ai [skip ci]"
           git push
