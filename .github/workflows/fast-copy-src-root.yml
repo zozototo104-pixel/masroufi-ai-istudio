@@ -1,1 +1,34 @@
-bmFtZTogRmFzdCBjb3B5IHNyYyByb290IGZpbGVzCgpvbjoKICB3b3JrZmxvd19kaXNwYXRjaDoKICBwdXNoOgogICAgYnJhbmNoZXM6IFttYWluXQogICAgcGF0aHM6CiAgICAgIC0gIi5naXRodWIvd29ya2Zsb3dzL2Zhc3QtY29weS1zcmMtcm9vdC55bWwiCgpwZXJtaXNzaW9uczoKICBjb250ZW50czogd3JpdGUKCmpvYnM6CiAgY29weToKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IENoZWNrb3V0IHRhcmdldAogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXQ0djQKCiAgICAgIC0gbmFtZTogQ2xvbmUgc291cmNlCiAgICAgICAgcnVuOiBnaXQgY2xvbmUgLS1kZXB0aCAxIGh0dHBzOi8vZ2l0aHViLmNvbS96b3pvdG90bzEwNC1waXhlbC9tYXNyb3VmaS1haS5naXQgL3RtcC9tYXNyb3VmaS1zb3VyY2UKCiAgICAgIC0gbmFtZTogQ29weSBkaXJlY3QgZmlsZXMgaW4gc3JjCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBta2RpciAtcCBzcmMKICAgICAgICAgIGZpbmQgL3RtcC9tYXNyb3VmaS1zb3VyY2Uvc3JjIC1tYXhkZXB0aCAxIC10eXBlIGYgLWV4ZWMgY3AgLWEge30gc3JjLyBcOwoKICAgICAgLSBuYW1lOiBDb21taXQgYW5kIHB1c2gKICAgICAgICBydW46IHwKICAgICAgICAgIGdpdCBjb25maWcgdXNlci5uYW1lICJnaXRodWItYWN0aW9uc1tib3RdIgogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLmVtYWlsICI0MTg5ODI4MitnaXRodWItYWN0aW9uc1tib3RdQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbSIKICAgICAgICAgIGdpdCBhZGQgc3JjCiAgICAgICAgICBnaXQgZGlmZiAtLWNhY2hlZCAtLXF1aWV0ICYmIGV4aXQgMCB8fCBnaXQgY29tbWl0IC1tICJDb3B5IGRpcmVjdCBzcmMgZmlsZXMgZnJvbSBtYXNyb3VmaS1haSIKICAgICAgICAgIGdpdCBwdXNoCg==
+name: Fast copy src root files
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/fast-copy-src-root.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target
+        uses: actions/checkout@v4
+
+      - name: Clone source
+        run: git clone --depth 1 https://github.com/zozototo104-pixel/masroufi-ai.git /tmp/masroufi-source
+
+      - name: Copy direct files in src
+        run: |
+          mkdir -p src
+          find /tmp/masroufi-source/src -maxdepth 1 -type f -exec cp -a {} src/ \;
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src
+          git diff --cached --quiet && exit 0 || git commit -m "Copy direct src files from masroufi-ai"
+          git push
