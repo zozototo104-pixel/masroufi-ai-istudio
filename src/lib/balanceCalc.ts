@@ -1,1 +1,128 @@
-aW1wb3J0IHsgcGFyc2VGaW5pdGVBbW91bnQgfSBmcm9tICcuL2Ftb3VudCc7CgovKioKICogVjYuMyDigJQgU2hhcmVkIEZpbmFuY2lhbCBEb21haW4gQ29yZS4KICoKICogVGhpcyBtb2R1bGUgaXMgdGhlIGNhbm9uaWNhbCBvd25lciBvZiBwdXJlIGZpbmFuY2lhbCBpbnRlcnByZXRhdGlvbiBzaGFyZWQgYnkKICogY2xpZW50IGFuZCBzZXJ2ZXI6IGFjY291bnQgbm9ybWFsaXphdGlvbiwgYmFsYW5jZSByZWNvbnN0cnVjdGlvbiwgY3JlZGl0b3Ita2V5CiAqIG5vcm1hbGl6YXRpb24sIGFuZCBjcmVkaXRvciByZW1haW5pbmctZGVidCByZWNvbnN0cnVjdGlvbi4KICoKICogU2VydmVyIG11dGF0aW9uIG9yY2hlc3RyYXRpb24gc3RheXMgaW4gc3JjL3NlcnZlciwgYnV0IG5laXRoZXIgdG9vbHMudHMgbm9yCiAqIGF0b21pY09wcy50cyBzaG91bGQgZHVwbGljYXRlIHRoZXNlIHB1cmUgbGVkZ2VyIHJ1bGVzLgogKi8KCmV4cG9ydCBmdW5jdGlvbiBub3JtYWxpemVBY2NvdW50KGFjYzogYW55KTogJ2Nhc2gnIHwgJ3BhbFBheScgfCAnZGVidCcgewogIGlmICghYWNjKSByZXR1cm4gJ2Nhc2gnOwogIGNvbnN0IHMgPSBTdHJpbmcoYWNjKS50b0xvd2VyQ2FzZSgpLnRyaW0oKTsKICBpZiAocy5pbmNsdWRlcygncGFsJykgfHwgcy5pbmNsdWRlcygn2KjYp9mEJykgfHwgcy5pbmNsdWRlcygn2YXYrdmB2LgnKSkgcmV0dXJuICdwYWxQYXknOwogIGlmIChzLmluY2x1ZGVzKCdkZWJ0JykgfHwgcy5pbmNsdWRlcygn2K/ZitmGJykgfHwgcy5pbmNsdWRlcygn2KLYrNmEJykgfHwgcy5pbmNsdWRlcygn2KfYrNmEJykpIHJldHVybiAnZGVidCc7CiAgcmV0dXJuICdjYXNoJzsKfQoKZXhwb3J0IGludGVyZmFjZSBCYWxhbmNlcyB7CiAgY2FzaDogbnVtYmVyOwogIHBhbFBheTogbnVtYmVyOwogIGRlYnQ6IG51bWJlcjsKICB0b3RhbDogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIEJhbGFuY2VCcmVha2Rvd24gewogIGluY29tZTogbnVtYmVyOwogIGV4cGVuc2U6IG51bWJlcjsKICB0cmFuc2ZlckNvdW50OiBudW1iZXI7CiAgY3JlZGl0b3JEZWJ0czogUmVjb3JkPHN0cmluZywgbnVtYmVyPjsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNhbGN1bGF0ZUJhbGFuY2VzKHRyYW5zYWN0aW9uczogYW55W10pOiBCYWxhbmNlcyB7CiAgbGV0IGNhc2ggPSAwLCBwYWxQYXkgPSAwLCBkZWJ0ID0gMDsKICBmb3IgKGNvbnN0IHR4IG9mIHRyYW5zYWN0aW9ucyB8fCBbXSkgewogICAgY29uc3QgYW1vdW50ID0gcGFyc2VGaW5pdGVBbW91bnQodHg/LmFtb3VudCk7CiAgICBjb25zdCBhY2NvdW50ID0gbm9ybWFsaXplQWNjb3VudCh0eD8uYWNjb3VudCk7CiAgICBpZiAodHg/LnR5cGUgPT09ICdleHBlbnNlJykgewogICAgICBpZiAoYWNjb3VudCA9PT0gJ3BhbFBheScpIHBhbFBheSAtPSBhbW91bnQ7CiAgICAgIGVsc2UgaWYgKGFjY291bnQgPT09ICdkZWJ0JykgZGVidCArPSBhbW91bnQ7CiAgICAgIGVsc2UgY2FzaCAtPSBhbW91bnQ7CiAgICB9IGVsc2UgaWYgKHR4Py50eXBlID09PSAnaW5jb21lJykgewogICAgICBpZiAoYWNjb3VudCA9PT0gJ3BhbFBheScpIHBhbFBheSArPSBhbW91bnQ7CiAgICAgIGVsc2UgaWYgKGFjY291bnQgPT09ICdkZWJ0JykgZGVidCAtPSBhbW91bnQ7CiAgICAgIGVsc2UgY2FzaCArPSBhbW91bnQ7CiAgICB9IGVsc2UgaWYgKHR4Py50eXBlID09PSAndHJhbnNmZXInKSB7CiAgICAgIGNvbnN0IGYgPSBub3JtYWxpemVBY2NvdW50KHR4Py5mcm9tQWNjb3VudCB8fCB0eD8uYWNjb3VudCk7CiAgICAgIGNvbnN0IHQgPSBub3JtYWxpemVBY2NvdW50KHR4Py50b0FjY291bnQpOwogICAgICBpZiAoZiA9PT0gJ3BhbFBheScpIHBhbFBheSAtPSBhbW91bnQ7CiAgICAgIGVsc2UgaWYgKGYgPT09ICdkZWJ0JykgZGVidCArPSBhbW91bnQ7CiAgICAgIGVsc2UgY2FzaCAtPSBhbW91bnQ7CiAgICAgIGlmICh0ID09PSAncGFsUGF5JykgcGFsUGF5ICs9IGFtb3VudDsKICAgICAgZWxzZSBpZiAodCA9PT0gJ2RlYnQnKSBkZWJ0IC09IGFtb3VudDsKICAgICAgZWxzZSBjYXNoICs9IGFtb3VudDsKICAgIH0KICB9CiAgY2FzaCA9IE1hdGgucm91bmQoY2FzaCAqIDEwMCkgLyAxMDA7CiAgcGFsUGF5ID0gTWF0aC5yb3VuZChwYWxQYXkgKiAxMDApIC8gMTAwOwogIGRlYnQgPSBNYXRoLnJvdW5kKGRlYnQgKiAxMDApIC8gMTAwOwogIHJldHVybiB7IGNhc2gsIHBhbFBheSwgZGVidCwgdG90YWw6IGNhc2ggKyBwYWxQYXkgfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNhbGN1bGF0ZUJyZWFrZG93bih0cmFuc2FjdGlvbnM6IGFueVtdKTogQmFsYW5jZUJyZWFrZG93biB7CiAgbGV0IGluY29tZSA9IDAsIGV4cGVuc2UgPSAwLCB0cmFuc2ZlckNvdW50ID0gMDsKICBjb25zdCBjcmVkaXRvckRlYnRzOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+ID0ge307CiAgZm9yIChjb25zdCB0eCBvZiB0cmFuc2FjdGlvbnMgfHwgW10pIHsKICAgIGNvbnN0IGFtb3VudCA9IHBhcnNlRmluaXRlQW1vdW50KHR4Py5hbW91bnQpOwogICAgaWYgKHR4Py50eXBlID09PSAnaW5jb21lJyAmJiB0eD8udHJhbnNhY3Rpb25UeXBlICE9PSAnREVCVF9CT1JST1dJTkcnKSB7CiAgICAgIGluY29tZSArPSBhbW91bnQ7CiAgICB9IGVsc2UgaWYgKHR4Py50eXBlID09PSAnZXhwZW5zZScpIHsKICAgICAgZXhwZW5zZSArPSBhbW91bnQ7CiAgICB9IGVsc2UgaWYgKHR4Py50eXBlID09PSAndHJhbnNmZXInKSB7CiAgICAgIHRyYW5zZmVyQ291bnQrKzsKICAgIH0KICAgIGNvbnN0IGNyZWRpdG9yID0gU3RyaW5nKHR4Py5jcmVkaXRvciB8fCB0eD8ubWVyY2hhbnQgfHwgJycpLnRyaW0oKTsKICAgIGlmICghY3JlZGl0b3IpIGNvbnRpbnVlOwogICAgbGV0IGRlbHRhID0gMDsKICAgIGlmICh0eD8udHlwZSA9PT0gJ2V4cGVuc2UnICYmIG5vcm1hbGl6ZUFjY291bnQodHg/LmFjY291bnQpID09PSAnZGVidCcpIGRlbHRhID0gYW1vdW50OwogICAgaWYgKHR4Py50eXBlID09PSAnaW5jb21lJyAmJiBub3JtYWxpemVBY2NvdW50KHR4Py5hY2NvdW50KSA9PT0gJ2RlYnQnKSBkZWx0YSA9IC1hbW91bnQ7CiAgICBpZiAodHg/LnR5cGUgPT09ICd0cmFuc2ZlcicgJiYgbm9ybWFsaXplQWNjb3VudCh0eD8udG9BY2NvdW50KSA9PT0gJ2RlYnQnKSBkZWx0YSA9IC1hbW91bnQ7CiAgICBpZiAodHg/LnR5cGUgPT09ICd0cmFuc2ZlcicgJiYgbm9ybWFsaXplQWNjb3VudCh0eD8uZnJvbUFjY291bnQgfHwgdHg/LmFjY291bnQpID09PSAnZGVidCcpIGRlbHRhID0gYW1vdW50OwogICAgaWYgKGRlbHRhID09PSAwKSBjb250aW51ZTsKICAgIGNvbnN0IGtleSA9IG5vcm1hbGl6ZUNyZWRpdG9yS2V5KGNyZWRpdG9yKTsKICAgIGNyZWRpdG9yRGVidHNba2V5XSA9IChjcmVkaXRvckRlYnRzW2tleV0gfHwgMCkgKyBkZWx0YTsKICB9CiAgY29uc3QgcG9zaXRpdmVEZWJ0czogUmVjb3JkPHN0cmluZywgbnVtYmVyPiA9IHt9OwogIGZvciAoY29uc3QgW2ssIHZdIG9mIE9iamVjdC5lbnRyaWVzKGNyZWRpdG9yRGVidHMpKSB7CiAgICBpZiAodiA+IDAuMDAwMSkgcG9zaXRpdmVEZWJ0c1trXSA9IE1hdGgucm91bmQodiAqIDEwMCkgLyAxMDA7CiAgfQogIHJldHVybiB7IGluY29tZSwgZXhwZW5zZSwgdHJhbnNmZXJDb3VudCwgY3JlZGl0b3JEZWJ0czogcG9zaXRpdmVEZWJ0cyB9Owp9CgpleHBvcnQgZnVuY3Rpb24gbm9ybWFsaXplQ3JlZGl0b3JLZXkodmFsdWU6IGFueSk6IHN0cmluZyB7CiAgcmV0dXJuIFN0cmluZyh2YWx1ZSB8fCAnJykudHJpbSgpLnRvTG93ZXJDYXNlKCkKICAgIC5yZXBsYWNlKC9b2KPYpdiiXS9nLCAn2KcnKQogICAgLnJlcGxhY2UoL9mJL2csICfZiicpCiAgICAucmVwbGFjZSgv2KkvZywgJ9mHJykKICAgIC5yZXBsYWNlKC9b2YDZi9mM2Y3ZjtmP2ZDZkdmSXS9nLCAnJykKICAgIC5yZXBsYWNlKC9ccysvZywgJyAnKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNhbGN1bGF0ZUNyZWRpdG9yUmVtYWluaW5nKHRyYW5zYWN0aW9uczogYW55W10sIGNyZWRpdG9yOiBzdHJpbmcpOiBudW1iZXIgewogIGNvbnN0IHRhcmdldEtleSA9IG5vcm1hbGl6ZUNyZWRpdG9yS2V5KGNyZWRpdG9yKTsKICBpZiAoIXRhcmdldEtleSkgcmV0dXJuIDA7CiAgY29uc3QgZGVidHMgPSBjYWxjdWxhdGVCcmVha2Rvd24odHJhbnNhY3Rpb25zKS5jcmVkaXRvckRlYnRzOwogIHJldHVybiBNYXRoLnJvdW5kKE1hdGgubWF4KDAsIE51bWJlcihkZWJ0c1t0YXJnZXRLZXldIHx8IDApKSAqIDEwMCkgLyAxMDA7Cn0K
+import { parseFiniteAmount } from './amount';
+
+/**
+ * V6.3 — Shared Financial Domain Core.
+ *
+ * This module is the canonical owner of pure financial interpretation shared by
+ * client and server: account normalization, balance reconstruction, creditor-key
+ * normalization, and creditor remaining-debt reconstruction.
+ *
+ * Server mutation orchestration stays in src/server, but neither tools.ts nor
+ * atomicOps.ts should duplicate these pure ledger rules.
+ */
+
+// Canonical account normalization shared by server tools, atomic operations, and reports.
+export function normalizeAccount(acc: any): 'cash' | 'palPay' | 'debt' {
+  if (!acc) return 'cash';
+  const s = String(acc).toLowerCase().trim();
+  if (s.includes('pal') || s.includes('بال') || s.includes('محفظ')) return 'palPay';
+  if (s.includes('debt') || s.includes('دين') || s.includes('آجل') || s.includes('اجل')) return 'debt';
+  return 'cash';
+}
+
+export interface Balances {
+  cash: number;
+  palPay: number;
+  debt: number;
+  total: number; // cash + palPay (debt excluded from liquidity)
+}
+
+export interface BalanceBreakdown {
+  income: number;
+  expense: number;
+  transferCount: number;
+  creditorDebts: Record<string, number>;
+}
+
+/**
+ * Canonical balance calculator. Accepts transaction objects (with .account, .type,
+ * .amount, .fromAccount, .toAccount, .creditor, .merchant, .transactionType).
+ *
+ * Pass plain JS objects (NOT Firestore DocumentSnapshot). The backend version
+ * handles both — this client version assumes plain objects.
+ */
+export function calculateBalances(transactions: any[]): Balances {
+  let cash = 0, palPay = 0, debt = 0;
+  for (const tx of transactions || []) {
+    const amount = parseFiniteAmount(tx?.amount);
+    const account = normalizeAccount(tx?.account);
+    if (tx?.type === 'expense') {
+      if (account === 'palPay') palPay -= amount;
+      else if (account === 'debt') debt += amount;
+      else cash -= amount;
+    } else if (tx?.type === 'income') {
+      if (account === 'palPay') palPay += amount;
+      else if (account === 'debt') debt -= amount;
+      else cash += amount;
+    } else if (tx?.type === 'transfer') {
+      const f = normalizeAccount(tx?.fromAccount || tx?.account);
+      const t = normalizeAccount(tx?.toAccount);
+      if (f === 'palPay') palPay -= amount;
+      else if (f === 'debt') debt += amount;
+      else cash -= amount;
+      if (t === 'palPay') palPay += amount;
+      else if (t === 'debt') debt -= amount;
+      else cash += amount;
+    }
+  }
+  // Round to 2 decimal places to avoid floating-point drift.
+  cash = Math.round(cash * 100) / 100;
+  palPay = Math.round(palPay * 100) / 100;
+  debt = Math.round(debt * 100) / 100;
+  return { cash, palPay, debt, total: cash + palPay };
+}
+
+/**
+ * Detailed breakdown for reports/forecast. Mirrors what the backend's
+ * buildHierarchicalReport and getFinancialDecisionContext do separately.
+ */
+export function calculateBreakdown(transactions: any[]): BalanceBreakdown {
+  let income = 0, expense = 0, transferCount = 0;
+  const creditorDebts: Record<string, number> = {};
+  for (const tx of transactions || []) {
+    const amount = parseFiniteAmount(tx?.amount);
+    if (tx?.type === 'income' && tx?.transactionType !== 'DEBT_BORROWING') {
+      income += amount;
+    } else if (tx?.type === 'expense') {
+      // V6.1: exclude CREDIT_PURCHASE from "real expense" for forecast, but count in expense total.
+      expense += amount;
+    } else if (tx?.type === 'transfer') {
+      transferCount++;
+    }
+    // Per-creditor debt tracking — same logic as backend calculateOpenCreditorDebts.
+    const creditor = String(tx?.creditor || tx?.merchant || '').trim();
+    if (!creditor) continue;
+    let delta = 0;
+    if (tx?.type === 'expense' && normalizeAccount(tx?.account) === 'debt') delta = amount;
+    if (tx?.type === 'income' && normalizeAccount(tx?.account) === 'debt') delta = -amount;
+    if (tx?.type === 'transfer' && normalizeAccount(tx?.toAccount) === 'debt') delta = -amount;
+    if (tx?.type === 'transfer' && normalizeAccount(tx?.fromAccount || tx?.account) === 'debt') delta = amount;
+    if (delta === 0) continue;
+    const key = normalizeCreditorKey(creditor);
+    creditorDebts[key] = (creditorDebts[key] || 0) + delta;
+  }
+  // Filter to only positive remaining debts (like backend).
+  const positiveDebts: Record<string, number> = {};
+  for (const [k, v] of Object.entries(creditorDebts)) {
+    if (v > 0.0001) positiveDebts[k] = Math.round(v * 100) / 100;
+  }
+  return { income, expense, transferCount, creditorDebts: positiveDebts };
+}
+
+/** Canonical creditor identity normalization shared by client and server. */
+export function normalizeCreditorKey(value: any): string {
+  return String(value || '').trim().toLowerCase()
+    .replace(/[أإآ]/g, 'ا')
+    .replace(/ى/g, 'ي')
+    .replace(/ة/g, 'ه')
+    .replace(/[ـًٌٍَُِّْ]/g, '')
+    .replace(/\s+/g, ' ');
+}
+
+/** Canonical remaining debt for one creditor, derived from ledger semantics. */
+export function calculateCreditorRemaining(transactions: any[], creditor: string): number {
+  const targetKey = normalizeCreditorKey(creditor);
+  if (!targetKey) return 0;
+  const debts = calculateBreakdown(transactions).creditorDebts;
+  return Math.round(Math.max(0, Number(debts[targetKey] || 0)) * 100) / 100;
+}

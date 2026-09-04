@@ -1,1 +1,99 @@
-ZXhwb3J0IHR5cGUgSGlzdG9yaWNhbERhdGVSZXN1bHQgPQogIHwgeyBvazogdHJ1ZTsgZGF0ZTogc3RyaW5nOyBzb3VyY2U6ICdleHBsaWNpdC1kYXRlJyB8ICdoaXN0b3JpY2FsLW1vbnRoJyB8ICdjdXJyZW50LXRpbWUnIH0KICB8IHsgb2s6IGZhbHNlOyByZWFzb246ICdJTlZBTElEX1RSQU5TQUNUSU9OX0RBVEUnIHwgJ01JU1NJTkdfSElTVE9SSUNBTF9EQVknOyBtZXNzYWdlOiBzdHJpbmcgfTsKCmZ1bmN0aW9uIGlzVmFsaWREYXRlUGFydHMoeWVhcjogbnVtYmVyLCBtb250aDogbnVtYmVyLCBkYXk6IG51bWJlcik6IGJvb2xlYW4gewogIGlmICghTnVtYmVyLmlzSW50ZWdlcih5ZWFyKSB8fCAhTnVtYmVyLmlzSW50ZWdlcihtb250aCkgfHwgIU51bWJlci5pc0ludGVnZXIoZGF5KSkgcmV0dXJuIGZhbHNlOwogIGlmICh5ZWFyIDwgMjAwMCB8fCB5ZWFyID4gMjEwMCB8fCBtb250aCA8IDEgfHwgbW9udGggPiAxMiB8fCBkYXkgPCAxIHx8IGRheSA+IDMxKSByZXR1cm4gZmFsc2U7CiAgY29uc3QgZCA9IG5ldyBEYXRlKERhdGUuVVRDKHllYXIsIG1vbnRoIC0gMSwgZGF5KSk7CiAgcmV0dXJuIGQuZ2V0VVRDRnVsbFllYXIoKSA9PT0geWVhciAmJiBkLmdldFVUQ01vbnRoKCkgPT09IG1vbnRoIC0gMSAmJiBkLmdldFVUQ0RhdGUoKSA9PT0gZGF5Owp9CgpmdW5jdGlvbiBwYXJzZURhdGVTdHJpbmcodmFsdWU6IHVua25vd24pOiB7IHllYXI6IG51bWJlcjsgbW9udGg6IG51bWJlcjsgZGF5OiBudW1iZXIgfSB8IG51bGwgewogIGNvbnN0IHJhdyA9IFN0cmluZyh2YWx1ZSB8fCAnJykudHJpbSgpOwogIGlmICghcmF3KSByZXR1cm4gbnVsbDsKCiAgY29uc3QgaXNvID0gcmF3Lm1hdGNoKC9eKFxkezR9KS0oXGR7MSwyfSktKFxkezEsMn0pKD86W1Rcc10uKik/JC8pOwogIGlmIChpc28pIHsKICAgIGNvbnN0IFssIHksIG0sIGRdID0gaXNvOwogICAgY29uc3QgeWVhciA9IE51bWJlcih5KSwgbW9udGggPSBOdW1iZXIobSksIGRheSA9IE51bWJlcihkKTsKICAgIHJldHVybiBpc1ZhbGlkRGF0ZVBhcnRzKHllYXIsIG1vbnRoLCBkYXkpID8geyB5ZWFyLCBtb250aCwgZGF5IH0gOiBudWxsOwogIH0KCiAgY29uc3Qgc2xhc2ggPSByYXcubWF0Y2goL14oXGR7MSwyfSlbXC9cLS5dKFxkezEsMn0pW1wvXC0uXShcZHs0fSkkLyk7CiAgaWYgKHNsYXNoKSB7CiAgICBjb25zdCBbLCBkLCBtLCB5XSA9IHNsYXNoOwogICAgY29uc3QgeWVhciA9IE51bWJlcih5KSwgbW9udGggPSBOdW1iZXIobSksIGRheSA9IE51bWJlcihkKTsKICAgIHJldHVybiBpc1ZhbGlkRGF0ZVBhcnRzKHllYXIsIG1vbnRoLCBkYXkpID8geyB5ZWFyLCBtb250aCwgZGF5IH0gOiBudWxsOwogIH0KCiAgcmV0dXJuIG51bGw7Cn0KCmZ1bmN0aW9uIHBhcnNlTW9udGhTdHJpbmcodmFsdWU6IHVua25vd24pOiB7IHllYXI6IG51bWJlcjsgbW9udGg6IG51bWJlciB9IHwgbnVsbCB7CiAgY29uc3QgcmF3ID0gU3RyaW5nKHZhbHVlIHx8ICcnKS50cmltKCk7CiAgaWYgKCFyYXcpIHJldHVybiBudWxsOwoKICBjb25zdCBpc29Nb250aCA9IHJhdy5tYXRjaCgvXihcZHs0fSktKFxkezEsMn0pJC8pOwogIGlmIChpc29Nb250aCkgewogICAgY29uc3QgeWVhciA9IE51bWJlcihpc29Nb250aFsxXSksIG1vbnRoID0gTnVtYmVyKGlzb01vbnRoWzJdKTsKICAgIHJldHVybiBOdW1iZXIuaXNJbnRlZ2VyKHllYXIpICYmIE51bWJlci5pc0ludGVnZXIobW9udGgpICYmIHllYXIgPj0gMjAwMCAmJiB5ZWFyIDw9IDIxMDAgJiYgbW9udGggPj0gMSAmJiBtb250aCA8PSAxMgogICAgICA/IHsgeWVhciwgbW9udGggfQogICAgICA6IG51bGw7CiAgfQoKICBjb25zdCBsb2NhbE1vbnRoID0gcmF3Lm1hdGNoKC9eKFxkezEsMn0pW1wvXC0uXShcZHs0fSkkLyk7CiAgaWYgKGxvY2FsTW9udGgpIHsKICAgIGNvbnN0IG1vbnRoID0gTnVtYmVyKGxvY2FsTW9udGhbMV0pLCB5ZWFyID0gTnVtYmVyKGxvY2FsTW9udGhbMl0pOwogICAgcmV0dXJuIE51bWJlci5pc0ludGVnZXIoeWVhcikgJiYgTnVtYmVyLmlzSW50ZWdlcihtb250aCkgJiYgeWVhciA+PSAyMDAwICYmIHllYXIgPD0gMjEwMCAmJiBtb250aCA+PSAxICYmIG1vbnRoIDw9IDEyCiAgICAgID8geyB5ZWFyLCBtb250aCB9CiAgICAgIDogbnVsbDsKICB9CgogIHJldHVybiBudWxsOwp9CgpmdW5jdGlvbiB0b0lzb0xvY2FsRGF0ZSh5ZWFyOiBudW1iZXIsIG1vbnRoOiBudW1iZXIsIGRheTogbnVtYmVyLCBub3c6IERhdGUpOiBzdHJpbmcgewogIGNvbnN0IGhoID0gU3RyaW5nKG5vdy5nZXRVVENIb3VycygpKS5wYWRTdGFydCgyLCAnMCcpOwogIGNvbnN0IG1tID0gU3RyaW5nKG5vdy5nZXRVVENNaW51dGVzKCkpLnBhZFN0YXJ0KDIsICcwJyk7CiAgY29uc3Qgc3MgPSBTdHJpbmcobm93LmdldFVUQ1NlY29uZHMoKSkucGFkU3RhcnQoMiwgJzAnKTsKICBjb25zdCBtcyA9IFN0cmluZyhub3cuZ2V0VVRDTWlsbGlzZWNvbmRzKCkpLnBhZFN0YXJ0KDMsICcwJyk7CiAgcmV0dXJuIGAke3llYXJ9LSR7U3RyaW5nKG1vbnRoKS5wYWRTdGFydCgyLCAnMCcpfS0ke1N0cmluZyhkYXkpLnBhZFN0YXJ0KDIsICcwJyl9VCR7aGh9OiR7bW19OiR7c3N9LiR7bXN9WmA7Cn0KCmV4cG9ydCBmdW5jdGlvbiBub3JtYWxpemVIaXN0b3JpY2FsVHJhbnNhY3Rpb25EYXRlKGlucHV0OiB7CiAgZGF0ZT86IHVua25vd247CiAgaGlzdG9yaWNhbE1vbnRoPzogdW5rbm93bjsKICBkYXk/OiB1bmtub3duOwogIG5vdz86IERhdGU7Cn0pOiBIaXN0b3JpY2FsRGF0ZVJlc3VsdCB7CiAgY29uc3Qgbm93ID0gaW5wdXQubm93IHx8IG5ldyBEYXRlKCk7CiAgaWYgKGlucHV0LmRhdGUgIT09IHVuZGVmaW5lZCAmJiBTdHJpbmcoaW5wdXQuZGF0ZSB8fCAnJykudHJpbSgpKSB7CiAgICBjb25zdCBwYXJzZWQgPSBwYXJzZURhdGVTdHJpbmcoaW5wdXQuZGF0ZSk7CiAgICBpZiAoIXBhcnNlZCkgewogICAgICByZXR1cm4geyBvazogZmFsc2UsIHJlYXNvbjogJ0lOVkFMSURfVFJBTlNBQ1RJT05fREFURScsIG1lc3NhZ2U6ICfYp9mE2KrYp9ix2YrYriDYutmK2LEg2LXYp9mE2K0uINin2LPYqtiu2K/ZhSDYtdmK2LrYqSDZhdir2YQgMjAyNi0wNi0xNSDYo9mIIDE1LzA2LzIwMjYuJyB9OwogICAgfQogICAgcmV0dXJuIHsgb2s6IHRydWUsIGRhdGU6IHRvSXNvTG9jYWxEYXRlKHBhcnNlZC55ZWFyLCBwYXJzZWQubW9udGgsIHBhcnNlZC5kYXksIG5vdyksIHNvdXJjZTogJ2V4cGxpY2l0LWRhdGUnIH07CiAgfQoKICBpZiAoaW5wdXQuaGlzdG9yaWNhbE1vbnRoICE9PSB1bmRlZmluZWQgJiYgU3RyaW5nKGlucHV0Lmhpc3RvcmljYWxNb250aCB8fCAnJykudHJpbSgpKSB7CiAgICBjb25zdCBwYXJzZWRNb250aCA9IHBhcnNlTW9udGhTdHJpbmcoaW5wdXQuaGlzdG9yaWNhbE1vbnRoKTsKICAgIGlmICghcGFyc2VkTW9udGgpIHsKICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCByZWFzb246ICdJTlZBTElEX1RSQU5TQUNUSU9OX0RBVEUnLCBtZXNzYWdlOiAn2KfZhNi02YfYsSDYp9mE2KrYp9ix2YrYrtmKINi62YrYsSDYtdin2YTYrS4g2KfYs9iq2K7Yr9mFINi12YrYutipINmF2KvZhCAyMDI2LTA2INij2YggNi8yMDI2LicgfTsKICAgIH0KICAgIGNvbnN0IGRheSA9IE51bWJlcihpbnB1dC5kYXkpOwogICAgaWYgKCFOdW1iZXIuaXNJbnRlZ2VyKGRheSkpIHsKICAgICAgcmV0dXJuIHsKICAgICAgICBvazogZmFsc2UsCiAgICAgICAgcmVhc29uOiAnTUlTU0lOR19ISVNUT1JJQ0FMX0RBWScsCiAgICAgICAgbWVzc2FnZTogYNij2Yog2YrZiNmFINmB2Yog2LTZh9ixICR7U3RyaW5nKHBhcnNlZE1vbnRoLm1vbnRoKS5wYWRTdGFydCgyLCAnMCcpfS8ke3BhcnNlZE1vbnRoLnllYXJ9INij2LPYrNmEINmH2LDZhyDYp9mE2LnZhdmE2YrYqdifINin2LDZg9ixINin2YTZitmI2YUg2KPZiCDYo9i52LfZhtmKINiq2KfYsdmK2K7Yp9mLINmD2KfZhdmE2KfZiyDZhNmD2YQg2KjZhtivLmAsCiAgICAgIH07CiAgICB9CiAgICBpZiAoIWlzVmFsaWREYXRlUGFydHMocGFyc2VkTW9udGgueWVhciwgcGFyc2VkTW9udGgubW9udGgsIGRheSkpIHsKICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCByZWFzb246ICdJTlZBTElEX1RSQU5TQUNUSU9OX0RBVEUnLCBtZXNzYWdlOiAn2KfZhNmK2YjZhSDYutmK2LEg2LXYp9mE2K0g2YTZh9iw2Kcg2KfZhNi02YfYsS4g2KPYudi32YbZiiDYqtin2LHZitiu2KfZiyDYtdit2YrYrdin2Ysg2YTZhNi52YXZhNmK2KkuJyB9OwogICAgfQogICAgcmV0dXJuIHsgb2s6IHRydWUsIGRhdGU6IHRvSXNvTG9jYWxEYXRlKHBhcnNlZE1vbnRoLnllYXIsIHBhcnNlZE1vbnRoLm1vbnRoLCBkYXksIG5vdyksIHNvdXJjZTogJ2hpc3RvcmljYWwtbW9udGgnIH07CiAgfQoKICByZXR1cm4geyBvazogdHJ1ZSwgZGF0ZTogbm93LnRvSVNPU3RyaW5nKCksIHNvdXJjZTogJ2N1cnJlbnQtdGltZScgfTsKfQo=
+export type HistoricalDateResult =
+  | { ok: true; date: string; source: 'explicit-date' | 'historical-month' | 'current-time' }
+  | { ok: false; reason: 'INVALID_TRANSACTION_DATE' | 'MISSING_HISTORICAL_DAY'; message: string };
+
+function isValidDateParts(year: number, month: number, day: number): boolean {
+  if (!Number.isInteger(year) || !Number.isInteger(month) || !Number.isInteger(day)) return false;
+  if (year < 2000 || year > 2100 || month < 1 || month > 12 || day < 1 || day > 31) return false;
+  const d = new Date(Date.UTC(year, month - 1, day));
+  return d.getUTCFullYear() === year && d.getUTCMonth() === month - 1 && d.getUTCDate() === day;
+}
+
+function parseDateString(value: unknown): { year: number; month: number; day: number } | null {
+  const raw = String(value || '').trim();
+  if (!raw) return null;
+
+  const iso = raw.match(/^(\d{4})-(\d{1,2})-(\d{1,2})(?:[T\s].*)?$/);
+  if (iso) {
+    const [, y, m, d] = iso;
+    const year = Number(y), month = Number(m), day = Number(d);
+    return isValidDateParts(year, month, day) ? { year, month, day } : null;
+  }
+
+  const slash = raw.match(/^(\d{1,2})[\/\-.](\d{1,2})[\/\-.](\d{4})$/);
+  if (slash) {
+    const [, d, m, y] = slash;
+    const year = Number(y), month = Number(m), day = Number(d);
+    return isValidDateParts(year, month, day) ? { year, month, day } : null;
+  }
+
+  return null;
+}
+
+function parseMonthString(value: unknown): { year: number; month: number } | null {
+  const raw = String(value || '').trim();
+  if (!raw) return null;
+
+  const isoMonth = raw.match(/^(\d{4})-(\d{1,2})$/);
+  if (isoMonth) {
+    const year = Number(isoMonth[1]), month = Number(isoMonth[2]);
+    return Number.isInteger(year) && Number.isInteger(month) && year >= 2000 && year <= 2100 && month >= 1 && month <= 12
+      ? { year, month }
+      : null;
+  }
+
+  const localMonth = raw.match(/^(\d{1,2})[\/\-.](\d{4})$/);
+  if (localMonth) {
+    const month = Number(localMonth[1]), year = Number(localMonth[2]);
+    return Number.isInteger(year) && Number.isInteger(month) && year >= 2000 && year <= 2100 && month >= 1 && month <= 12
+      ? { year, month }
+      : null;
+  }
+
+  return null;
+}
+
+function toIsoLocalDate(year: number, month: number, day: number, now: Date): string {
+  const hh = String(now.getUTCHours()).padStart(2, '0');
+  const mm = String(now.getUTCMinutes()).padStart(2, '0');
+  const ss = String(now.getUTCSeconds()).padStart(2, '0');
+  const ms = String(now.getUTCMilliseconds()).padStart(3, '0');
+  return `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T${hh}:${mm}:${ss}.${ms}Z`;
+}
+
+export function normalizeHistoricalTransactionDate(input: {
+  date?: unknown;
+  historicalMonth?: unknown;
+  day?: unknown;
+  now?: Date;
+}): HistoricalDateResult {
+  const now = input.now || new Date();
+  if (input.date !== undefined && String(input.date || '').trim()) {
+    const parsed = parseDateString(input.date);
+    if (!parsed) {
+      return { ok: false, reason: 'INVALID_TRANSACTION_DATE', message: 'التاريخ غير صالح. استخدم صيغة مثل 2026-06-15 أو 15/06/2026.' };
+    }
+    return { ok: true, date: toIsoLocalDate(parsed.year, parsed.month, parsed.day, now), source: 'explicit-date' };
+  }
+
+  if (input.historicalMonth !== undefined && String(input.historicalMonth || '').trim()) {
+    const parsedMonth = parseMonthString(input.historicalMonth);
+    if (!parsedMonth) {
+      return { ok: false, reason: 'INVALID_TRANSACTION_DATE', message: 'الشهر التاريخي غير صالح. استخدم صيغة مثل 2026-06 أو 6/2026.' };
+    }
+    const day = Number(input.day);
+    if (!Number.isInteger(day)) {
+      return {
+        ok: false,
+        reason: 'MISSING_HISTORICAL_DAY',
+        message: `أي يوم في شهر ${String(parsedMonth.month).padStart(2, '0')}/${parsedMonth.year} أسجل هذه العملية؟ اذكر اليوم أو أعطني تاريخاً كاملاً لكل بند.`,
+      };
+    }
+    if (!isValidDateParts(parsedMonth.year, parsedMonth.month, day)) {
+      return { ok: false, reason: 'INVALID_TRANSACTION_DATE', message: 'اليوم غير صالح لهذا الشهر. أعطني تاريخاً صحيحاً للعملية.' };
+    }
+    return { ok: true, date: toIsoLocalDate(parsedMonth.year, parsedMonth.month, day, now), source: 'historical-month' };
+  }
+
+  return { ok: true, date: now.toISOString(), source: 'current-time' };
+}

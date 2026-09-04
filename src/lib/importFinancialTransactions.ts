@@ -1,1 +1,127 @@
-aW1wb3J0IHsgcGFyc2VQb3NpdGl2ZUZpbmFuY2lhbEFtb3VudCB9IGZyb20gJy4vYW1vdW50JzsKaW1wb3J0IHsgbm9ybWFsaXplQ3JlZGl0b3JLZXkgfSBmcm9tICcuL2JhbGFuY2VDYWxjJzsKCmV4cG9ydCB0eXBlIFByZXBhcmVkSW1wb3J0ZWRUcmFuc2FjdGlvbiA9IHsgc291cmNlSWQ6IHN0cmluZzsgZG9jRGF0YTogUmVjb3JkPHN0cmluZywgdW5rbm93bj4gfTsKCmV4cG9ydCB0eXBlIEltcG9ydFZhbGlkYXRpb25GYWlsdXJlID0gewogIGluZGV4OiBudW1iZXI7CiAgY29kZTogc3RyaW5nOwogIG1lc3NhZ2U6IHN0cmluZzsKfTsKCmV4cG9ydCBmdW5jdGlvbiBwcmVwYXJlSW1wb3J0ZWRGaW5hbmNpYWxUcmFuc2FjdGlvbnModHJhbnNhY3Rpb25zOiB1bmtub3duW10sIHVzZXJJZDogc3RyaW5nLCB0aW1lc3RhbXA6ICgpID0+IHN0cmluZyA9ICgpID0+IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSk6IHsKICBvazogdHJ1ZTsKICBlbnRyaWVzOiBQcmVwYXJlZEltcG9ydGVkVHJhbnNhY3Rpb25bXTsKfSB8IHsKICBvazogZmFsc2U7CiAgZmFpbHVyZXM6IEltcG9ydFZhbGlkYXRpb25GYWlsdXJlW107Cn0gewogIGNvbnN0IGVudHJpZXM6IFByZXBhcmVkSW1wb3J0ZWRUcmFuc2FjdGlvbltdID0gW107CiAgY29uc3QgZmFpbHVyZXM6IEltcG9ydFZhbGlkYXRpb25GYWlsdXJlW10gPSBbXTsKICBjb25zdCBzZWVuU291cmNlSWRzID0gbmV3IFNldDxzdHJpbmc+KCk7CiAgY29uc3Qgc2Vlbk9wZXJhdGlvbklkcyA9IG5ldyBTZXQ8c3RyaW5nPigpOwogIGNvbnN0IGNhbm9uaWNhbEFjY291bnRzID0gbmV3IFNldChbJ2Nhc2gnLCAncGFsUGF5JywgJ2RlYnQnXSk7CgogIGZvciAoY29uc3QgW2luZGV4LCByYXdUeF0gb2YgdHJhbnNhY3Rpb25zLmVudHJpZXMoKSkgewogICAgaWYgKCFyYXdUeCB8fCB0eXBlb2YgcmF3VHggIT09ICdvYmplY3QnIHx8IEFycmF5LmlzQXJyYXkocmF3VHgpKSB7CiAgICAgIGZhaWx1cmVzLnB1c2goeyBpbmRleCwgY29kZTogJ0lOVkFMSURfVFJBTlNBQ1RJT05fT0JKRUNUJywgbWVzc2FnZTogJ9iz2KzZhCDYp9mE2LnZhdmE2YrYqSDZhNmK2LMg2YPYp9im2YbYp9mLINi12KfZhNit2KfZiy4nIH0pOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBjb25zdCB0ID0gcmF3VHggYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj47CiAgICBjb25zdCBhbW91bnQgPSBwYXJzZVBvc2l0aXZlRmluYW5jaWFsQW1vdW50KHQuYW1vdW50KTsKICAgIGlmIChhbW91bnQgPD0gMCkgewogICAgICBmYWlsdXJlcy5wdXNoKHsgaW5kZXgsIGNvZGU6ICdJTlZBTElEX0FNT1VOVCcsIG1lc3NhZ2U6ICfZg9mEINi52YXZhNmK2Kkg2YXYs9iq2YjYsdiv2Kkg2YrYrNioINij2YYg2KrYrdiq2YjZiiDZhdio2YTYutin2Ysg2YXZiNis2KjYp9mLINi12KfZhNit2KfZiy4nIH0pOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBjb25zdCBvcmlnaW5hbFR5cGUgPSBTdHJpbmcodC50eXBlIHx8ICcnKS50cmltKCk7CiAgICBpZiAoIVsnaW5jb21lJywgJ2V4cGVuc2UnLCAndHJhbnNmZXInXS5pbmNsdWRlcyhvcmlnaW5hbFR5cGUpKSB7CiAgICAgIGZhaWx1cmVzLnB1c2goeyBpbmRleCwgY29kZTogJ0lOVkFMSURfVFJBTlNBQ1RJT05fVFlQRScsIG1lc3NhZ2U6IGDZhtmI2Lkg2KfZhNi52YXZhNmK2Kkg2LrZitixINi12KfZhNitOiAke29yaWdpbmFsVHlwZSB8fCAnKG1pc3NpbmcpJ31gIH0pOwogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBjb25zdCBzb3VyY2VJZCA9IFN0cmluZyh0LmlkIHx8IHQubGVnYWN5SWQgfHwgJycpLnRyaW0oKTsKICAgIGlmIChzb3VyY2VJZCkgewogICAgICBpZiAoc2VlblNvdXJjZUlkcy5oYXMoc291cmNlSWQpKSB7CiAgICAgICAgZmFpbHVyZXMucHVzaCh7IGluZGV4LCBjb2RlOiAnRFVQTElDQVRFX1RSQU5TQUNUSU9OX0lEJywgbWVzc2FnZTogYNmF2LnYsdmBINin2YTYudmF2YTZitipINmF2YPYsdixINiv2KfYrtmEINin2YTZhtiz2K7YqSDYp9mE2KfYrdiq2YrYp9i32YrYqTogJHtzb3VyY2VJZH1gIH0pOwogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIHNlZW5Tb3VyY2VJZHMuYWRkKHNvdXJjZUlkKTsKICAgIH0KCiAgICBjb25zdCBvcGVyYXRpb25JZCA9IFN0cmluZyh0Lm9wZXJhdGlvbklkIHx8ICcnKS50cmltKCk7CiAgICBpZiAob3BlcmF0aW9uSWQpIHsKICAgICAgaWYgKHNlZW5PcGVyYXRpb25JZHMuaGFzKG9wZXJhdGlvbklkKSkgewogICAgICAgIGZhaWx1cmVzLnB1c2goeyBpbmRleCwgY29kZTogJ0RVUExJQ0FURV9PUEVSQVRJT05fSUQnLCBtZXNzYWdlOiBgb3BlcmF0aW9uSWQg2YXZg9ix2LEg2K/Yp9iu2YQg2KfZhNmG2LPYrtipINin2YTYp9it2KrZitin2LfZitipOiAke29wZXJhdGlvbklkfWAgfSk7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgc2Vlbk9wZXJhdGlvbklkcy5hZGQob3BlcmF0aW9uSWQpOwogICAgfQoKICAgIGNvbnN0IHJhd0FjY291bnQgPSBTdHJpbmcodC5hY2NvdW50IHx8ICcnKS50cmltKCk7CiAgICBjb25zdCByYXdGcm9tQWNjb3VudCA9IFN0cmluZyh0LmZyb21BY2NvdW50IHx8IHQuYWNjb3VudCB8fCAnJykudHJpbSgpOwogICAgY29uc3QgcmF3VG9BY2NvdW50ID0gU3RyaW5nKHQudG9BY2NvdW50IHx8ICcnKS50cmltKCk7CgogICAgaWYgKG9yaWdpbmFsVHlwZSA9PT0gJ3RyYW5zZmVyJykgewogICAgICBpZiAoIWNhbm9uaWNhbEFjY291bnRzLmhhcyhyYXdGcm9tQWNjb3VudCkgfHwgIWNhbm9uaWNhbEFjY291bnRzLmhhcyhyYXdUb0FjY291bnQpKSB7CiAgICAgICAgZmFpbHVyZXMucHVzaCh7IGluZGV4LCBjb2RlOiAnSU5WQUxJRF9UUkFOU0ZFUl9BQ0NPVU5UUycsIG1lc3NhZ2U6ICfYp9mE2KrYrdmI2YrZhCDYp9mE2YXYs9iq2YjYsdivINmK2KzYqCDYo9mGINmK2K3YqtmI2YogZnJvbUFjY291bnQg2Yh0b0FjY291bnQg2KjZgtmK2YUgY2FzaCDYo9mIIHBhbFBheSDYo9mIIGRlYnQuJyB9KTsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBpZiAocmF3RnJvbUFjY291bnQgPT09IHJhd1RvQWNjb3VudCkgewogICAgICAgIGZhaWx1cmVzLnB1c2goeyBpbmRleCwgY29kZTogJ1NBTUVfVFJBTlNGRVJfQUNDT1VOVCcsIG1lc3NhZ2U6ICfYp9mE2KrYrdmI2YrZhCDYp9mE2YXYs9iq2YjYsdivINmE2Kcg2YrZhdmD2YYg2KPZhiDZitmD2YjZhiDZhdmGINin2YTYrdiz2KfYqCDZhtmB2LPZhyDYpdmE2Ykg2KfZhNit2LPYp9ioINmG2YHYs9mHLicgfSk7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgIH0gZWxzZSBpZiAoIWNhbm9uaWNhbEFjY291bnRzLmhhcyhyYXdBY2NvdW50KSkgewogICAgICBmYWlsdXJlcy5wdXNoKHsgaW5kZXgsIGNvZGU6ICdJTlZBTElEX0FDQ09VTlQnLCBtZXNzYWdlOiAn2KfZhNi52YXZhNmK2Kkg2KfZhNmF2LPYqtmI2LHYr9ipINmK2KzYqCDYo9mGINiq2K3YqtmI2YogYWNjb3VudCDYqNmC2YrZhdipIGNhc2gg2KPZiCBwYWxQYXkg2KPZiCBkZWJ0LicgfSk7CiAgICAgIGNvbnRpbnVlOwogICAgfQoKICAgIGNvbnN0IG1lcmNoYW50ID0gU3RyaW5nKHQubWVyY2hhbnQgfHwgJycpLnRyaW0oKTsKICAgIGNvbnN0IGNyZWRpdG9yID0gU3RyaW5nKHQuY3JlZGl0b3IgfHwgbWVyY2hhbnQpLnRyaW0oKTsKICAgIGNvbnN0IHRyYW5zZmVyVG91Y2hlc0RlYnQgPSBvcmlnaW5hbFR5cGUgPT09ICd0cmFuc2ZlcicgJiYgKHJhd0Zyb21BY2NvdW50ID09PSAnZGVidCcgfHwgcmF3VG9BY2NvdW50ID09PSAnZGVidCcpOwogICAgY29uc3QgY3JlZGl0UHVyY2hhc2UgPSBvcmlnaW5hbFR5cGUgPT09ICdleHBlbnNlJyAmJiByYXdBY2NvdW50ID09PSAnZGVidCc7CiAgICBpZiAoKHRyYW5zZmVyVG91Y2hlc0RlYnQgfHwgY3JlZGl0UHVyY2hhc2UpICYmICFjcmVkaXRvcikgewogICAgICBmYWlsdXJlcy5wdXNoKHsgaW5kZXgsIGNvZGU6ICdNSVNTSU5HX0NSRURJVE9SJywgbWVzc2FnZTogJ9ij2Yog2LnZhdmE2YrYqSDZhdiz2KrZiNix2K/YqSDYqtik2KvYsSDYudmE2Ykg2KfZhNiv2YrZhiDZitis2Kgg2KPZhiDYqtit2K/YryDYp9mE2K/Yp9im2YYuJyB9KTsKICAgICAgY29udGludWU7CiAgICB9CgogICAgY29uc3Qgbm93ID0gdGltZXN0YW1wKCk7CiAgICBjb25zdCBkb2NEYXRhOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHsKICAgICAgdXNlcklkLAogICAgICBhbW91bnQ6IE1hdGguYWJzKGFtb3VudCksCiAgICAgIHR5cGU6IG9yaWdpbmFsVHlwZSwKICAgICAgYWNjb3VudDogb3JpZ2luYWxUeXBlID09PSAndHJhbnNmZXInID8gcmF3RnJvbUFjY291bnQgOiByYXdBY2NvdW50LAogICAgICBjYXRlZ29yeTogU3RyaW5nKHQuY2F0ZWdvcnkgfHwgJycpLAogICAgICBzdWJjYXRlZ29yeTogU3RyaW5nKHQuc3ViY2F0ZWdvcnkgfHwgJycpLAogICAgICBub3RlczogU3RyaW5nKHQubm90ZXMgfHwgdC5uYW1lIHx8ICcnKSwKICAgICAgbWVyY2hhbnQsCiAgICAgIG5lY2Vzc2l0eTogU3RyaW5nKHQubmVjZXNzaXR5IHx8ICcnKSwKICAgICAgZGF0ZTogdC5kYXRlIHx8IHQuY3JlYXRlZEF0IHx8IG5vdywKICAgICAgY3JlYXRlZEF0OiB0LmNyZWF0ZWRBdCB8fCBub3csCiAgICAgIGltcG9ydGVkQXQ6IG5vdywKICAgIH07CgogICAgaWYgKHQucHVyY2hhc2VJdGVtICE9PSB1bmRlZmluZWQpIGRvY0RhdGEucHVyY2hhc2VJdGVtID0gU3RyaW5nKHQucHVyY2hhc2VJdGVtIHx8ICcnKTsKICAgIGlmICh0LmJlbmVmaWNpYXJ5ICE9PSB1bmRlZmluZWQpIGRvY0RhdGEuYmVuZWZpY2lhcnkgPSBTdHJpbmcodC5iZW5lZmljaWFyeSB8fCAnJyk7CiAgICBpZiAodC5uZWNlc3NpdHlTb3VyY2UgIT09IHVuZGVmaW5lZCkgZG9jRGF0YS5uZWNlc3NpdHlTb3VyY2UgPSBTdHJpbmcodC5uZWNlc3NpdHlTb3VyY2UgfHwgJycpOwogICAgaWYgKHQubmVjZXNzaXR5UmVhc29uICE9PSB1bmRlZmluZWQpIGRvY0RhdGEubmVjZXNzaXR5UmVhc29uID0gU3RyaW5nKHQubmVjZXNzaXR5UmVhc29uIHx8ICcnKTsKICAgIGlmICh0LnRyYW5zYWN0aW9uVHlwZSkgZG9jRGF0YS50cmFuc2FjdGlvblR5cGUgPSBTdHJpbmcodC50cmFuc2FjdGlvblR5cGUpOwogICAgaWYgKGNyZWRpdG9yKSBkb2NEYXRhLmNyZWRpdG9yID0gY3JlZGl0b3I7CiAgICBpZiAodC5jcmVkaXRvcktleSkgZG9jRGF0YS5jcmVkaXRvcktleSA9IFN0cmluZyh0LmNyZWRpdG9yS2V5KTsKICAgIGlmICghZG9jRGF0YS5jcmVkaXRvcktleSAmJiBjcmVkaXRvcikgZG9jRGF0YS5jcmVkaXRvcktleSA9IG5vcm1hbGl6ZUNyZWRpdG9yS2V5KGNyZWRpdG9yKTsKICAgIGlmIChvcGVyYXRpb25JZCkgZG9jRGF0YS5vcGVyYXRpb25JZCA9IG9wZXJhdGlvbklkOwoKICAgIGlmIChvcmlnaW5hbFR5cGUgPT09ICd0cmFuc2ZlcicpIHsKICAgICAgZG9jRGF0YS5mcm9tQWNjb3VudCA9IHJhd0Zyb21BY2NvdW50OwogICAgICBkb2NEYXRhLnRvQWNjb3VudCA9IHJhd1RvQWNjb3VudDsKICAgIH0KCiAgICBlbnRyaWVzLnB1c2goeyBzb3VyY2VJZCwgZG9jRGF0YSB9KTsKICB9CgogIGlmIChmYWlsdXJlcy5sZW5ndGggPiAwKSByZXR1cm4geyBvazogZmFsc2UsIGZhaWx1cmVzIH07CiAgcmV0dXJuIHsgb2s6IHRydWUsIGVudHJpZXMgfTsKfQo=
+import { parsePositiveFinancialAmount } from './amount';
+import { normalizeCreditorKey } from './balanceCalc';
+
+export type PreparedImportedTransaction = { sourceId: string; docData: Record<string, unknown> };
+
+export type ImportValidationFailure = {
+  index: number;
+  code: string;
+  message: string;
+};
+
+export function prepareImportedFinancialTransactions(transactions: unknown[], userId: string, timestamp: () => string = () => new Date().toISOString()): {
+  ok: true;
+  entries: PreparedImportedTransaction[];
+} | {
+  ok: false;
+  failures: ImportValidationFailure[];
+} {
+  const entries: PreparedImportedTransaction[] = [];
+  const failures: ImportValidationFailure[] = [];
+  const seenSourceIds = new Set<string>();
+  const seenOperationIds = new Set<string>();
+  const canonicalAccounts = new Set(['cash', 'palPay', 'debt']);
+
+  for (const [index, rawTx] of transactions.entries()) {
+    if (!rawTx || typeof rawTx !== 'object' || Array.isArray(rawTx)) {
+      failures.push({ index, code: 'INVALID_TRANSACTION_OBJECT', message: 'سجل العملية ليس كائناً صالحاً.' });
+      continue;
+    }
+
+    const t = rawTx as Record<string, unknown>;
+    const amount = parsePositiveFinancialAmount(t.amount);
+    if (amount <= 0) {
+      failures.push({ index, code: 'INVALID_AMOUNT', message: 'كل عملية مستوردة يجب أن تحتوي مبلغاً موجباً صالحاً.' });
+      continue;
+    }
+
+    const originalType = String(t.type || '').trim();
+    if (!['income', 'expense', 'transfer'].includes(originalType)) {
+      failures.push({ index, code: 'INVALID_TRANSACTION_TYPE', message: `نوع العملية غير صالح: ${originalType || '(missing)'}` });
+      continue;
+    }
+
+    const sourceId = String(t.id || t.legacyId || '').trim();
+    if (sourceId) {
+      if (seenSourceIds.has(sourceId)) {
+        failures.push({ index, code: 'DUPLICATE_TRANSACTION_ID', message: `معرف العملية مكرر داخل النسخة الاحتياطية: ${sourceId}` });
+        continue;
+      }
+      seenSourceIds.add(sourceId);
+    }
+
+    const operationId = String(t.operationId || '').trim();
+    if (operationId) {
+      if (seenOperationIds.has(operationId)) {
+        failures.push({ index, code: 'DUPLICATE_OPERATION_ID', message: `operationId مكرر داخل النسخة الاحتياطية: ${operationId}` });
+        continue;
+      }
+      seenOperationIds.add(operationId);
+    }
+
+    const rawAccount = String(t.account || '').trim();
+    const rawFromAccount = String(t.fromAccount || t.account || '').trim();
+    const rawToAccount = String(t.toAccount || '').trim();
+
+    if (originalType === 'transfer') {
+      if (!canonicalAccounts.has(rawFromAccount) || !canonicalAccounts.has(rawToAccount)) {
+        failures.push({ index, code: 'INVALID_TRANSFER_ACCOUNTS', message: 'التحويل المستورد يجب أن يحتوي fromAccount وtoAccount بقيم cash أو palPay أو debt.' });
+        continue;
+      }
+      if (rawFromAccount === rawToAccount) {
+        failures.push({ index, code: 'SAME_TRANSFER_ACCOUNT', message: 'التحويل المستورد لا يمكن أن يكون من الحساب نفسه إلى الحساب نفسه.' });
+        continue;
+      }
+    } else if (!canonicalAccounts.has(rawAccount)) {
+      failures.push({ index, code: 'INVALID_ACCOUNT', message: 'العملية المستوردة يجب أن تحتوي account بقيمة cash أو palPay أو debt.' });
+      continue;
+    }
+
+    const merchant = String(t.merchant || '').trim();
+    const creditor = String(t.creditor || merchant).trim();
+    const transferTouchesDebt = originalType === 'transfer' && (rawFromAccount === 'debt' || rawToAccount === 'debt');
+    const creditPurchase = originalType === 'expense' && rawAccount === 'debt';
+    if ((transferTouchesDebt || creditPurchase) && !creditor) {
+      failures.push({ index, code: 'MISSING_CREDITOR', message: 'أي عملية مستوردة تؤثر على الدين يجب أن تحدد الدائن.' });
+      continue;
+    }
+
+    const now = timestamp();
+    const docData: Record<string, unknown> = {
+      userId,
+      amount: Math.abs(amount),
+      type: originalType,
+      account: originalType === 'transfer' ? rawFromAccount : rawAccount,
+      category: String(t.category || ''),
+      subcategory: String(t.subcategory || ''),
+      notes: String(t.notes || t.name || ''),
+      merchant,
+      necessity: String(t.necessity || ''),
+      date: t.date || t.createdAt || now,
+      createdAt: t.createdAt || now,
+      importedAt: now,
+    };
+
+    // Restore reconstructs historical state; it must preserve semantics without
+    // inventing missing business facts or replaying side effects/notifications.
+    if (t.purchaseItem !== undefined) docData.purchaseItem = String(t.purchaseItem || '');
+    if (t.beneficiary !== undefined) docData.beneficiary = String(t.beneficiary || '');
+    if (t.necessitySource !== undefined) docData.necessitySource = String(t.necessitySource || '');
+    if (t.necessityReason !== undefined) docData.necessityReason = String(t.necessityReason || '');
+    if (t.transactionType) docData.transactionType = String(t.transactionType);
+    if (creditor) docData.creditor = creditor;
+    if (t.creditorKey) docData.creditorKey = String(t.creditorKey);
+    if (!docData.creditorKey && creditor) docData.creditorKey = normalizeCreditorKey(creditor);
+    if (operationId) docData.operationId = operationId;
+
+    if (originalType === 'transfer') {
+      docData.fromAccount = rawFromAccount;
+      docData.toAccount = rawToAccount;
+    }
+
+    entries.push({ sourceId, docData });
+  }
+
+  if (failures.length > 0) return { ok: false, failures };
+  return { ok: true, entries };
+}

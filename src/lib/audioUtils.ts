@@ -1,1 +1,55 @@
-LyoqCiAqIENvbnZlcnRzIGEgRmxvYXQzMkFycmF5IChQQ00gYXVkaW8pIGZyb20gdGhlIG1pY3JvcGhvbmUgdG8gYmFzZTY0LgogKi8KZXhwb3J0IGZ1bmN0aW9uIHBjbVRvQmFzZTY0KHBjbURhdGE6IEZsb2F0MzJBcnJheSk6IHN0cmluZyB7CiAgY29uc3QgYnVmZmVyID0gbmV3IEFycmF5QnVmZmVyKHBjbURhdGEubGVuZ3RoICogMik7CiAgY29uc3QgdmlldyA9IG5ldyBEYXRhVmlldyhidWZmZXIpOwoKICBmb3IgKGxldCBpID0gMDsgaSA8IHBjbURhdGEubGVuZ3RoOyBpKyspIHsKICAgIC8vIENsYW1wIGJldHdlZW4gLTEgYW5kIDEKICAgIGNvbnN0IHMgPSBNYXRoLm1heCgtMSwgTWF0aC5taW4oMSwgcGNtRGF0YVtpXSkpOwogICAgLy8gQ29udmVydCB0byAxNi1iaXQgUENNCiAgICB2aWV3LnNldEludDE2KGkgKiAyLCBzIDwgMCA/IHMgKiAweDgwMDAgOiBzICogMHg3RkZGLCB0cnVlKTsKICB9CgogIC8vIENvbnZlcnQgQXJyYXlCdWZmZXIgdG8gYmluYXJ5IHN0cmluZwogIGxldCBiaW5hcnkgPSAnJzsKICBjb25zdCBieXRlcyA9IG5ldyBVaW50OEFycmF5KGJ1ZmZlcik7CiAgY29uc3QgY2h1bmsgPSAweDgwMDA7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBieXRlcy5sZW5ndGg7IGkgKz0gY2h1bmspIHsKICAgIGJpbmFyeSArPSBTdHJpbmcuZnJvbUNoYXJDb2RlLmFwcGx5KG51bGwsIEFycmF5LmZyb20oYnl0ZXMuc3ViYXJyYXkoaSwgaSArIGNodW5rKSkpOwogIH0KCiAgcmV0dXJuIGJ0b2EoYmluYXJ5KTsKfQoKLyoqCiAqIERlY29kZXMgYmFzZTY0IHN0cmluZyBiYWNrIGludG8gRmxvYXQzMkFycmF5IGZvciBwbGF5YmFjayBvciBmdXJ0aGVyIHByb2Nlc3NpbmcuCiAqLwpleHBvcnQgZnVuY3Rpb24gYmFzZTY0VG9QY20oYmFzZTY0OiBzdHJpbmcpOiBGbG9hdDMyQXJyYXkgewogIGNvbnN0IGJpbmFyeSA9IGF0b2IoYmFzZTY0KTsKICBjb25zdCBieXRlcyA9IG5ldyBVaW50OEFycmF5KGJpbmFyeS5sZW5ndGgpOwogIGZvciAobGV0IGkgPSAwOyBpIDwgYmluYXJ5Lmxlbmd0aDsgaSsrKSB7CiAgICBieXRlc1tpXSA9IGJpbmFyeS5jaGFyQ29kZUF0KGkpOwogIH0KCiAgY29uc3QgYnVmZmVyID0gYnl0ZXMuYnVmZmVyOwogIGNvbnN0IHZpZXcgPSBuZXcgRGF0YVZpZXcoYnVmZmVyKTsKICBjb25zdCBwY21EYXRhID0gbmV3IEZsb2F0MzJBcnJheShidWZmZXIuYnl0ZUxlbmd0aCAvIDIpOwoKICBmb3IgKGxldCBpID0gMDsgaSA8IHBjbURhdGEubGVuZ3RoOyBpKyspIHsKICAgIGNvbnN0IGludDE2ID0gdmlldy5nZXRJbnQxNihpICogMiwgdHJ1ZSk7CiAgICBwY21EYXRhW2ldID0gaW50MTYgPCAwID8gaW50MTYgLyAweDgwMDAgOiBpbnQxNiAvIDB4N0ZGRjsKICB9CgogIHJldHVybiBwY21EYXRhOwp9CgovKioKICogQ3JlYXRlcyBhbiBhdWRpbyBidWZmZXIgZnJvbSBQQ00gZGF0YS4KICovCmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVBdWRpb0J1ZmZlcihjdHg6IEF1ZGlvQ29udGV4dCwgcGNtRGF0YTogRmxvYXQzMkFycmF5KTogQXVkaW9CdWZmZXIgewogIGNvbnN0IGJ1ZmZlciA9IGN0eC5jcmVhdGVCdWZmZXIoMSwgcGNtRGF0YS5sZW5ndGgsIGN0eC5zYW1wbGVSYXRlKTsKICBidWZmZXIuZ2V0Q2hhbm5lbERhdGEoMCkuc2V0KHBjbURhdGEpOwogIHJldHVybiBidWZmZXI7Cn0K
+/**
+ * Converts a Float32Array (PCM audio) from the microphone to base64.
+ */
+export function pcmToBase64(pcmData: Float32Array): string {
+  const buffer = new ArrayBuffer(pcmData.length * 2);
+  const view = new DataView(buffer);
+  
+  for (let i = 0; i < pcmData.length; i++) {
+    // Clamp between -1 and 1
+    const s = Math.max(-1, Math.min(1, pcmData[i]));
+    // Convert to 16-bit PCM
+    view.setInt16(i * 2, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+  }
+  
+  // Convert ArrayBuffer to binary string
+  let binary = '';
+  const bytes = new Uint8Array(buffer);
+  const chunk = 0x8000;
+  for (let i = 0; i < bytes.length; i += chunk) {
+    binary += String.fromCharCode.apply(null, Array.from(bytes.subarray(i, i + chunk)));
+  }
+  
+  return btoa(binary);
+}
+
+/**
+ * Decodes base64 string back into Float32Array for playback or further processing.
+ */
+export function base64ToPcm(base64: string): Float32Array {
+  const binary = atob(base64);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) {
+    bytes[i] = binary.charCodeAt(i);
+  }
+  
+  const buffer = bytes.buffer;
+  const view = new DataView(buffer);
+  const pcmData = new Float32Array(buffer.byteLength / 2);
+  
+  for (let i = 0; i < pcmData.length; i++) {
+    const int16 = view.getInt16(i * 2, true);
+    pcmData[i] = int16 < 0 ? int16 / 0x8000 : int16 / 0x7FFF;
+  }
+  
+  return pcmData;
+}
+
+/**
+ * Creates an audio buffer from PCM data.
+ */
+export function createAudioBuffer(ctx: AudioContext, pcmData: Float32Array): AudioBuffer {
+  const buffer = ctx.createBuffer(1, pcmData.length, ctx.sampleRate);
+  buffer.getChannelData(0).set(pcmData);
+  return buffer;
+}

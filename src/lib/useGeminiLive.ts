@@ -1,1 +1,293 @@
-aW1wb3J0IHsgdXNlU3RhdGUsIHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VDYWxsYmFjayB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHsgcGNtVG9CYXNlNjQsIGJhc2U2NFRvUGNtLCBjcmVhdGVBdWRpb0J1ZmZlciB9IGZyb20gJy4vYXVkaW9VdGlscyc7CgpleHBvcnQgZnVuY3Rpb24gdXNlR2VtaW5pTGl2ZShzZXR0aW5ncz86IHsgdm9pY2U6IHN0cmluZzsgcGVyc29uYTogc3RyaW5nOyBhcGlLZXk6IHN0cmluZzsgaWRUb2tlbjogc3RyaW5nIHwgbnVsbDsgdXNlck5hbWU6IHN0cmluZzsgYWlOYW1lOiBzdHJpbmc7IHJlbGF0aW9uc2hpcD86IHN0cmluZyB9KSB7CiAgY29uc3Qgc2V0dGluZ3NSZWYgPSB1c2VSZWYoc2V0dGluZ3MpOwogIHNldHRpbmdzUmVmLmN1cnJlbnQgPSBzZXR0aW5nczsKCiAgY29uc3QgW2lzQ29ubmVjdGVkLCBzZXRJc0Nvbm5lY3RlZF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2lzUmVjb3JkaW5nLCBzZXRJc1JlY29yZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbc3RhdHVzLCBzZXRTdGF0dXNdID0gdXNlU3RhdGU8J2lkbGUnIHwgJ2xpc3RlbmluZycgfCAndGhpbmtpbmcnIHwgJ3RhbGtpbmcnPignaWRsZScpOwoKICBjb25zdCB3c1JlZiA9IHVzZVJlZjxXZWJTb2NrZXQgfCBudWxsPihudWxsKTsKICBjb25zdCBpbnB1dEN0eFJlZiA9IHVzZVJlZjxBdWRpb0NvbnRleHQgfCBudWxsPihudWxsKTsKICBjb25zdCBvdXRwdXRDdHhSZWYgPSB1c2VSZWY8QXVkaW9Db250ZXh0IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcHJvY2Vzc29yUmVmID0gdXNlUmVmPFNjcmlwdFByb2Nlc3Nvck5vZGUgfCBudWxsPihudWxsKTsKICBjb25zdCBzdHJlYW1SZWYgPSB1c2VSZWY8TWVkaWFTdHJlYW0gfCBudWxsPihudWxsKTsKICBjb25zdCBuZXh0UGxheVRpbWVSZWYgPSB1c2VSZWY8bnVtYmVyPigwKTsKICBjb25zdCBhY3RpdmVTb3VyY2VzUmVmID0gdXNlUmVmPEF1ZGlvQnVmZmVyU291cmNlTm9kZVtdPihbXSk7CiAgY29uc3QgY2xpZW50QXVkaW9BY2tTZW50UmVmID0gdXNlUmVmKGZhbHNlKTsKCiAgY29uc3QgZGlzY29ubmVjdCA9IHVzZUNhbGxiYWNrKCgpID0+IHsKICAgIHNldElzQ29ubmVjdGVkKGZhbHNlKTsKICAgIHNldElzUmVjb3JkaW5nKGZhbHNlKTsKICAgIHNldFN0YXR1cygnaWRsZScpOwogICAgaWYgKHdzUmVmLmN1cnJlbnQpIHsgd3NSZWYuY3VycmVudC5jbG9zZSgpOyB3c1JlZi5jdXJyZW50ID0gbnVsbDsgfQogICAgaWYgKHByb2Nlc3NvclJlZi5jdXJyZW50KSB7IHByb2Nlc3NvclJlZi5jdXJyZW50LmRpc2Nvbm5lY3QoKTsgcHJvY2Vzc29yUmVmLmN1cnJlbnQgPSBudWxsOyB9CiAgICBpZiAoc3RyZWFtUmVmLmN1cnJlbnQpIHsgc3RyZWFtUmVmLmN1cnJlbnQuZ2V0VHJhY2tzKCkuZm9yRWFjaCh0cmFjayA9PiB0cmFjay5zdG9wKCkpOyBzdHJlYW1SZWYuY3VycmVudCA9IG51bGw7IH0KICAgIGlmIChpbnB1dEN0eFJlZi5jdXJyZW50KSB7IGlucHV0Q3R4UmVmLmN1cnJlbnQuY2xvc2UoKTsgaW5wdXRDdHhSZWYuY3VycmVudCA9IG51bGw7IH0KICAgIGlmIChvdXRwdXRDdHhSZWYuY3VycmVudCkgeyBvdXRwdXRDdHhSZWYuY3VycmVudC5jbG9zZSgpOyBvdXRwdXRDdHhSZWYuY3VycmVudCA9IG51bGw7IH0KICAgIGFjdGl2ZVNvdXJjZXNSZWYuY3VycmVudCA9IFtdOwogIH0sIFtdKTsKCiAgY29uc3Qgc3RvcFBsYXliYWNrID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgYWN0aXZlU291cmNlc1JlZi5jdXJyZW50LmZvckVhY2goc291cmNlID0+IHsgdHJ5IHsgc291cmNlLnN0b3AoKTsgfSBjYXRjaCAoZSkge30gfSk7CiAgICBhY3RpdmVTb3VyY2VzUmVmLmN1cnJlbnQgPSBbXTsKICAgIGlmIChvdXRwdXRDdHhSZWYuY3VycmVudCkgbmV4dFBsYXlUaW1lUmVmLmN1cnJlbnQgPSBvdXRwdXRDdHhSZWYuY3VycmVudC5jdXJyZW50VGltZTsKICB9LCBbXSk7CgogIGNvbnN0IGNvbm5lY3QgPSB1c2VDYWxsYmFjayhhc3luYyAob3ZlcnJpZGVUb2tlbj86IHN0cmluZykgPT4gewogICAgdHJ5IHsKICAgICAgc2V0RXJyb3IobnVsbCk7CiAgICAgIGNvbnN0IHByb3RvY29sID0gd2luZG93LmxvY2F0aW9uLnByb3RvY29sID09PSAnaHR0cHM6JyA/ICd3c3M6JyA6ICd3czonOwogICAgICBsZXQgd3NVcmwgPSBgJHtwcm90b2NvbH0vLyR7d2luZG93LmxvY2F0aW9uLmhvc3R9L2xpdmVgOwogICAgICBjb25zdCBjdXJyZW50U2V0dGluZ3MgPSBzZXR0aW5nc1JlZi5jdXJyZW50OwogICAgICBjb25zdCBwYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKCk7CiAgICAgIGlmIChjdXJyZW50U2V0dGluZ3M/LnZvaWNlKSBwYXJhbXMuYXBwZW5kKCd2b2ljZScsIGN1cnJlbnRTZXR0aW5ncy52b2ljZSk7CiAgICAgIGlmIChjdXJyZW50U2V0dGluZ3M/LnBlcnNvbmEpIHBhcmFtcy5hcHBlbmQoJ3BlcnNvbmEnLCBjdXJyZW50U2V0dGluZ3MucGVyc29uYSk7CiAgICAgIGlmIChjdXJyZW50U2V0dGluZ3M/LnVzZXJOYW1lKSBwYXJhbXMuYXBwZW5kKCd1c2VyTmFtZScsIGN1cnJlbnRTZXR0aW5ncy51c2VyTmFtZSk7CiAgICAgIGlmIChjdXJyZW50U2V0dGluZ3M/LmFpTmFtZSkgcGFyYW1zLmFwcGVuZCgnYWlOYW1lJywgY3VycmVudFNldHRpbmdzLmFpTmFtZSk7CiAgICAgIGlmIChjdXJyZW50U2V0dGluZ3M/LnJlbGF0aW9uc2hpcCkgcGFyYW1zLmFwcGVuZCgncmVsYXRpb25zaGlwJywgY3VycmVudFNldHRpbmdzLnJlbGF0aW9uc2hpcCk7CiAgICAgIGNvbnN0IGFjdGl2ZVRva2VuID0gb3ZlcnJpZGVUb2tlbiB8fCBjdXJyZW50U2V0dGluZ3M/LmlkVG9rZW47CiAgICAgIGNvbnN0IHF1ZXJ5U3RyaW5nID0gcGFyYW1zLnRvU3RyaW5nKCk7CiAgICAgIGlmIChxdWVyeVN0cmluZykgd3NVcmwgKz0gYD8ke3F1ZXJ5U3RyaW5nfWA7CgogICAgICBjb25zdCB3cyA9IG5ldyBXZWJTb2NrZXQod3NVcmwpOwogICAgICB3c1JlZi5jdXJyZW50ID0gd3M7CiAgICAgIGNsaWVudEF1ZGlvQWNrU2VudFJlZi5jdXJyZW50ID0gZmFsc2U7CgogICAgICBjb25zdCBvdXRwdXRDdHggPSBuZXcgKHdpbmRvdy5BdWRpb0NvbnRleHQgfHwgKHdpbmRvdyBhcyBhbnkpLndlYmtpdEF1ZGlvQ29udGV4dCkoeyBzYW1wbGVSYXRlOiAyNDAwMCB9KTsKICAgICAgb3V0cHV0Q3R4UmVmLmN1cnJlbnQgPSBvdXRwdXRDdHg7CiAgICAgIGlmIChvdXRwdXRDdHguc3RhdGUgPT09ICdzdXNwZW5kZWQnKSBhd2FpdCBvdXRwdXRDdHgucmVzdW1lKCk7CiAgICAgIG5leHRQbGF5VGltZVJlZi5jdXJyZW50ID0gb3V0cHV0Q3R4LmN1cnJlbnRUaW1lOwoKICAgICAgd3Mub25vcGVuID0gYXN5bmMgKCkgPT4gewogICAgICAgIGlmIChhY3RpdmVUb2tlbikgewogICAgICAgICAgdHJ5IHsgd3Muc2VuZChKU09OLnN0cmluZ2lmeSh7IHR5cGU6ICdhdXRoJywgdG9rZW46IGFjdGl2ZVRva2VuLCBhcGlLZXk6IGN1cnJlbnRTZXR0aW5ncz8uYXBpS2V5IHx8IHVuZGVmaW5lZCB9KSk7IH0KICAgICAgICAgIGNhdGNoIChlKSB7IGNvbnNvbGUud2FybignRmFpbGVkIHRvIHNlbmQgV1MgYXV0aCBtZXNzYWdlOicsIGUpOyB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHNldEVycm9yKCdObyBhdXRoZW50aWNhdGlvbiB0b2tlbiBhdmFpbGFibGUuIFBsZWFzZSBzaWduIGluIHRvIHVzZSB2b2ljZS4nKTsKICAgICAgICAgIHRyeSB7IHdzLmNsb3NlKDQwMDEsICdubyB0b2tlbicpOyB9IGNhdGNoIChlKSB7fQogICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBzZXRJc0Nvbm5lY3RlZCh0cnVlKTsKICAgICAgICBzZXRJc1JlY29yZGluZyh0cnVlKTsKICAgICAgICBzZXRTdGF0dXMoJ2xpc3RlbmluZycpOwogICAgICAgIHRyeSB7CiAgICAgICAgICBjb25zdCBpbnB1dEN0eCA9IG5ldyAod2luZG93LkF1ZGlvQ29udGV4dCB8fCAod2luZG93IGFzIGFueSkud2Via2l0QXVkaW9Db250ZXh0KSh7IHNhbXBsZVJhdGU6IDE2MDAwIH0pOwogICAgICAgICAgaW5wdXRDdHhSZWYuY3VycmVudCA9IGlucHV0Q3R4OwogICAgICAgICAgY29uc3Qgc3RyZWFtID0gYXdhaXQgbmF2aWdhdG9yLm1lZGlhRGV2aWNlcy5nZXRVc2VyTWVkaWEoeyBhdWRpbzogeyBlY2hvQ2FuY2VsbGF0aW9uOiB0cnVlLCBub2lzZVN1cHByZXNzaW9uOiB0cnVlLCBhdXRvR2FpbkNvbnRyb2w6IHRydWUgfSB9KTsKICAgICAgICAgIHN0cmVhbVJlZi5jdXJyZW50ID0gc3RyZWFtOwogICAgICAgICAgY29uc3Qgc291cmNlID0gaW5wdXRDdHguY3JlYXRlTWVkaWFTdHJlYW1Tb3VyY2Uoc3RyZWFtKTsKICAgICAgICAgIGNvbnN0IHByb2Nlc3NvciA9IGlucHV0Q3R4LmNyZWF0ZVNjcmlwdFByb2Nlc3Nvcig0MDk2LCAxLCAxKTsKICAgICAgICAgIHByb2Nlc3NvclJlZi5jdXJyZW50ID0gcHJvY2Vzc29yOwogICAgICAgICAgc291cmNlLmNvbm5lY3QocHJvY2Vzc29yKTsKICAgICAgICAgIHByb2Nlc3Nvci5jb25uZWN0KGlucHV0Q3R4LmRlc3RpbmF0aW9uKTsKICAgICAgICAgIGxldCB1c2VyU3BlZWNoQ291bnRlciA9IDA7CiAgICAgICAgICBwcm9jZXNzb3Iub25hdWRpb3Byb2Nlc3MgPSAoZSkgPT4gewogICAgICAgICAgICBjb25zdCBjaGFubmVsRGF0YSA9IGUuaW5wdXRCdWZmZXIuZ2V0Q2hhbm5lbERhdGEoMCk7CiAgICAgICAgICAgIGxldCBzdW1TcXVhcmVzID0gMDsKICAgICAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCBjaGFubmVsRGF0YS5sZW5ndGg7IGkrKykgc3VtU3F1YXJlcyArPSBjaGFubmVsRGF0YVtpXSAqIGNoYW5uZWxEYXRhW2ldOwogICAgICAgICAgICBjb25zdCBybXMgPSBNYXRoLnNxcnQoc3VtU3F1YXJlcyAvIGNoYW5uZWxEYXRhLmxlbmd0aCk7CiAgICAgICAgICAgIGNvbnN0IGlzQWlUYWxraW5nID0gYWN0aXZlU291cmNlc1JlZi5jdXJyZW50Lmxlbmd0aCA+IDA7CiAgICAgICAgICAgIGlmIChpc0FpVGFsa2luZykgewogICAgICAgICAgICAgIGlmIChybXMgPiAwLjA0KSB7CiAgICAgICAgICAgICAgICB1c2VyU3BlZWNoQ291bnRlcisrOwogICAgICAgICAgICAgICAgaWYgKHVzZXJTcGVlY2hDb3VudGVyID49IDIpIHsKICAgICAgICAgICAgICAgICAgc3RvcFBsYXliYWNrKCk7CiAgICAgICAgICAgICAgICAgIHNldFN0YXR1cygnbGlzdGVuaW5nJyk7CiAgICAgICAgICAgICAgICAgIHdpbmRvdy5kaXNwYXRjaEV2ZW50KG5ldyBDdXN0b21FdmVudCgnbWFzcm9maTp1c2VyLWludGVycnVwdGVkJykpOwogICAgICAgICAgICAgICAgICBpZiAod3MucmVhZHlTdGF0ZSA9PT0gV2ViU29ja2V0Lk9QRU4pIHsKICAgICAgICAgICAgICAgICAgICB3cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsgaW50ZXJydXB0OiB0cnVlIH0pKTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBiYXNlNjQgPSBwY21Ub0Jhc2U2NChjaGFubmVsRGF0YSk7CiAgICAgICAgICAgICAgICAgICAgd3Muc2VuZChKU09OLnN0cmluZ2lmeSh7IGF1ZGlvOiBiYXNlNjQgfSkpOwogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgIHVzZXJTcGVlY2hDb3VudGVyID0gMDsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9IGVsc2UgdXNlclNwZWVjaENvdW50ZXIgPSBNYXRoLm1heCgwLCB1c2VyU3BlZWNoQ291bnRlciAtIDEpOwogICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfSBlbHNlIHVzZXJTcGVlY2hDb3VudGVyID0gMDsKICAgICAgICAgICAgaWYgKHdzLnJlYWR5U3RhdGUgPT09IFdlYlNvY2tldC5PUEVOKSB3cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsgYXVkaW86IHBjbVRvQmFzZTY0KGNoYW5uZWxEYXRhKSB9KSk7CiAgICAgICAgICB9OwogICAgICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgICAgICBzZXRFcnJvcignTWljcm9waG9uZSBhY2Nlc3MgZGVuaWVkIG9yIGVycm9yIG9jY3VycmVkLicpOwogICAgICAgICAgY29uc29sZS5lcnJvcihlcnIpOwogICAgICAgICAgZGlzY29ubmVjdCgpOwogICAgICAgIH0KICAgICAgfTsKCiAgICAgIHdzLm9ubWVzc2FnZSA9IChldmVudCkgPT4gewogICAgICAgIGNvbnN0IG1zZyA9IEpTT04ucGFyc2UoZXZlbnQuZGF0YSk7CiAgICAgICAgaWYgKG1zZy5zdGF0dXMpIHsKICAgICAgICAgIGlmIChtc2cuc3RhdHVzID09PSAndGhpbmtpbmcnKSBzZXRTdGF0dXMoJ3RoaW5raW5nJyk7CiAgICAgICAgICBpZiAobXNnLnN0YXR1cyA9PT0gJ3JlYWR5Jykgc2V0U3RhdHVzKCdsaXN0ZW5pbmcnKTsKICAgICAgICB9CiAgICAgICAgaWYgKG1zZy5yZWZyZXNoIHx8IG1zZy5zdGF0dXMgPT09ICdyZWFkeScpIHdpbmRvdy5kaXNwYXRjaEV2ZW50KG5ldyBDdXN0b21FdmVudCgnbWFzcm9maTpyZWZyZXNoJykpOwogICAgICAgIGlmIChtc2cuYXVkaW8gJiYgb3V0cHV0Q3R4UmVmLmN1cnJlbnQpIHsKICAgICAgICAgIGlmICghY2xpZW50QXVkaW9BY2tTZW50UmVmLmN1cnJlbnQgJiYgd3MucmVhZHlTdGF0ZSA9PT0gV2ViU29ja2V0Lk9QRU4pIHsKICAgICAgICAgICAgY2xpZW50QXVkaW9BY2tTZW50UmVmLmN1cnJlbnQgPSB0cnVlOwogICAgICAgICAgICB3cy5zZW5kKEpTT04uc3RyaW5naWZ5KHsKICAgICAgICAgICAgICB0eXBlOiAnY2xpZW50X2F1ZGlvX2FjaycsCiAgICAgICAgICAgICAgYXVkaW9Db250ZXh0U3RhdGU6IG91dHB1dEN0eFJlZi5jdXJyZW50LnN0YXRlLAogICAgICAgICAgICAgIHZpc2liaWxpdHlTdGF0ZTogZG9jdW1lbnQudmlzaWJpbGl0eVN0YXRlLAogICAgICAgICAgICAgIGhhc0ZvY3VzOiBkb2N1bWVudC5oYXNGb2N1cygpLAogICAgICAgICAgICB9KSk7CiAgICAgICAgICB9CiAgICAgICAgICBzZXRTdGF0dXMoJ3RhbGtpbmcnKTsKICAgICAgICAgIGNvbnN0IHBjbURhdGEgPSBiYXNlNjRUb1BjbShtc2cuYXVkaW8pOwogICAgICAgICAgY29uc3QgYnVmZmVyID0gY3JlYXRlQXVkaW9CdWZmZXIob3V0cHV0Q3R4UmVmLmN1cnJlbnQsIHBjbURhdGEpOwogICAgICAgICAgY29uc3Qgc291cmNlID0gb3V0cHV0Q3R4UmVmLmN1cnJlbnQuY3JlYXRlQnVmZmVyU291cmNlKCk7CiAgICAgICAgICBzb3VyY2UuYnVmZmVyID0gYnVmZmVyOwogICAgICAgICAgc291cmNlLmNvbm5lY3Qob3V0cHV0Q3R4UmVmLmN1cnJlbnQuZGVzdGluYXRpb24pOwogICAgICAgICAgY29uc3QgY3VycmVudFRpbWUgPSBvdXRwdXRDdHhSZWYuY3VycmVudC5jdXJyZW50VGltZTsKICAgICAgICAgIGlmIChuZXh0UGxheVRpbWVSZWYuY3VycmVudCA8IGN1cnJlbnRUaW1lKSBuZXh0UGxheVRpbWVSZWYuY3VycmVudCA9IGN1cnJlbnRUaW1lOwogICAgICAgICAgc291cmNlLnN0YXJ0KG5leHRQbGF5VGltZVJlZi5jdXJyZW50KTsKICAgICAgICAgIG5leHRQbGF5VGltZVJlZi5jdXJyZW50ICs9IGJ1ZmZlci5kdXJhdGlvbjsKICAgICAgICAgIGFjdGl2ZVNvdXJjZXNSZWYuY3VycmVudC5wdXNoKHNvdXJjZSk7CiAgICAgICAgICBzb3VyY2Uub25lbmRlZCA9ICgpID0+IHsKICAgICAgICAgICAgYWN0aXZlU291cmNlc1JlZi5jdXJyZW50ID0gYWN0aXZlU291cmNlc1JlZi5jdXJyZW50LmZpbHRlcihzID0+IHMgIT09IHNvdXJjZSk7CiAgICAgICAgICAgIGlmIChhY3RpdmVTb3VyY2VzUmVmLmN1cnJlbnQubGVuZ3RoID09PSAwICYmIGlzQ29ubmVjdGVkKSBzZXRTdGF0dXMoJ2xpc3RlbmluZycpOwogICAgICAgICAgfTsKICAgICAgICB9CiAgICAgICAgaWYgKG1zZy5pbnRlcnJ1cHRlZCkgeyBzdG9wUGxheWJhY2soKTsgc2V0U3RhdHVzKCdsaXN0ZW5pbmcnKTsgfQogICAgICAgIGlmIChtc2cuZXJyb3IpIHsgc2V0RXJyb3IobXNnLmVycm9yKTsgc2V0VGltZW91dCgoKSA9PiBzZXRFcnJvcihudWxsKSwgNDAwMCk7IH0KICAgICAgfTsKCiAgICAgIHdzLm9uY2xvc2UgPSAoKSA9PiB7CiAgICAgICAgc2V0SXNDb25uZWN0ZWQoZmFsc2UpOwogICAgICAgIHNldElzUmVjb3JkaW5nKGZhbHNlKTsKICAgICAgICBzZXRTdGF0dXMoJ2lkbGUnKTsKICAgICAgICB3aW5kb3cuZGlzcGF0Y2hFdmVudChuZXcgQ3VzdG9tRXZlbnQoJ21hc3JvZmk6cmVmcmVzaCcpKTsKICAgICAgfTsKICAgICAgd3Mub25lcnJvciA9IChldmVudCkgPT4gewogICAgICAgIGNvbnNvbGUud2FybigiV2ViU29ja2V0IGNvbm5lY3Rpb24gc3RhdGUgZXZlbnQ6IiwgZXZlbnQpOwogICAgICAgIGRpc2Nvbm5lY3QoKTsKICAgICAgICB3aW5kb3cuZGlzcGF0Y2hFdmVudChuZXcgQ3VzdG9tRXZlbnQoJ21hc3JvZmk6cmVmcmVzaCcpKTsKICAgICAgfTsKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIGNvbnNvbGUud2FybigiQXVkaW8gY29ubmVjdGlvbiBlcnJvcjoiLCBlcnIpOwogICAgICBzZXRFcnJvcihlcnI/Lm1lc3NhZ2UgfHwgJ9iq2LnYsNixINio2K/YoSDYp9mE2KfYqti12KfZhCDYp9mE2LXZiNiq2YouJyk7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0RXJyb3IobnVsbCksIDM1MDApOwogICAgICBkaXNjb25uZWN0KCk7CiAgICB9CiAgfSwgW2Rpc2Nvbm5lY3QsIHN0b3BQbGF5YmFja10pOwoKICB1c2VFZmZlY3QoKCkgPT4gKCkgPT4gZGlzY29ubmVjdCgpLCBbZGlzY29ubmVjdF0pOwoKICByZXR1cm4geyBjb25uZWN0LCBkaXNjb25uZWN0LCBpc0Nvbm5lY3RlZCwgaXNSZWNvcmRpbmcsIHN0YXR1cywgZXJyb3IgfTsKfQo=
+import { useState, useEffect, useRef, useCallback } from 'react';
+import { pcmToBase64, base64ToPcm, createAudioBuffer } from './audioUtils';
+
+export function useGeminiLive(settings?: { voice: string; persona: string; apiKey: string; idToken: string | null; userName: string; aiName: string; relationship?: string }) {
+  const settingsRef = useRef(settings);
+  settingsRef.current = settings;
+
+  const [isConnected, setIsConnected] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [status, setStatus] = useState<'idle' | 'listening' | 'thinking' | 'talking'>('idle');
+
+  const wsRef = useRef<WebSocket | null>(null);
+  const inputCtxRef = useRef<AudioContext | null>(null);
+  const outputCtxRef = useRef<AudioContext | null>(null);
+  const processorRef = useRef<ScriptProcessorNode | null>(null);
+  const streamRef = useRef<MediaStream | null>(null);
+  
+  // Track playback time to schedule consecutive audio chunks properly
+  const nextPlayTimeRef = useRef<number>(0);
+  // Keep track of active audio source nodes so we can stop them on interrupt
+  const activeSourcesRef = useRef<AudioBufferSourceNode[]>([]);
+  // One acknowledgement per connection is enough to prove whether server audio
+  // reached the browser and what state Web Audio was in when it arrived.
+  const clientAudioAckSentRef = useRef(false);
+
+  const disconnect = useCallback(() => {
+    setIsConnected(false);
+    setIsRecording(false);
+    setStatus('idle');
+    
+    if (wsRef.current) {
+      wsRef.current.close();
+      wsRef.current = null;
+    }
+    
+    if (processorRef.current) {
+      processorRef.current.disconnect();
+      processorRef.current = null;
+    }
+    
+    if (streamRef.current) {
+      streamRef.current.getTracks().forEach(track => track.stop());
+      streamRef.current = null;
+    }
+    
+    if (inputCtxRef.current) {
+      inputCtxRef.current.close();
+      inputCtxRef.current = null;
+    }
+    
+    if (outputCtxRef.current) {
+      outputCtxRef.current.close();
+      outputCtxRef.current = null;
+    }
+    
+    activeSourcesRef.current = [];
+  }, []);
+
+  const stopPlayback = useCallback(() => {
+    activeSourcesRef.current.forEach(source => {
+      try { source.stop(); } catch (e) { /* ignore */ }
+    });
+    activeSourcesRef.current = [];
+    if (outputCtxRef.current) {
+      nextPlayTimeRef.current = outputCtxRef.current.currentTime;
+    }
+  }, []);
+
+  const connect = useCallback(async (overrideToken?: string) => {
+    try {
+      setError(null);
+      
+      const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      let wsUrl = `${protocol}//${window.location.host}/live`;
+      
+      // V6 (HF-4): token is NOT placed in URL anymore. URL is logged and would leak the token.
+      // Non-secret settings still go in URL. Token is sent as the first WS message after open.
+      const currentSettings = settingsRef.current;
+      const params = new URLSearchParams();
+      if (currentSettings?.voice) params.append('voice', currentSettings.voice);
+      if (currentSettings?.persona) params.append('persona', currentSettings.persona);
+      // Do not put API keys in the WebSocket URL; URLs can be logged by proxies/hosts.
+      if (currentSettings?.userName) params.append('userName', currentSettings.userName);
+      if (currentSettings?.aiName) params.append('aiName', currentSettings.aiName);
+      if (currentSettings?.relationship) params.append('relationship', currentSettings.relationship);
+      const activeToken = overrideToken || currentSettings?.idToken;
+      // Token deliberately NOT appended to URL.
+      
+      const queryString = params.toString();
+      if (queryString) {
+        wsUrl += `?${queryString}`;
+      }
+
+      const ws = new WebSocket(wsUrl);
+      wsRef.current = ws;
+      clientAudioAckSentRef.current = false;
+
+      // Output context for playback (Gemini outputs 24kHz)
+      const outputCtx = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 24000 });
+      outputCtxRef.current = outputCtx;
+      if (outputCtx.state === 'suspended') await outputCtx.resume();
+      nextPlayTimeRef.current = outputCtx.currentTime;
+
+      ws.onopen = async () => {
+        // V6: send the auth message FIRST. Server will not process audio until auth_ok arrives.
+        if (activeToken) {
+          try {
+            ws.send(JSON.stringify({ type: 'auth', token: activeToken, apiKey: currentSettings?.apiKey || undefined }));
+          } catch (e) {
+            console.warn('Failed to send WS auth message:', e);
+          }
+        } else {
+          // No token available — close with a clear error rather than falling back.
+          setError('No authentication token available. Please sign in to use voice.');
+          try { ws.close(4001, 'no token'); } catch (e) { /* ignore */ }
+          return;
+        }
+        setIsConnected(true);
+        setIsRecording(true);
+        setStatus('listening');
+        
+        try {
+          // Input context for recording (Gemini needs 16kHz)
+          const inputCtx = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 16000 });
+          inputCtxRef.current = inputCtx;
+          
+          const stream = await navigator.mediaDevices.getUserMedia({ 
+            audio: {
+              echoCancellation: true,
+              noiseSuppression: true,
+              autoGainControl: true
+            } 
+          });
+          streamRef.current = stream;
+          
+          const source = inputCtx.createMediaStreamSource(stream);
+          const processor = inputCtx.createScriptProcessor(4096, 1, 1);
+          processorRef.current = processor;
+          
+          source.connect(processor);
+          processor.connect(inputCtx.destination);
+          
+          let userSpeechCounter = 0;
+          processor.onaudioprocess = (e) => {
+            const channelData = e.inputBuffer.getChannelData(0);
+            
+            // Calculate RMS volume level of user microphone input
+            let sumSquares = 0;
+            for (let i = 0; i < channelData.length; i++) {
+              sumSquares += channelData[i] * channelData[i];
+            }
+            const rms = Math.sqrt(sumSquares / channelData.length);
+
+            // If AI is currently talking and user speaks into mic (barge-in):
+            const isAiTalking = activeSourcesRef.current.length > 0;
+            if (isAiTalking) {
+              if (rms > 0.04) {
+                userSpeechCounter++;
+                if (userSpeechCounter >= 2) {
+                  // User is actively interrupting: instantly halt audio playback
+                  stopPlayback();
+                  setStatus('listening');
+                  window.dispatchEvent(new CustomEvent('masrofi:user-interrupted'));
+                  if (ws.readyState === WebSocket.OPEN) {
+                    ws.send(JSON.stringify({ interrupt: true }));
+                    // Send this interrupt voice chunk
+                    const base64 = pcmToBase64(channelData);
+                    ws.send(JSON.stringify({ audio: base64 }));
+                  }
+                  userSpeechCounter = 0;
+                }
+              } else {
+                userSpeechCounter = Math.max(0, userSpeechCounter - 1);
+              }
+              // Do NOT send microphone audio while AI is outputting voice to avoid echo feedback loop
+              return;
+            } else {
+              userSpeechCounter = 0;
+            }
+
+            if (ws.readyState === WebSocket.OPEN) {
+              const base64 = pcmToBase64(channelData);
+              ws.send(JSON.stringify({ audio: base64 }));
+            }
+          };
+        } catch (err: any) {
+          setError('Microphone access denied or error occurred.');
+          console.error(err);
+          disconnect();
+        }
+      };
+
+      ws.onmessage = (event) => {
+        const msg = JSON.parse(event.data);
+        
+        if (msg.status) {
+          if (msg.status === 'thinking') setStatus('thinking');
+          if (msg.status === 'ready') {
+            setStatus('listening');
+          }
+        }
+
+        // The server commonly sends { status: 'ready', refresh: true } together.
+        // Dispatch exactly once so one Live tool response cannot trigger two full
+        // Firestore refresh cycles on the client.
+        if (msg.refresh || msg.status === 'ready') {
+          window.dispatchEvent(new CustomEvent('masrofi:refresh'));
+        }
+
+        if (msg.audio && outputCtxRef.current) {
+          if (!clientAudioAckSentRef.current && ws.readyState === WebSocket.OPEN) {
+            clientAudioAckSentRef.current = true;
+            ws.send(JSON.stringify({
+              type: 'client_audio_ack',
+              audioContextState: outputCtxRef.current.state,
+              visibilityState: document.visibilityState,
+              hasFocus: document.hasFocus(),
+            }));
+          }
+          setStatus('talking');
+          // Play audio
+          const pcmData = base64ToPcm(msg.audio);
+          const buffer = createAudioBuffer(outputCtxRef.current, pcmData);
+          
+          const source = outputCtxRef.current.createBufferSource();
+          source.buffer = buffer;
+          source.connect(outputCtxRef.current.destination);
+          
+          const currentTime = outputCtxRef.current.currentTime;
+          // Ensure we don't schedule in the past
+          if (nextPlayTimeRef.current < currentTime) {
+            nextPlayTimeRef.current = currentTime;
+          }
+          
+          source.start(nextPlayTimeRef.current);
+          nextPlayTimeRef.current += buffer.duration;
+          
+          activeSourcesRef.current.push(source);
+          source.onended = () => {
+            activeSourcesRef.current = activeSourcesRef.current.filter(s => s !== source);
+            if (activeSourcesRef.current.length === 0 && isConnected) {
+              setStatus('listening');
+            }
+          };
+        }
+        
+        if (msg.interrupted) {
+          stopPlayback();
+          setStatus('listening');
+        }
+        
+        if (msg.error) {
+          setError(msg.error);
+          setTimeout(() => setError(null), 4000);
+        }
+      };
+
+      ws.onclose = () => {
+        setIsConnected(false);
+        setIsRecording(false);
+        setStatus('idle');
+        window.dispatchEvent(new CustomEvent('masrofi:refresh'));
+      };
+
+      ws.onerror = (event) => {
+        console.warn("WebSocket connection state event:", event);
+        disconnect();
+        window.dispatchEvent(new CustomEvent('masrofi:refresh'));
+      };
+      
+    } catch (err: any) {
+      console.warn("Audio connection error:", err);
+      setError(err?.message || 'تعذر بدء الاتصال الصوتي.');
+      setTimeout(() => setError(null), 3500);
+      disconnect();
+    }
+  }, [disconnect, stopPlayback]);
+
+  // Clean up on unmount
+  useEffect(() => {
+    return () => disconnect();
+  }, [disconnect]);
+
+  return {
+    connect,
+    disconnect,
+    isConnected,
+    isRecording,
+    status,
+    error
+  };
+}

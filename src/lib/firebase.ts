@@ -1,1 +1,79 @@
-aW1wb3J0IHsgaW5pdGlhbGl6ZUFwcCB9IGZyb20gJ2ZpcmViYXNlL2FwcCc7CmltcG9ydCB7IAogIGdldEF1dGgsIAogIEdvb2dsZUF1dGhQcm92aWRlciwgCiAgc2lnbkluV2l0aFBvcHVwLAogIHNpZ25JbldpdGhSZWRpcmVjdCwKICBzaWduT3V0LAogIHNldFBlcnNpc3RlbmNlLAogIGJyb3dzZXJMb2NhbFBlcnNpc3RlbmNlLAogIGJyb3dzZXJTZXNzaW9uUGVyc2lzdGVuY2UsCiAgaW5kZXhlZERCTG9jYWxQZXJzaXN0ZW5jZQp9IGZyb20gJ2ZpcmViYXNlL2F1dGgnOwppbXBvcnQgeyBnZXRGaXJlc3RvcmUgfSBmcm9tICdmaXJlYmFzZS9maXJlc3RvcmUnOwppbXBvcnQgZmlyZWJhc2VDb25maWcgZnJvbSAnLi4vLi4vZmlyZWJhc2UtYXBwbGV0LWNvbmZpZy5qc29uJzsKCmNvbnN0IGFwcCA9IGluaXRpYWxpemVBcHAoZmlyZWJhc2VDb25maWcpOwpleHBvcnQgY29uc3QgZGIgPSBnZXRGaXJlc3RvcmUoYXBwLCBmaXJlYmFzZUNvbmZpZy5maXJlc3RvcmVEYXRhYmFzZUlkKTsKZXhwb3J0IGNvbnN0IGF1dGggPSBnZXRBdXRoKGFwcCk7CgovLyBDb25maWd1cmUgcm9idXN0IHBlcnNpc3RlbmNlIGZvciBTYWZhcmkgYW5kIGNyb3NzLXBsYXRmb3JtIGJyb3dzZXJzCnRyeSB7CiAgc2V0UGVyc2lzdGVuY2UoYXV0aCwgYnJvd3NlckxvY2FsUGVyc2lzdGVuY2UpLmNhdGNoKCgpID0+IHsKICAgIHNldFBlcnNpc3RlbmNlKGF1dGgsIGluZGV4ZWREQkxvY2FsUGVyc2lzdGVuY2UpLmNhdGNoKCgpID0+IHsKICAgICAgc2V0UGVyc2lzdGVuY2UoYXV0aCwgYnJvd3NlclNlc3Npb25QZXJzaXN0ZW5jZSkuY2F0Y2goY29uc29sZS53YXJuKTsKICAgIH0pOwogIH0pOwp9IGNhdGNoIChlKSB7CiAgY29uc29sZS53YXJuKCJQZXJzaXN0ZW5jZSBzZXR1cCBlcnJvcjoiLCBlKTsKfQoKZXhwb3J0IGNvbnN0IGdvb2dsZVByb3ZpZGVyID0gbmV3IEdvb2dsZUF1dGhQcm92aWRlcigpOwoKLyoqCiAqIFNhZmFyaS9Nb2JpbGUgbG9naW4gdXNlcyBGaXJlYmFzZSdzIHByb3ZpZGVyLWNvbnRyb2xsZWQgcmVkaXJlY3QgZmxvdy4KICogVGhlIGNsaWVudCBuZXZlciBhc2tzIG91ciBzZXJ2ZXIgdG8gbWludCBhbiBpZGVudGl0eSBmcm9tIGFuIGVtYWlsIGFkZHJlc3MuCiAqIEdvb2dsZS9GaXJlYmFzZSBwZXJmb3JtcyB0aGUgaWRlbnRpdHkgcHJvb2YsIGFuZCBvbkF1dGhTdGF0ZUNoYW5nZWQgcmVzdG9yZXMKICogdGhlIGF1dGhlbnRpY2F0ZWQgdXNlciBhZnRlciB0aGUgYnJvd3NlciByZXR1cm5zIGZyb20gdGhlIHJlZGlyZWN0LgogKi8KZXhwb3J0IGNvbnN0IGxvZ2luV2l0aFNhZmFyaURpcmVjdCA9IGFzeW5jIChfZW1haWw/OiBzdHJpbmcpOiBQcm9taXNlPHsgc3VjY2VzczogYm9vbGVhbjsgcmVkaXJlY3Rpbmc/OiBib29sZWFuOyBlcnJvcj86IHN0cmluZyB9PiA9PiB7CiAgdHJ5IHsKICAgIGF3YWl0IHNldFBlcnNpc3RlbmNlKGF1dGgsIGJyb3dzZXJMb2NhbFBlcnNpc3RlbmNlKTsKICAgIGF3YWl0IHNpZ25JbldpdGhSZWRpcmVjdChhdXRoLCBnb29nbGVQcm92aWRlcik7CiAgICByZXR1cm4geyBzdWNjZXNzOiB0cnVlLCByZWRpcmVjdGluZzogdHJ1ZSB9OwogIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICBjb25zb2xlLmVycm9yKCJTYWZhcmkgcmVkaXJlY3QgbG9naW4gZXJyb3I6IiwgZXJyKTsKICAgIHJldHVybiB7IHN1Y2Nlc3M6IGZhbHNlLCBlcnJvcjogZXJyPy5tZXNzYWdlIHx8ICLZgdi02YQg2KjYr9ihINiq2LPYrNmK2YQg2KfZhNiv2K7ZiNmEINin2YTYotmF2YYg2KjZiNin2LPYt9ipIEdvb2dsZSIgfTsKICB9Cn07CgpleHBvcnQgY29uc3QgbG9naW5XaXRoR29vZ2xlID0gYXN5bmMgKCk6IFByb21pc2U8eyBzdWNjZXNzOiBib29sZWFuOyB1c2VyPzogYW55OyBlcnJvcj86IHN0cmluZyB9PiA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHNpZ25JbldpdGhQb3B1cChhdXRoLCBnb29nbGVQcm92aWRlcik7CiAgICByZXR1cm4geyBzdWNjZXNzOiB0cnVlLCB1c2VyOiByZXN1bHQudXNlciB9OwogIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgIGNvbnNvbGUud2FybigiR29vZ2xlIHBvcHVwIGxvZ2luIGVycm9yOiIsIGVycm9yKTsKICAgIGxldCBlcnJvck1lc3NhZ2UgPSAi2KrYudiw2LEg2KrYs9is2YrZhCDYp9mE2K/YrtmI2YQg2KjZiNin2LPYt9ipIEdvb2dsZSI7CiAgICBpZiAoZXJyb3IuY29kZSA9PT0gJ2F1dGgvcG9wdXAtYmxvY2tlZCcpIHsKICAgICAgZXJyb3JNZXNzYWdlID0gItmC2KfZhSDZhdiq2LXZgditIFNhZmFyaSDYqNit2LjYsSDYp9mE2YbYp9mB2LDYqSDYp9mE2YXZhtio2KvZgtipLiDZitmF2YPZhtmDINin2LPYqtiu2K/Yp9mFINiy2LEgwqvYp9mE2K/YrtmI2YQg2KfZhNmF2KjYp9i02LEg2KfZhNiz2LHZiti5wrsg2KjYp9mE2KPYs9mB2YQg2YTZhNiv2K7ZiNmEINin2YTZgdmI2LHZiiDYr9mI2YYg2YbZiNin2YHYsCDZhdmG2KjYq9mC2KkuIjsKICAgIH0gZWxzZSBpZiAoZXJyb3IuY29kZSA9PT0gJ2F1dGgvcG9wdXAtY2xvc2VkLWJ5LXVzZXInIHx8IGVycm9yLmNvZGUgPT09ICdhdXRoL2NhbmNlbGxlZC1wb3B1cC1yZXF1ZXN0JykgewogICAgICBlcnJvck1lc3NhZ2UgPSAi2KrZhSDYpdi62YTYp9mCINmG2KfZgdiw2Kkg2KrYs9is2YrZhCDYp9mE2K/YrtmI2YQg2YLYqNmEINil2KrZhdin2YUg2KfZhNi52YXZhNmK2KkuIjsKICAgIH0gZWxzZSBpZiAoZXJyb3IuY29kZSA9PT0gJ2F1dGgvbmV0d29yay1yZXF1ZXN0LWZhaWxlZCcpIHsKICAgICAgZXJyb3JNZXNzYWdlID0gItiq2LnYsNixINin2YTYp9iq2LXYp9mEINio2KfZhNi02KjZg9ip2Iwg2YrYsdis2Ykg2KfZhNiq2K3ZgtmCINmF2YYg2KfYqti12KfZhCDYp9mE2KXZhtiq2LHZhtiqLiI7CiAgICB9IGVsc2UgaWYgKGVycm9yLm1lc3NhZ2UpIHsKICAgICAgZXJyb3JNZXNzYWdlID0gZXJyb3IubWVzc2FnZTsKICAgIH0KICAgIHJldHVybiB7IHN1Y2Nlc3M6IGZhbHNlLCBlcnJvcjogZXJyb3JNZXNzYWdlIH07CiAgfQp9OwoKZXhwb3J0IGNvbnN0IGxvZ291dCA9IGFzeW5jICgpID0+IHsKICB0cnkgewogICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ21hc3JvZmlfZGlyZWN0X3Nlc3Npb24nKTsKICAgIGF3YWl0IHNpZ25PdXQoYXV0aCk7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdtYXNyb2ZpX2RpcmVjdF9zZXNzaW9uJyk7CiAgICBjb25zb2xlLmVycm9yKCJMb2dvdXQgZmFpbGVkIiwgZXJyb3IpOwogIH0KfTsKCg==
+import { initializeApp } from 'firebase/app';
+import { 
+  getAuth, 
+  GoogleAuthProvider, 
+  signInWithPopup,
+  signInWithRedirect,
+  signOut,
+  setPersistence,
+  browserLocalPersistence,
+  browserSessionPersistence,
+  indexedDBLocalPersistence
+} from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
+import firebaseConfig from '../../firebase-applet-config.json';
+
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId);
+export const auth = getAuth(app);
+
+// Configure robust persistence for Safari and cross-platform browsers
+try {
+  setPersistence(auth, browserLocalPersistence).catch(() => {
+    setPersistence(auth, indexedDBLocalPersistence).catch(() => {
+      setPersistence(auth, browserSessionPersistence).catch(console.warn);
+    });
+  });
+} catch (e) {
+  console.warn("Persistence setup error:", e);
+}
+
+export const googleProvider = new GoogleAuthProvider();
+
+/**
+ * Safari/Mobile login uses Firebase's provider-controlled redirect flow.
+ * The client never asks our server to mint an identity from an email address.
+ * Google/Firebase performs the identity proof, and onAuthStateChanged restores
+ * the authenticated user after the browser returns from the redirect.
+ */
+export const loginWithSafariDirect = async (_email?: string): Promise<{ success: boolean; redirecting?: boolean; error?: string }> => {
+  try {
+    await setPersistence(auth, browserLocalPersistence);
+    await signInWithRedirect(auth, googleProvider);
+    return { success: true, redirecting: true };
+  } catch (err: any) {
+    console.error("Safari redirect login error:", err);
+    return { success: false, error: err?.message || "فشل بدء تسجيل الدخول الآمن بواسطة Google" };
+  }
+};
+
+export const loginWithGoogle = async (): Promise<{ success: boolean; user?: any; error?: string }> => {
+  try {
+    const result = await signInWithPopup(auth, googleProvider);
+    return { success: true, user: result.user };
+  } catch (error: any) {
+    console.warn("Google popup login error:", error);
+    let errorMessage = "تعذر تسجيل الدخول بواسطة Google";
+    if (error.code === 'auth/popup-blocked') {
+      errorMessage = "قام متصفح Safari بحظر النافذة المنبثقة. يمكنك استخدام زر «الدخول المباشر السريع» بالأسفل للدخول الفوري دون نوافذ منبثقة.";
+    } else if (error.code === 'auth/popup-closed-by-user' || error.code === 'auth/cancelled-popup-request') {
+      errorMessage = "تم إغلاق نافذة تسجيل الدخول قبل إتمام العملية.";
+    } else if (error.code === 'auth/network-request-failed') {
+      errorMessage = "تعذر الاتصال بالشبكة، يرجى التحقق من اتصال الإنترنت.";
+    } else if (error.message) {
+      errorMessage = error.message;
+    }
+    return { success: false, error: errorMessage };
+  }
+};
+
+export const logout = async () => {
+  try {
+    localStorage.removeItem('masrofi_direct_session');
+    await signOut(auth);
+  } catch (error) {
+    localStorage.removeItem('masrofi_direct_session');
+    console.error("Logout failed", error);
+  }
+};
+

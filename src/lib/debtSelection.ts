@@ -1,1 +1,56 @@
-aW1wb3J0IHsgbm9ybWFsaXplQ3JlZGl0b3JLZXkgfSBmcm9tICcuL2JhbGFuY2VDYWxjJzsKCmV4cG9ydCB0eXBlIE9wZW5DcmVkaXRvckRlYnQgPSB7CiAga2V5OiBzdHJpbmc7CiAgY3JlZGl0b3I6IHN0cmluZzsKICByZW1haW5pbmc6IG51bWJlcjsKfTsKCmV4cG9ydCB0eXBlIENyZWRpdG9yRGVidFNlbGVjdGlvbiA9CiAgfCB7IG9rOiB0cnVlOyBzZWxlY3RlZDogT3BlbkNyZWRpdG9yRGVidCB9CiAgfCB7CiAgICAgIG9rOiBmYWxzZTsKICAgICAgcmVhc29uOiAnQU1CSUdVT1VTX0NSRURJVE9SJyB8ICdOT19JREVOVElGSUFCTEVfT1BFTl9ERUJUJyB8ICdDUkVESVRPUl9OT1RfRk9VTkQnOwogICAgICBvcHRpb25zOiBBcnJheTx7IGNyZWRpdG9yOiBzdHJpbmc7IHJlbWFpbmluZzogbnVtYmVyIH0+OwogICAgICBtZXNzYWdlOiBzdHJpbmc7CiAgICB9OwoKZnVuY3Rpb24gZGVidE9wdGlvbnMoZGVidHM6IE9wZW5DcmVkaXRvckRlYnRbXSk6IEFycmF5PHsgY3JlZGl0b3I6IHN0cmluZzsgcmVtYWluaW5nOiBudW1iZXIgfT4gewogIHJldHVybiBkZWJ0cy5tYXAoKGQpID0+ICh7IGNyZWRpdG9yOiBkLmNyZWRpdG9yLCByZW1haW5pbmc6IGQucmVtYWluaW5nIH0pKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNlbGVjdE9wZW5DcmVkaXRvckRlYnQoaW5wdXQ6IHsKICBkZWJ0czogT3BlbkNyZWRpdG9yRGVidFtdOwogIHJlcXVlc3RlZENyZWRpdG9yPzogdW5rbm93bjsKICBhbW91bnQ6IG51bWJlcjsKfSk6IENyZWRpdG9yRGVidFNlbGVjdGlvbiB7CiAgY29uc3QgZGVidHMgPSBpbnB1dC5kZWJ0cyB8fCBbXTsKICBjb25zdCByZXF1ZXN0ZWQgPSBTdHJpbmcoaW5wdXQucmVxdWVzdGVkQ3JlZGl0b3IgfHwgJycpLnRyaW0oKTsKICBjb25zdCBrZXkgPSBub3JtYWxpemVDcmVkaXRvcktleShyZXF1ZXN0ZWQpOwogIGNvbnN0IG9wdGlvbnMgPSBkZWJ0T3B0aW9ucyhkZWJ0cyk7CgogIGlmIChkZWJ0cy5sZW5ndGggPT09IDEgJiYgIWtleSkgcmV0dXJuIHsgb2s6IHRydWUsIHNlbGVjdGVkOiBkZWJ0c1swXSB9OwoKICBpZiAoIWtleSkgewogICAgcmV0dXJuIHsKICAgICAgb2s6IGZhbHNlLAogICAgICByZWFzb246IGRlYnRzLmxlbmd0aCA/ICdBTUJJR1VPVVNfQ1JFRElUT1InIDogJ05PX0lERU5USUZJQUJMRV9PUEVOX0RFQlQnLAogICAgICBvcHRpb25zLAogICAgICBtZXNzYWdlOiBkZWJ0cy5sZW5ndGgKICAgICAgICA/IGDZhNmF2YYg2KrYsdmK2K8g2LPYr9in2K8gJHtpbnB1dC5hbW91bnR9IOKCqtifINmE2K/ZitmDINiv2YrZiNmGINmF2YHYqtmI2K3YqSDZhNmAOiAke2RlYnRzLm1hcCgoZCkgPT4gYCR7ZC5jcmVkaXRvcn0gKCR7ZC5yZW1haW5pbmd9IOKCqilgKS5qb2luKCfYjCAnKX1gCiAgICAgICAgOiAn2YTZhSDYo9is2K8g2K/ZitmG2KfZiyDZhdmB2KrZiNit2KfZiyDZhdit2K/Yr9in2YsuINmE2YXZhiDYqtix2YrYryDYqtiz2KzZitmEINmH2LDYpyDYp9mE2LPYr9in2K/YnycsCiAgICB9OwogIH0KCiAgY29uc3QgbWF0Y2hlcyA9IGRlYnRzLmZpbHRlcigoZCkgPT4gZC5rZXkgPT09IGtleSk7CiAgaWYgKG1hdGNoZXMubGVuZ3RoICE9PSAxKSB7CiAgICByZXR1cm4gewogICAgICBvazogZmFsc2UsCiAgICAgIHJlYXNvbjogJ0NSRURJVE9SX05PVF9GT1VORCcsCiAgICAgIG9wdGlvbnMsCiAgICAgIG1lc3NhZ2U6IGDZhNmFINij2KzYryDYr9mK2YbYp9mLINmF2YHYqtmI2K3Yp9mLINmF2LfYp9io2YLYp9mLINiq2YXYp9mF2KfZiyDZhNmAICR7cmVxdWVzdGVkfS4g2K3Yr9ivINin2YTYr9in2KbZhi5gLAogICAgfTsKICB9CgogIHJldHVybiB7IG9rOiB0cnVlLCBzZWxlY3RlZDogbWF0Y2hlc1swXSB9Owp9Cg==
+import { normalizeCreditorKey } from './balanceCalc';
+
+export type OpenCreditorDebt = {
+  key: string;
+  creditor: string;
+  remaining: number;
+};
+
+export type CreditorDebtSelection =
+  | { ok: true; selected: OpenCreditorDebt }
+  | {
+      ok: false;
+      reason: 'AMBIGUOUS_CREDITOR' | 'NO_IDENTIFIABLE_OPEN_DEBT' | 'CREDITOR_NOT_FOUND';
+      options: Array<{ creditor: string; remaining: number }>;
+      message: string;
+    };
+
+function debtOptions(debts: OpenCreditorDebt[]): Array<{ creditor: string; remaining: number }> {
+  return debts.map((d) => ({ creditor: d.creditor, remaining: d.remaining }));
+}
+
+export function selectOpenCreditorDebt(input: {
+  debts: OpenCreditorDebt[];
+  requestedCreditor?: unknown;
+  amount: number;
+}): CreditorDebtSelection {
+  const debts = input.debts || [];
+  const requested = String(input.requestedCreditor || '').trim();
+  const key = normalizeCreditorKey(requested);
+  const options = debtOptions(debts);
+
+  if (debts.length === 1 && !key) return { ok: true, selected: debts[0] };
+
+  if (!key) {
+    return {
+      ok: false,
+      reason: debts.length ? 'AMBIGUOUS_CREDITOR' : 'NO_IDENTIFIABLE_OPEN_DEBT',
+      options,
+      message: debts.length
+        ? `لمن تريد سداد ${input.amount} ₪؟ لديك ديون مفتوحة لـ: ${debts.map((d) => `${d.creditor} (${d.remaining} ₪)`).join('، ')}`
+        : 'لم أجد ديناً مفتوحاً محدداً. لمن تريد تسجيل هذا السداد؟',
+    };
+  }
+
+  const matches = debts.filter((d) => d.key === key);
+  if (matches.length !== 1) {
+    return {
+      ok: false,
+      reason: 'CREDITOR_NOT_FOUND',
+      options,
+      message: `لم أجد ديناً مفتوحاً مطابقاً تماماً لـ ${requested}. حدد الدائن.`,
+    };
+  }
+
+  return { ok: true, selected: matches[0] };
+}

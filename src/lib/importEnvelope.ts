@@ -1,1 +1,53 @@
-ZXhwb3J0IHR5cGUgSW1wb3J0RW52ZWxvcGVWYWxpZGF0aW9uRmFpbHVyZSA9IHsKICBzZWN0aW9uOiBzdHJpbmc7CiAgaW5kZXg6IHN0cmluZyB8IG51bWJlcjsKICBjb2RlOiBzdHJpbmc7CiAgbWVzc2FnZTogc3RyaW5nOwp9OwoKZXhwb3J0IHR5cGUgSW1wb3J0RW52ZWxvcGVWYWxpZGF0aW9uUmVzdWx0ID0KICB8IHsgb2s6IHRydWU7IGlzVHJhbnNhY3Rpb25BcnJheUltcG9ydDogYm9vbGVhbjsgYmFja3VwT2JqZWN0OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiB9CiAgfCB7IG9rOiBmYWxzZTsgcmVhc29uOiAnSU1QT1JUX0JBQ0tVUF9WQUxJREFUSU9OX0ZBSUxFRCc7IG1lc3NhZ2U6IHN0cmluZzsgdmFsaWRhdGlvbkZhaWx1cmVzOiBJbXBvcnRFbnZlbG9wZVZhbGlkYXRpb25GYWlsdXJlW10gfTsKCmNvbnN0IEtOT1dOX0lNUE9SVF9TRUNUSU9OUyA9IFsndHJhbnNhY3Rpb25zJywgJ2J1ZGdldHMnLCAnY29tbWl0bWVudHMnLCAncmVwb3J0cycsICdtZW1vcnknXSBhcyBjb25zdDsKCmZ1bmN0aW9uIGlzUGxhaW5CYWNrdXBPYmplY3QodmFsdWU6IHVua25vd24pOiB2YWx1ZSBpcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiB7CiAgcmV0dXJuIEJvb2xlYW4odmFsdWUgJiYgdHlwZW9mIHZhbHVlID09PSAnb2JqZWN0JyAmJiAhQXJyYXkuaXNBcnJheSh2YWx1ZSkpOwp9CgpleHBvcnQgZnVuY3Rpb24gdmFsaWRhdGVJbXBvcnRFbnZlbG9wZShwYXlsb2FkOiB1bmtub3duKTogSW1wb3J0RW52ZWxvcGVWYWxpZGF0aW9uUmVzdWx0IHsKICBpZiAoIXBheWxvYWQgfHwgdHlwZW9mIHBheWxvYWQgIT09ICdvYmplY3QnKSB7CiAgICByZXR1cm4gewogICAgICBvazogZmFsc2UsCiAgICAgIHJlYXNvbjogJ0lNUE9SVF9CQUNLVVBfVkFMSURBVElPTl9GQUlMRUQnLAogICAgICBtZXNzYWdlOiAn2YTZhSDZitiq2YUg2KfYs9iq2YrYsdin2K8g2KfZhNmG2LPYrtipINmE2KPZhiDZhdmE2YEg2KfZhNmG2LPYrtipINin2YTYp9it2KrZitin2LfZitipINi62YrYsSDYtdin2YTYrS4g2YTZhSDZitiq2YUg2K3YsNmBINij2Ygg2KrYutmK2YrYsSDYp9mE2KjZitin2YbYp9iqINin2YTYrdin2YTZitipLicsCiAgICAgIHZhbGlkYXRpb25GYWlsdXJlczogW3sKICAgICAgICBzZWN0aW9uOiAnYmFja3VwJywKICAgICAgICBpbmRleDogJyonLAogICAgICAgIGNvZGU6ICdJTlZBTElEX0JBQ0tVUF9QQVlMT0FEJywKICAgICAgICBtZXNzYWdlOiAn2YXZhNmBINin2YTZhtiz2K7YqSDYp9mE2KfYrdiq2YrYp9i32YrYqSDZitis2Kgg2KPZhiDZitmD2YjZhiDZg9in2KbZhtin2Ysg2KPZiCDZhdi12YHZiNmB2Kkg2LnZhdmE2YrYp9iqLicsCiAgICAgIH1dLAogICAgfTsKICB9CgogIGNvbnN0IGlzVHJhbnNhY3Rpb25BcnJheUltcG9ydCA9IEFycmF5LmlzQXJyYXkocGF5bG9hZCk7CiAgY29uc3QgYmFja3VwT2JqZWN0ID0gaXNUcmFuc2FjdGlvbkFycmF5SW1wb3J0ID8ge30gOiBpc1BsYWluQmFja3VwT2JqZWN0KHBheWxvYWQpID8gcGF5bG9hZCA6IHt9OwogIGNvbnN0IGhhc1JlY29nbml6ZWRCYWNrdXBTZWN0aW9uID0gaXNUcmFuc2FjdGlvbkFycmF5SW1wb3J0CiAgICB8fCBLTk9XTl9JTVBPUlRfU0VDVElPTlMuc29tZSgoc2VjdGlvbikgPT4gT2JqZWN0LnByb3RvdHlwZS5oYXNPd25Qcm9wZXJ0eS5jYWxsKGJhY2t1cE9iamVjdCwgc2VjdGlvbikpOwoKICBpZiAoIWhhc1JlY29nbml6ZWRCYWNrdXBTZWN0aW9uKSB7CiAgICByZXR1cm4gewogICAgICBvazogZmFsc2UsCiAgICAgIHJlYXNvbjogJ0lNUE9SVF9CQUNLVVBfVkFMSURBVElPTl9GQUlMRUQnLAogICAgICBtZXNzYWdlOiAn2YTZhSDZitiq2YUg2KfYs9iq2YrYsdin2K8g2KfZhNmG2LPYrtipINmE2KPZhtmH2Kcg2YTYpyDYqtit2KrZiNmKINij2Yog2YLYs9mFINmF2LnYsdmI2YEg2YTZhNin2LPYqti52KfYr9ipLiDZhNmFINmK2KrZhSDYrdiw2YEg2KPZiCDYqti62YrZitixINin2YTYqNmK2KfZhtin2Kog2KfZhNit2KfZhNmK2KkuJywKICAgICAgdmFsaWRhdGlvbkZhaWx1cmVzOiBbewogICAgICAgIHNlY3Rpb246ICdiYWNrdXAnLAogICAgICAgIGluZGV4OiAnKicsCiAgICAgICAgY29kZTogJ0VNUFRZX09SX1VOUkVDT0dOSVpFRF9CQUNLVVAnLAogICAgICAgIG1lc3NhZ2U6ICfYp9mE2YbYs9iu2Kkg2KfZhNin2K3YqtmK2KfYt9mK2Kkg2YrYrNioINij2YYg2KrYrdiq2YjZiiB0cmFuc2FjdGlvbnMg2KPZiCBidWRnZXRzINij2YggY29tbWl0bWVudHMg2KPZiCByZXBvcnRzINij2YggbWVtb3J5LicsCiAgICAgIH1dLAogICAgfTsKICB9CgogIHJldHVybiB7IG9rOiB0cnVlLCBpc1RyYW5zYWN0aW9uQXJyYXlJbXBvcnQsIGJhY2t1cE9iamVjdCB9Owp9Cg==
+export type ImportEnvelopeValidationFailure = {
+  section: string;
+  index: string | number;
+  code: string;
+  message: string;
+};
+
+export type ImportEnvelopeValidationResult =
+  | { ok: true; isTransactionArrayImport: boolean; backupObject: Record<string, unknown> }
+  | { ok: false; reason: 'IMPORT_BACKUP_VALIDATION_FAILED'; message: string; validationFailures: ImportEnvelopeValidationFailure[] };
+
+const KNOWN_IMPORT_SECTIONS = ['transactions', 'budgets', 'commitments', 'reports', 'memory'] as const;
+
+function isPlainBackupObject(value: unknown): value is Record<string, unknown> {
+  return Boolean(value && typeof value === 'object' && !Array.isArray(value));
+}
+
+export function validateImportEnvelope(payload: unknown): ImportEnvelopeValidationResult {
+  if (!payload || typeof payload !== 'object') {
+    return {
+      ok: false,
+      reason: 'IMPORT_BACKUP_VALIDATION_FAILED',
+      message: 'لم يتم استيراد النسخة لأن ملف النسخة الاحتياطية غير صالح. لم يتم حذف أو تغيير البيانات الحالية.',
+      validationFailures: [{
+        section: 'backup',
+        index: '*',
+        code: 'INVALID_BACKUP_PAYLOAD',
+        message: 'ملف النسخة الاحتياطية يجب أن يكون كائناً أو مصفوفة عمليات.',
+      }],
+    };
+  }
+
+  const isTransactionArrayImport = Array.isArray(payload);
+  const backupObject = isTransactionArrayImport ? {} : isPlainBackupObject(payload) ? payload : {};
+  const hasRecognizedBackupSection = isTransactionArrayImport
+    || KNOWN_IMPORT_SECTIONS.some((section) => Object.prototype.hasOwnProperty.call(backupObject, section));
+
+  if (!hasRecognizedBackupSection) {
+    return {
+      ok: false,
+      reason: 'IMPORT_BACKUP_VALIDATION_FAILED',
+      message: 'لم يتم استيراد النسخة لأنها لا تحتوي أي قسم معروف للاستعادة. لم يتم حذف أو تغيير البيانات الحالية.',
+      validationFailures: [{
+        section: 'backup',
+        index: '*',
+        code: 'EMPTY_OR_UNRECOGNIZED_BACKUP',
+        message: 'النسخة الاحتياطية يجب أن تحتوي transactions أو budgets أو commitments أو reports أو memory.',
+      }],
+    };
+  }
+
+  return { ok: true, isTransactionArrayImport, backupObject };
+}

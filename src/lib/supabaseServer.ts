@@ -1,1 +1,12 @@
-aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJzsKaW1wb3J0IGRvdGVudiBmcm9tICdkb3RlbnYnOwoKZG90ZW52LmNvbmZpZygpOwoKY29uc3Qgc3VwYWJhc2VVcmwgPSBwcm9jZXNzLmVudi5TVVBBQkFTRV9VUkw7CmNvbnN0IHN1cGFiYXNlU2VydmljZUtleSA9IHByb2Nlc3MuZW52LlNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVk7CgovLyBPbmx5IGluaXRpYWxpemUgaWYgVVJMIGlzIHByb3ZpZGVkLCBvdGhlcndpc2UgbGV0IGl0IGJlIG51bGwuCmV4cG9ydCBjb25zdCBzdXBhYmFzZSA9IHN1cGFiYXNlVXJsICYmIHN1cGFiYXNlU2VydmljZUtleSAKICA/IGNyZWF0ZUNsaWVudChzdXBhYmFzZVVybCwgc3VwYWJhc2VTZXJ2aWNlS2V5KSAKICA6IG51bGw7Cg==
+import { createClient } from '@supabase/supabase-js';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+// Only initialize if URL is provided, otherwise let it be null.
+export const supabase = supabaseUrl && supabaseServiceKey 
+  ? createClient(supabaseUrl, supabaseServiceKey) 
+  : null;
