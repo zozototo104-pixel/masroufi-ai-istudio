@@ -1,1 +1,18 @@
-bm9kZV9tb2R1bGVzLwpidWlsZC8KZGlzdC8KY292ZXJhZ2UvCi5EU19TdG9yZQoqLmxvZwouZW52KgohLmVudi5leGFtcGxlCgojIGxvY2FsL3J1bnRpbWUgc2VjcmV0cyBhbmQgZ2VuZXJhdGVkIGZpbGVzCi5lbnYKLmVudi4qCiEuZW52LmV4YW1wbGUKbm9kZV9tb2R1bGVzLwpkaXN0LwpwZXJzaXN0ZWRfZGIuanNvbgphcHAtZXJyb3JzLmxvZwpmaXJlYmFzZS1zZXJ2aWNlLWFjY291bnQuanNvbgo=
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# local/runtime secrets and generated files
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+persisted_db.json
+app-errors.log
+firebase-service-account.json

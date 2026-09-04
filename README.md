@@ -1,1 +1,64 @@
-IyBNYXNyb2ZpIEFJIFY2LjIKCtiq2LfYqNmK2YIg2YXYs9in2LnYryDZhdin2YTZiiDYtNiu2LXZiiDZhdio2YbZiiDYqNmAIFJlYWN0ICsgVml0ZSArIEV4cHJlc3MgKyBGaXJlYmFzZSArIEdlbWluaS4KCiMjINin2YTYqti02LrZitmEINin2YTZhdit2YTZigoKMS4g2KvYqNiqINin2YTYp9i52KrZhdin2K/Yp9iqOgoKYGBgYmFzaApucG0gaW5zdGFsbApgYGAKCjIuINin2YbYs9iuINmF2YTZgSDYp9mE2KjZitim2Kk6CgpgYGBiYXNoCmNwIC5lbnYuZXhhbXBsZSAuZW52CmBgYAoKMy4g2LnYr9mR2YQg2KfZhNmC2YrZhSDYp9mE2YXYt9mE2YjYqNipINmB2YogYC5lbnZg2Iwg2YjYo9mH2YXZh9inOgoKLSBgR0VNSU5JX0FQSV9LRVlgCi0gYEZJUkVCQVNFX1NFUlZJQ0VfQUNDT1VOVF9LRVlgINij2YggYEdPT0dMRV9BUFBMSUNBVElPTl9DUkVERU5USUFMU2AKCjQuINi02LrZkdmEINin2YTYqti32KjZitmCOgoKYGBgYmFzaApucG0gcnVuIGRldgpgYGAKCtiz2YrZgdiq2K0g2KfZhNiu2KfYr9mFINi52YTZiSBgaHR0cDovL2xvY2FsaG9zdDozMDAwYCDZiNmK2LPYqtiu2K/ZhSBWaXRlIG1pZGRsZXdhcmUg2YHZiiDZiNi22Lkg2KfZhNiq2LfZiNmK2LEuCgojIyDYp9mE2KjZhtin2KEg2YjYp9mE2KrYtNi62YrZhCDYp9mE2KXZhtiq2KfYrNmKCgpgYGBiYXNoCm5wbSBydW4gYnVpbGQKbnBtIHN0YXJ0CmBgYAoKIyMg2KfZhNmG2LTYsSDYudmE2YkgUmVuZGVyCgrYo9mG2LTYpiBXZWIgU2VydmljZSDZhdmGINin2YTZhdiz2KrZiNiv2LnYjCDYo9mIINin2LPYqtiu2K/ZhSDZhdmE2YEgYHJlbmRlci55YW1sYCDYp9mE2YXZiNis2YjYryDZgdmKINin2YTZhdi02LHZiNi5LgoK2KfZhNil2LnYr9in2K/Yp9iqINin2YTZitiv2YjZitipINin2YTZhdmC2KrYsdit2Kk6CgotIFJ1bnRpbWU6IGBOb2RlYAotIEJ1aWxkIENvbW1hbmQ6IGBucG0gY2kgJiYgbnBtIHJ1biBidWlsZGAKLSBTdGFydCBDb21tYW5kOiBgbnBtIHN0YXJ0YAotIEhlYWx0aCBDaGVjayBQYXRoOiBgL2FwaS9oZWFsdGhgCgrZhdiq2LrZitix2KfYqiDYp9mE2KjZtimK2Kkg2KfZhNmF2LfZhNmI2KjYqSDZgdmKIFJlbmRlcjoKCmBgYGJhc2gKTk9ERV9FTlY9cHJvZHVjdGlvbgpHRU1JTklfQVBJX0tFWT0uLi4KRklSRUJBU0VfU0VSVklDRV9BQ0NPVU5UX0tFWT0uLi4KYGBgCgrZgtmK2YXYqSBgRklSRUJBU0VfU0VSVklDRV9BQ0NPVU5UX0tFWWAg2KrZg9mI2YYgSlNPTiDZg9in2YXZhCDZhNit2LPYp9ioINiu2K/ZhdipIEZpcmViYXNlIEFkbWluLiDZitmF2YPZhiDZhNi12YIgSlNPTiDZg9iz2LfYsSDZiNin2K3Yr9iMINij2Ygg2YjYtti52YcgQmFzZTY0LiDYp9mE2YPZiNivINmK2K/YudmFINij2YrYttin2YsgU2VjcmV0IEZpbGUg2KjYp9iz2YUgYC9ldGMvc2VjcmV0cy9maXJlYmFzZS1zZXJ2aWNlLWFjY291bnQuanNvbmAuCgojIyDZhdmE2KfYrdi42KfYqiDZhdmH2YXYqQoKLSDYp9mE2K7Yp9iv2YUg2YrYs9iq2K7Yr9mFIGBwcm9jZXNzLmVudi5QT1JUYCDYqtmE2YLYp9im2YrYp9mL2Iwg2YjZh9iw2Kcg2YXYt9mE2YjYqCDYudmE2YkgUmVuZGVyLgotINmE2Kcg2KrYtti5INmF2YHYp9iq2YrYrSBHZW1pbmkg2YHZiiDYsdin2KjYtyBXZWJTb2NrZXTYmyDYqtmFINiq2LnYr9mK2YQg2KfZhNi12YjYqiDYp9mE2K3ZiiDZhNil2LHYs9in2YQg2KfZhNmF2YHYqtin2K0g2YHZiiDYsdiz2KfZhNipINin2YTZhdi12KfYr9mC2Kkg2YjZhNmK2LMg2YHZiiBVUkwuCi0g2YTYpyDYqtix2YHYuSDZhdmE2YEgYC5lbnZgINij2Ygg2YXZgdin2KrZititINin2YTYrtiv2YXYqSDYpdmE2YkgR2l0SHViLgo=
+# Masrofi AI V6.2
+
+تطبيق مساعد مالي شخصي مبني بـ React + Vite + Express + Firebase + Gemini.
+
+## التشغيل المحلي
+
+1. ثبت الاعتمادات:
+
+```bash
+npm install
+```
+
+2. انسخ ملف البيئة:
+
+```bash
+cp .env.example .env
+```
+
+3. عدّل القيم المطلوبة في `.env`، وأهمها:
+
+- `GEMINI_API_KEY`
+- `FIREBASE_SERVICE_ACCOUNT_KEY` أو `GOOGLE_APPLICATION_CREDENTIALS`
+
+4. شغّل التطبيق:
+
+```bash
+npm run dev
+```
+
+سيفتح الخادم على `http://localhost:3000` ويستخدم Vite middleware في وضع التطوير.
+
+## البناء والتشغيل الإنتاجي
+
+```bash
+npm run build
+npm start
+```
+
+## النشر على Render
+
+أنشئ Web Service من المستودع، أو استخدم ملف `render.yaml` الموجود في المشروع.
+
+الإعدادات اليدوية المقترحة:
+
+- Runtime: `Node`
+- Build Command: `npm ci && npm run build`
+- Start Command: `npm start`
+- Health Check Path: `/api/health`
+
+متغيرات البيئة المطلوبة في Render:
+
+```bash
+NODE_ENV=production
+GEMINI_API_KEY=...
+FIREBASE_SERVICE_ACCOUNT_KEY=...
+```
+
+قيمة `FIREBASE_SERVICE_ACCOUNT_KEY` تكون JSON كامل لحساب خدمة Firebase Admin. يمكن لصق JSON كسطر واحد، أو وضعه Base64. الكود يدعم أيضاً Secret File باسم `/etc/secrets/firebase-service-account.json`.
+
+## ملاحظات مهمة
+
+- الخادم يستخدم `process.env.PORT` تلقائياً، وهذا مطلوب على Render.
+- لا تضع مفاتيح Gemini في رابط WebSocket؛ تم تعديل الصوت الحي لإرسال المفتاح في رسالة المصادقة وليس في URL.
+- لا ترفع ملف `.env` أو مفاتيح الخدمة إلى GitHub.

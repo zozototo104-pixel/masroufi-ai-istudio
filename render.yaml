@@ -1,1 +1,15 @@
-c2VydmljZXM6CiAgLSB0eXBlOiB3ZWIKICAgIG5hbWU6IG1hc3JvdWZpLWFpCiAgICBydW50aW1lOiBub2RlCiAgICBwbGFuOiBmcmVlCiAgICBidWlsZENvbW1hbmQ6IG5wbSBpbnN0YWxsICYmIG5wbSBydW4gYnVpbGQKICAgIHN0YXJ0Q29tbWFuZDogbm9kZSBkaXN0L3NlcnZlci5janMKICAgIGhlYWx0aENoZWNrUGF0aDogL2FwaS9jbG91ZC1oZWFsdGgKICAgIGVudlZhcnM6CiAgICAgIC0ga2V5OiBOT0RFX0VOVgogICAgICAgIHZhbHVlOiBwcm9kdWN0aW9uCiAgICAgIC0ga2V5OiBGSVJFQkFTRV9TRVJWSUNFX0FDQ09VTlRfS0VZCiAgICAgICAgc3luYzogZmFsc2UKICAgICAgLSBrZXk6IEdFTUlOSV9BUElfS0VZCiAgICAgICAgc3luYzogZmFsc2UK
+services:
+  - type: web
+    name: masroufi-ai
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: node dist/server.cjs
+    healthCheckPath: /api/cloud-health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: FIREBASE_SERVICE_ACCOUNT_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false

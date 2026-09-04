@@ -1,1 +1,133 @@
-cnVsZXNfdmVyc2lvbiA9ICcyJzsKCi8vIFY2IEZpcmVzdG9yZSBTZWN1cml0eSBSdWxlcyAoQ0YtNykuCi8vCi8vIFByaW5jaXBsZTogZGVueSBieSBkZWZhdWx0LiBBbGxvdyBvbmx5IGF1dGhlbnRpY2F0ZWQgdXNlcnMgdG8gYWNjZXNzIHRoZWlyIG93bgovLyBkb2N1bWVudHMuIFRoZSBzZXJ2ZXIgdXNlcyBGaXJlYmFzZSBBZG1pbiBTREsgd2hpY2ggYnlwYXNzZXMgdGhlc2UgcnVsZXMKLy8gZW50aXJlbHksIHNvIGNsaWVudC1zaWRlIHJlYWRzL3dyaXRlcyBtdXN0IGJlIHN0cmljdGx5IHVzZXItc2NvcGVkLgovLwovLyBOb3RlOiBUaGlzIGZpbGUgaXMgdGhlIFNPVVJDRS1PRi1UUlVUSCBmb3IgcnVsZXMgaW4gdGhlIHJlcG9zaXRvcnkuIFRvCi8vIGRlcGxveSBydW46IGZpcmViYXNlIGRlcGxveSAtLW9ubHkgZmlyZXN0b3JlOnJ1bGVzCi8vIChvciB2aWEgZ2Nsb3VkIGZpcmVzdG9yZSBzZWN1cml0eS1ydWxlcyB1cGRhdGUgaWYgbm90IHVzaW5nIEZpcmViYXNlIENMSSkuCnNlcnZpY2UgY2xvdWQuZmlyZXN0b3JlIHsKICBtYXRjaCAvZGF0YWJhc2VzL3tkYXRhYmFzZX0vZG9jdW1lbnRzIHsKCiAgICAvLyBIZWxwZXI6IGF1dGhlbnRpY2F0ZWQgdXNlci4KICAgIGZ1bmN0aW9uIGlzU2lnbmVkSW4oKSB7CiAgICAgIHJldHVybiByZXF1ZXN0LmF1dGggIT0gbnVsbDsKICAgIH0KCiAgICAvLyBIZWxwZXI6IHJlcXVlc3RpbmcgdXNlciBtYXRjaGVzIHRoZSBkb2N1bWVudCdzIG93bmVyLgogICAgLy8gVXNlZCBmb3IgdG9wLWxldmVsIGNvbGxlY3Rpb25zIHdoZXJlIHVzZXJJZCBpcyBhIGZpZWxkIG9uIHRoZSBkb2N1bWVudC4KICAgIGZ1bmN0aW9uIG93bnNEb2MocmVzb3VyY2UpIHsKICAgICAgcmV0dXJuIGlzU2lnbmVkSW4oKQogICAgICAgICYmIHJlc291cmNlLmRhdGEudXNlcklkID09IHJlcXVlc3QuYXV0aC51aWQ7CiAgICB9CgogICAgLy8gSGVscGVyOiByZXF1ZXN0aW5nIHVzZXIgbWF0Y2hlcyB0aGUge3VzZXJJZH0gcGF0aCBzZWdtZW50CiAgICAvLyAodXNlZCBmb3IgdXNlcnMve3VpZH0vLi4uIHN1YmNvbGxlY3Rpb25zKS4KICAgIGZ1bmN0aW9uIG93bnNVc2VyUGF0aCh1c2VySWQpIHsKICAgICAgcmV0dXJuIGlzU2lnbmVkSW4oKSAmJiByZXF1ZXN0LmF1dGgudWlkID09IHVzZXJJZDsKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tIFRvcC1sZXZlbCB1c2VyLW93bmVkIGNvbGxlY3Rpb25zIC0tLS0tLS0tLS0KCiAgICAvLyBUcmFuc2FjdGlvbnM6IGV2ZXJ5IGRvYyBjYXJyaWVzIHVzZXJJZC4KICAgIG1hdGNoIC90cmFuc2FjdGlvbnMve3R4SWR9IHsKICAgICAgYWxsb3cgcmVhZDogaWYgb3duc0RvYyhyZXNvdXJjZSk7CiAgICAgIC8vIE9uIGNyZWF0ZSwgdGhlIGNsaWVudCBtdXN0IHNldCB1c2VySWQgdG8gdGhlaXIgb3duIFVJRC4KICAgICAgYWxsb3cgY3JlYXRlOiBpZiBpc1NpZ25lZEluKCkgJiYgcmVxdWVzdC5yZXNvdXJjZS5kYXRhLnVzZXJJZCA9PSByZXF1ZXN0LmF1dGgudWlkOwogICAgICAvLyBVcGRhdGVzIG9ubHkgYWxsb3dlZCBpZiB0aGUgZG9jIGlzIGFscmVhZHkgb3duZWQgYnkgdGhpcyB1c2VyLCBBTkQKICAgICAgLy8gdGhlIHVwZGF0ZSBkb2VzIE5PVCBjaGFuZ2UgdXNlcklkIHRvIGEgZGlmZmVyZW50IG93bmVyLgogICAgICBhbGxvdyB1cGRhdGU6IGlmIG93bnNEb2MocmVzb3VyY2UpCiAgICAgICAgICAgICAgICAgICAgJiYgKHJlcXVlc3QucmVzb3VyY2UuZGF0YS51c2VySWQgPT0gbnVsbCB8fCByZXF1ZXN0LnJlc291cmNlLmRhdGEudXNlcklkID09IHJlc291cmNlLmRhdGEudXNlcklkKTsKICAgICAgYWxsb3cgZGVsZXRlOiBpZiBvd25zRG9jKHJlc291cmNlKTsKICAgIH0KCiAgICAvLyBDb21taXRtZW50cy4KICAgIG1hdGNoIC9jb21taXRtZW50cy97Y0lkfSB7CiAgICAgIGFsbG93IHJlYWQ6IGlmIG93bnNEb2MocmVzb3VyY2UpOwogICAgICBhbGxvdyBjcmVhdGU6IGlmIGlzU2lnbmVkSW4oKSAmJiByZXF1ZXN0LnJlc291cmNlLmRhdGEudXNlcklkID09IHJlcXVlc3QuYXV0aC51aWQ7CiAgICAgIGFsbG93IHVwZGF0ZTogaWYgb3duc0RvYyhyZXNvdXJjZSkKICAgICAgICAgICAgICAgICAgICAmJiAocmVxdWVzdC5yZXNvdXJjZS5kYXRhLnVzZXJJZCA9PSBudWxsIHx8IHJlcXVlc3QucmVzb3VyY2UuZGF0YS51c2VySWQgPT0gcmVzb3VyY2UuZGF0YS51c2VySWQpOwogICAgICBhbGxvdyBkZWxldGU6IGlmIG93bnNEb2MocmVzb3VyY2UpOwogICAgfQoKICAgIC8vIFJlcG9ydHMuCiAgICBtYXRjaCAvcmVwb3J0cy97cklkfSB7CiAgICAgIGFsbG93IHJlYWQ6IGlmIG93bnNEb2MocmVzb3VyY2UpOwogICAgICBhbGxvdyBjcmVhdGU6IGlmIGlzU2lnbmVkSW4oKSAmJiByZXF1ZXN0LnJlc291cmNlLmRhdGEudXNlcklkID09IHJlcXVlc3QuYXV0aC51aWQ7CiAgICAgIGFsbG93IHVwZGF0ZTogaWYgb3duc0RvYyhyZXNvdXJjZSkKICAgICAgICAgICAgICAgICAgICAmJiAocmVxdWVzdC5yZXNvdXJjZS5kYXRhLnVzZXJJZCA9PSBudWxsIHx8IHJlcXVlc3QucmVzb3VyY2UuZGF0YS51c2VySWQgPT0gcmVzb3VyY2UuZGF0YS51c2VySWQpOwogICAgICBhbGxvdyBkZWxldGU6IGlmIG93bnNEb2MocmVzb3VyY2UpOwogICAgfQoKICAgIC8vIElkZW1wb3RlbmN5IGtleXMgKFY2LCBDRi02KTogZWFjaCBlbnRyeSBpcyBvd25lZCBieSBvbmUgdXNlci4KICAgIG1hdGNoIC9pZGVtcG90ZW5jeV9rZXlzL3trZXlJZH0gewogICAgICBhbGxvdyByZWFkOiBpZiBvd25zRG9jKHJlc291cmNlKTsKICAgICAgYWxsb3cgY3JlYXRlOiBpZiBpc1NpZ25lZEluKCkgJiYgcmVxdWVzdC5yZXNvdXJjZS5kYXRhLnVzZXJJZCA9PSByZXF1ZXN0LmF1dGgudWlkOwogICAgICBhbGxvdyB1cGRhdGU6IGlmIG93bnNEb2MocmVzb3VyY2UpOwogICAgICBhbGxvdyBkZWxldGU6IGlmIGZhbHNlOyAvLyBzZXJ2ZXItbWFuYWdlZCBvbmx5CiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBVc2VyLXNjb3BlZCBzdWJjb2xsZWN0aW9ucyAtLS0tLS0tLS0tCgogICAgLy8gdXNlcnMve3VpZH0gZG9jdW1lbnQgaXRzZWxmIChwcm9maWxlIC8gc2V0dGluZ3MpLgogICAgbWF0Y2ggL3VzZXJzL3t1c2VySWR9IHsKICAgICAgYWxsb3cgcmVhZDogaWYgb3duc1VzZXJQYXRoKHVzZXJJZCk7CiAgICAgIGFsbG93IGNyZWF0ZTogaWYgb3duc1VzZXJQYXRoKHVzZXJJZCk7CiAgICAgIGFsbG93IHVwZGF0ZTogaWYgb3duc1VzZXJQYXRoKHVzZXJJZCk7CiAgICAgIGFsbG93IGRlbGV0ZTogaWYgb3duc1VzZXJQYXRoKHVzZXJJZCk7CgogICAgICAvLyBNZW1vcnkgc3ViY29sbGVjdGlvbi4KICAgICAgbWF0Y2ggL21lbW9yeS97bWVtb3J5SWR9IHsKICAgICAgICBhbGxvdyByZWFkOiBpZiBvd25zVXNlclBhdGgodXNlcklkKTsKICAgICAgICBhbGxvdyB3cml0ZTogaWYgb3duc1VzZXJQYXRoKHVzZXJJZCk7CiAgICAgIH0KCiAgICAgIC8vIEJ1ZGdldHMgc3ViY29sbGVjdGlvbi4KICAgICAgbWF0Y2ggL2J1ZGdldHMve2J1ZGdldElkfSB7CiAgICAgICAgYWxsb3cgcmVhZDogaWYgb3duc1VzZXJQYXRoKHVzZXJJZCk7CiAgICAgICAgYWxsb3cgd3JpdGU6IGlmIG93bnNVc2VyUGF0aCh1c2VySWQpOwogICAgICB9CgogICAgICAvLyBOb3RpZmljYXRpb25zIHN1YmNvbGxlY3Rpb24uCiAgICAgIG1hdGNoIC9ub3RpZmljYXRpb25zL3tub3RpZklkfSB7CiAgICAgICAgYWxsb3cgcmVhZDogaWYgb3duc1VzZXJQYXRoKHVzZXJJZCk7CiAgICAgICAgYWxsb3cgd3JpdGU6IGlmIG93bnNVc2VyUGF0aCh1c2VySWQpOwogICAgICB9CgogICAgICAvLyBUcmVhc3VyZXIgcHJvZmlsZSBzdWJjb2xsZWN0aW9uLgogICAgICBtYXRjaCAvdHJlYXN1cmVyL3tkb2NJZH0gewogICAgICAgIGFsbG93IHJlYWQ6IGlmIG93bnNVc2VyUGF0aCh1c2VySWQpOwogICAgICAgIGFsbG93IHdyaXRlOiBpZiBvd25zVXNlclBhdGgodXNlcklkKTsKICAgICAgfQoKICAgICAgLy8gU2F2aW5ncyBnb2FscyBzdWJjb2xsZWN0aW9uLgogICAgICBtYXRjaCAvc2F2aW5nc0dvYWxzL3tnb2FsSWR9IHsKICAgICAgICBhbGxvdyByZWFkOiBpZiBvd25zVXNlclBhdGgodXNlcklkKTsKICAgICAgICBhbGxvdyB3cml0ZTogaWYgb3duc1VzZXJQYXRoKHVzZXJJZCk7CiAgICAgIH0KCiAgICAgIC8vIEdhemEvUGFsZXN0aW5lIG1hcmtldCBkaXJlY3Rvcnkgc3ViY29sbGVjdGlvbi4KICAgICAgbWF0Y2ggL21hcmtldERpcmVjdG9yeS97b2ZmZXJJZH0gewogICAgICAgIGFsbG93IHJlYWQ6IGlmIG93bnNVc2VyUGF0aCh1c2VySWQpOwogICAgICAgIGFsbG93IHdyaXRlOiBpZiBvd25zVXNlclBhdGgodXNlcklkKTsKICAgICAgfQogICAgfQoKICAgIC8vIGRlYnRzIGNvbGxlY3Rpb24gKGxlZ2FjeSByZWN1cnJpbmcgaXRlbXMgcGF0aCDigJQga2VwdCBmb3IgYmFja3dhcmQgY29tcGF0aWJpbGl0eSwKICAgIC8vIGJ1dCBvbmx5IHRoZSBvd25pbmcgdXNlciBjYW4gcmVhZCB0aGVpciBvd24gc3Vic2NyaXB0aW9uIGVudHJpZXMpLgogICAgbWF0Y2ggL2RlYnRzL3tkZWJ0SWR9IHsKICAgICAgYWxsb3cgcmVhZDogaWYgb3duc0RvYyhyZXNvdXJjZSk7CiAgICAgIGFsbG93IGNyZWF0ZTogaWYgaXNTaWduZWRJbigpICYmIHJlcXVlc3QucmVzb3VyY2UuZGF0YS51c2VySWQgPT0gcmVxdWVzdC5hdXRoLnVpZDsKICAgICAgYWxsb3cgdXBkYXRlOiBpZiBvd25zRG9jKHJlc291cmNlKTsKICAgICAgYWxsb3cgZGVsZXRlOiBpZiBvd25zRG9jKHJlc291cmNlKTsKICAgIH0KCiAgICAvLyBEZWZhdWx0IGRlbnkg4oCUIGFueSBwYXRoIG5vdCBleHBsaWNpdGx5IG1hdGNoZWQgYWJvdmUuCiAgICBtYXRjaCAve2RvY3VtZW50PSoqfSB7CiAgICAgIGFsbG93IHJlYWQsIHdyaXRlOiBpZiBmYWxzZTsKICAgIH0KICB9Cn0K
+rules_version = '2';
+
+// V6 Firestore Security Rules (CF-7).
+//
+// Principle: deny by default. Allow only authenticated users to access their own
+// documents. The server uses Firebase Admin SDK which bypasses these rules
+// entirely, so client-side reads/writes must be strictly user-scoped.
+//
+// Note: This file is the SOURCE-OF-TRUTH for rules in the repository. To
+// deploy run: firebase deploy --only firestore:rules
+// (or via gcloud firestore security-rules update if not using Firebase CLI).
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper: authenticated user.
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Helper: requesting user matches the document's owner.
+    // Used for top-level collections where userId is a field on the document.
+    function ownsDoc(resource) {
+      return isSignedIn()
+        && resource.data.userId == request.auth.uid;
+    }
+
+    // Helper: requesting user matches the {userId} path segment
+    // (used for users/{uid}/... subcollections).
+    function ownsUserPath(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // ---------- Top-level user-owned collections ----------
+
+    // Transactions: every doc carries userId.
+    match /transactions/{txId} {
+      allow read: if ownsDoc(resource);
+      // On create, the client must set userId to their own UID.
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      // Updates only allowed if the doc is already owned by this user, AND
+      // the update does NOT change userId to a different owner.
+      allow update: if ownsDoc(resource)
+                    && (request.resource.data.userId == null || request.resource.data.userId == resource.data.userId);
+      allow delete: if ownsDoc(resource);
+    }
+
+    // Commitments.
+    match /commitments/{cId} {
+      allow read: if ownsDoc(resource);
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      allow update: if ownsDoc(resource)
+                    && (request.resource.data.userId == null || request.resource.data.userId == resource.data.userId);
+      allow delete: if ownsDoc(resource);
+    }
+
+    // Reports.
+    match /reports/{rId} {
+      allow read: if ownsDoc(resource);
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      allow update: if ownsDoc(resource)
+                    && (request.resource.data.userId == null || request.resource.data.userId == resource.data.userId);
+      allow delete: if ownsDoc(resource);
+    }
+
+    // Idempotency keys (V6, CF-6): each entry is owned by one user.
+    match /idempotency_keys/{keyId} {
+      allow read: if ownsDoc(resource);
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      allow update: if ownsDoc(resource);
+      allow delete: if false; // server-managed only
+    }
+
+    // ---------- User-scoped subcollections ----------
+
+    // users/{uid} document itself (profile / settings).
+    match /users/{userId} {
+      allow read: if ownsUserPath(userId);
+      allow create: if ownsUserPath(userId);
+      allow update: if ownsUserPath(userId);
+      allow delete: if ownsUserPath(userId);
+
+      // Memory subcollection.
+      match /memory/{memoryId} {
+        allow read: if ownsUserPath(userId);
+        allow write: if ownsUserPath(userId);
+      }
+
+      // Budgets subcollection.
+      match /budgets/{budgetId} {
+        allow read: if ownsUserPath(userId);
+        allow write: if ownsUserPath(userId);
+      }
+
+      // Notifications subcollection.
+      match /notifications/{notifId} {
+        allow read: if ownsUserPath(userId);
+        allow write: if ownsUserPath(userId);
+      }
+
+      // Treasurer profile subcollection.
+      match /treasurer/{docId} {
+        allow read: if ownsUserPath(userId);
+        allow write: if ownsUserPath(userId);
+      }
+
+      // Savings goals subcollection.
+      match /savingsGoals/{goalId} {
+        allow read: if ownsUserPath(userId);
+        allow write: if ownsUserPath(userId);
+      }
+
+      // Gaza/Palestine market directory subcollection.
+      match /marketDirectory/{offerId} {
+        allow read: if ownsUserPath(userId);
+        allow write: if ownsUserPath(userId);
+      }
+    }
+
+    // debts collection (legacy recurring items path — kept for backward compatibility,
+    // but only the owning user can read their own subscription entries).
+    match /debts/{debtId} {
+      allow read: if ownsDoc(resource);
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      allow update: if ownsDoc(resource);
+      allow delete: if ownsDoc(resource);
+    }
+
+    // Default deny — any path not explicitly matched above.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

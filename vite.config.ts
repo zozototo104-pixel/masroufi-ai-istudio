@@ -1,1 +1,28 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSc7CmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCc7CmltcG9ydCB0YWlsd2luZGNzcyBmcm9tICdAdGFpbHdpbmRjc3Mvdml0ZSc7CgpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoewogIHBsdWdpbnM6IFtyZWFjdCgpLCB0YWlsd2luZGNzcygpXSwKICBzZXJ2ZXI6IHsKICAgIGhvc3Q6ICcwLjAuMC4wJywKICAgIHBvcnQ6IDUxNzMsCiAgfSwKICBidWlsZDogewogICAgb3V0RGlyOiAnZGlzdCcsCiAgICBzb3VyY2VtYXA6IHRydWUsCiAgICByb2xsdXBPcHRpb25zOiB7CiAgICAgIG91dHB1dDogewogICAgICAgIG1hbnVhbENodW5rcyhpZCkgewogICAgICAgICAgaWYgKCFpZC5pbmNsdWRlcygnbm9kZV9tb2R1bGVzJykpIHJldHVybiB1bmRlZmluZWQ7CiAgICAgICAgICAvLyBLZWVwIG9ubHkgdGhlIGxhcmdlc3QgaW5kZXBlbmRlbnQgdmVuZG9yIGZhbWlsaWVzIHNlcGFyYXRlLiBTcGxpdHRpbmcKICAgICAgICAgIC8vIFJlYWN0L1VJIGZyb20gdGhlIGdlbmVyaWMgdmVuZG9yIGNodW5rIGNyZWF0ZWQgUm9sbHVwIGNpcmN1bGFyLWNodW5rCiAgICAgICAgICAvLyB3YXJuaW5ncyBiZWNhdXNlIHNoYXJlZCBVSSBkZXBlbmRlbmNpZXMgaW1wb3J0ZWQgYWNyb3NzIGJvdGggZ3JvdXBzLgogICAgICAgICAgaWYgKGlkLmluY2x1ZGVzKCcvZmlyZWJhc2UvJykgfHwgaWQuaW5jbHVkZXMoJy9AZmlyZWJhc2UvJykpIHJldHVybiAndmVuZG9yLWZpcmViYXNlJzsKICAgICAgICAgIGlmIChpZC5pbmNsdWRlcygnL3JlY2hhcnRzLycpIHx8IGlkLmluY2x1ZGVzKCcvZDMnKSkgcmV0dXJuICd2ZW5kb3ItY2hhcnRzJzsKICAgICAgICAgIHJldHVybiAndmVuZG9yJzsKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICB9LAp9KTsK
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  server: {
+    host: '0.0.0.0',
+    port: 5173,
+  },
+  build: {
+    outDir: 'dist',
+    sourcemap: true,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (!id.includes('node_modules')) return undefined;
+          // Keep only the largest independent vendor families separate. Splitting
+          // React/UI from the generic vendor chunk created Rollup circular-chunk
+          // warnings because shared UI dependencies imported across both groups.
+          if (id.includes('/firebase/') || id.includes('/@firebase/')) return 'vendor-firebase';
+          if (id.includes('/recharts/') || id.includes('/d3')) return 'vendor-charts';
+          return 'vendor';
+        },
+      },
+    },
+  },
+});

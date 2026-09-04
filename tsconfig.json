@@ -1,1 +1,27 @@
-ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidGFyZ2V0IjogIkVTMjAyMiIsCiAgICAiZXhwZXJpbWVudGFsRGVjb3JhdG9ycyI6IHRydWUsCiAgICAidXNlRGVmaW5lRm9yQ2xhc3NGaWVsZHMiOiBmYWxzZSwKICAgICJtb2R1bGUiOiAiRVNOZXh0IiwKICAgICJsaWIiOiBbCiAgICAgICJFUzIwMjIiLAogICAgICAiRE9NIiwKICAgICAgIkRPTS5JdGVyYWJsZSIKICAgIF0sCiAgICAic2tpcExpYkNoZWNrIjogdHJ1ZSwKICAgICJtb2R1bGVSZXNvbHV0aW9uIjogImJ1bmRsZXIiLAogICAgImlzb2xhdGVkTW9kdWxlcyI6IHRydWUsCiAgICAibW9kdWxlRGV0ZWN0aW9uIjogImZvcmNlIiwKICAgICJhbGxvd0pzIjogdHJ1ZSwKICAgICJqc3giOiAicmVhY3QtanN4IiwKICAgICJwYXRocyI6IHsKICAgICAgIkAvKiI6IFsKICAgICAgICAiLi8qIgogICAgICBdCiAgICB9LAogICAgImFsbG93SW1wb3J0aW5nVHNFeHRlbnNpb25zIjogdHJ1ZSwKICAgICJub0VtaXQiOiB0cnVlCiAgfSwKICAiZXhjbHVkZSI6IFsibm9kZV9tb2R1bGVzIiwgImRpc3QiLCAicGF0Y2hfKi5janMiLCAiKi5janMiLCAiZml4XyouanMiLCAicmV3cml0ZSouanMiLCAidGVzdC0qLmpzIiwgInRlc3QtKi50cyIsICJjaGVja19kYi4qIiwgInJ1bl9hbGxfcGF0Y2hlcy5janMiLCAidW5pZmllZF9wYXRjaC5janMiLCAidGVzdHMvKioiXQp9Cg==
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "exclude": ["node_modules", "dist", "patch_*.cjs", "*.cjs", "fix_*.js", "rewrite*.js", "test-*.js", "test-*.ts", "check_db.*", "run_all_patches.cjs", "unified_patch.cjs", "tests/**"]
+}

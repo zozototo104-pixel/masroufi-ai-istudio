@@ -1,1 +1,12 @@
-ewogICJwcm9qZWN0SWQiOiAibWFzcm9mZWUtYWkiLAogICJhcHBJZCI6ICIxOjk4OTk4NDAyMTgxMDp3ZWI6MmUwZjlhNjU1NGVmOThjMjU3Y2IyYiIsCiAgImFwaUtleSI6ICJBSXphU3lCbDNTYWdrNXFWUmxKaDhibWEyaUFHWDk3R3FZckRpdEEiLAogICJhdXRoRG9tYWluIjogIm1hc3JvZmVlLWFpLmZpcmViYXNlYXBwLmNvbSIsCiAgImZpcmVzdG9yZURhdGFiYXNlSWQiOiAiKGRlZmF1bHQpIiwKICAic3RvcmFnZUJ1Y2tldCI6ICJtYXNyb2ZlZS1haS5maXJlYmFzZXN0b3JhZ2UuYXBwIiwKICAibWVzc2FnaW5nU2VuZGVySWQiOiAiOTg5OTg0MDIxODEwIiwKICAibWVhc3VyZW1lbnRJZCI6ICJHLUYwMlc4UlJHOVciLAogICJvQXV0aENsaWVudElkIjogIiIsCiAgInJlY2FwdGNoYVNpdGVLZXkiOiAiIgp9Cg==
+{
+  "projectId": "masrofee-ai",
+  "appId": "1:989984021810:web:2e0f9a6554ef98c257cb2b",
+  "apiKey": "AIzaSyBl3Sagk5qVRlJh8bma2iAGX97GqYrDitA",
+  "authDomain": "masrofee-ai.firebaseapp.com",
+  "firestoreDatabaseId": "(default)",
+  "storageBucket": "masrofee-ai.firebasestorage.app",
+  "messagingSenderId": "989984021810",
+  "measurementId": "G-F02W8RRG9W",
+  "oAuthClientId": "",
+  "recaptchaSiteKey": ""
+}

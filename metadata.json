@@ -1,0 +1,6 @@
+{
+  "name": "مصروفي AI",
+  "description": "Voice Financial AI Agent",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
